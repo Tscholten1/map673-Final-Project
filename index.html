@@ -4,10 +4,9 @@
     <meta charset=utf-8 />
     <title>Services and Access Map</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-
-    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
 
     <style>
         body {
@@ -108,15 +107,33 @@
 
         //        define tile layer used in this map
 
-        var tiles = L.tileLayer('http://{s}.{base}.maps.cit.api.here.com/maptile/2.1/maptile/{mapID}/normal.day.grey/{z}/{x}/{y}/256/png8?app_id={app_id}&app_code={app_code}', {
+        // var tiles = L.tileLayer('http://{s}.{base}.maps.cit.api.here.com/maptile/2.1/maptile/{mapID}/normal.day.grey/{z}/{x}/{y}/256/png8?app_id=Y8m9dK2brESDPGJPdrvs&app_code=dq2MYIvjAotR8tHvY8Q_Dg', {
+        //     attribution: 'Map &copy; 1987-2014 <a href="http://developer.here.com">HERE</a>',
+        //     subdomains: '1234',
+        //     mapID: 'newest',
+        //     // app_id: 'Y8m9dK2brESDPGJPdrvs',
+        //     // app_code: 'dq2MYIvjAotR8tHvY8Q_Dg',
+        //     base: 'base',
+        //     minZoom: 14,
+        //     maxZoom: 14,
+        // });
+        // var tiles = L.tileLayer("http://1.base.maps.cit.api.here.com/maptile/2.1/maptile/newest/normal.day/{z}{x}{y}/256/png8?app_id=4YK8GRpcnECOf3a1wDa6&app_code=ae72xkEACul_-rqG8DsX6A",
+        //         {
+        //             styleId:997
+        //         });
+
+        var tiles = L.tileLayer('https://{s}.{base}.maps.cit.api.here.com/maptile/2.1/{type}/{mapID}/normal.day/{z}/{x}/{y}/{size}/{format}?app_id={app_id}&app_code={app_code}&lg={language}', {
             attribution: 'Map &copy; 1987-2014 <a href="http://developer.here.com">HERE</a>',
             subdomains: '1234',
             mapID: 'newest',
-            app_id: 'Y8m9dK2brESDPGJPdrvs',
-            app_code: 'dq2MYIvjAotR8tHvY8Q_Dg',
+            app_id: '4YK8GRpcnECOf3a1wDa6',
+            app_code: 'ae72xkEACul_-rqG8DsX6A',
             base: 'base',
-            minZoom: 14,
-            maxZoom: 14,
+            maxZoom: 20,
+            type: 'maptile',
+            language: 'eng',
+            format: 'png8',
+            size: '256'
         });
         map.addLayer(tiles);
 
