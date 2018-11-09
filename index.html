@@ -87,6 +87,7 @@
     <!--    load geoJSON files used in this project-->
     <script src="services_3.js"></script>
     <script src="Stops_2.js"></script>
+    <script src="Hos.js"></script>
     <!-- <script src="MetraLinesshp.geojson"></script> -->
     <!--Chicago area Metra train lines-->
     <!-- <script src="Divvy%20Bike%20Stations.geojson"></script> -->
@@ -106,20 +107,12 @@
 
         //        define tile layer used in this map
 
-        // var tiles = L.tileLayer('http://{s}.{base}.maps.cit.api.here.com/maptile/2.1/maptile/{mapID}/normal.day.grey/{z}/{x}/{y}/256/png8?app_id=Y8m9dK2brESDPGJPdrvs&app_code=dq2MYIvjAotR8tHvY8Q_Dg', {
-        //     attribution: 'Map &copy; 1987-2014 <a href="http://developer.here.com">HERE</a>',
         //     subdomains: '1234',
-        //     mapID: 'newest',
-        //     // app_id: 'Y8m9dK2brESDPGJPdrvs',
-        //     // app_code: 'dq2MYIvjAotR8tHvY8Q_Dg',
         //     base: 'base',
         //     minZoom: 14,
         //     maxZoom: 14,
-        // });
-        // var tiles = L.tileLayer("http://1.base.maps.cit.api.here.com/maptile/2.1/maptile/newest/normal.day/{z}{x}{y}/256/png8?app_id=4YK8GRpcnECOf3a1wDa6&app_code=ae72xkEACul_-rqG8DsX6A",
-        //         {
-        //             styleId:997
-        //         });
+
+        ;
 
         var tiles = L.tileLayer('https://{s}.{base}.maps.cit.api.here.com/maptile/2.1/{type}/{mapID}/normal.day/{z}/{x}/{y}/{size}/{format}?app_id={app_id}&app_code={app_code}&lg={language}', {
             attribution: 'Map &copy; 1987-2014 <a href="http://developer.here.com">HERE</a>',
