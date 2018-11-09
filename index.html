@@ -59,6 +59,7 @@
             text-align: right;
             font-style: italic;
         }
+
     </style>
 </head>
 
@@ -106,13 +107,6 @@
         var map = L.map('map', options);
 
         //        define tile layer used in this map
-
-        //     subdomains: '1234',
-        //     base: 'base',
-        //     minZoom: 14,
-        //     maxZoom: 14,
-
-        ;
 
         var tiles = L.tileLayer('https://{s}.{base}.maps.cit.api.here.com/maptile/2.1/{type}/{mapID}/normal.day/{z}/{x}/{y}/{size}/{format}?app_id={app_id}&app_code={app_code}&lg={language}', {
             attribution: 'Map &copy; 1987-2014 <a href="http://developer.here.com">HERE</a>',
@@ -476,6 +470,7 @@
                 fillColor: '#ffec00'
             }).addTo(map);
         });
+
     </script>
 
 </body>
