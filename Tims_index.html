@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
     <style>
         body {
@@ -30,7 +31,7 @@
         }
 
         h2 {
-/*            display: inline-block;*/
+            display: inline-block;
             line-height: 2px;
             color: #001323;
         }
@@ -63,13 +64,13 @@
             text-align: right;
             font-style: italic;
         }
+
     </style>
 </head>
 
 <body>
     <header>
         <h1>Getting to and from in Metro Chicagoland</h1>
-
         <h2>Transportation options in relation to key neighborhood locations</h2>
 
         <p>An interactive map for identifying common daily services and locations in the Chicago metropolitan area and common transportation options in relation to these .</p>
@@ -92,11 +93,12 @@
     <!--    load geoJSON files used in this project-->
     <script src="services_3.js"></script>
     <script src="Stops_2.js"></script>
-    <script src="Hos.js"></script>
-    <script src="Hospitals.geojson"></script>
-    <script src="Homeless_Shelters.geojson"></script>
-    <script src="Pharmacies.geojson"></script>
-    <script src="Divvy_Bike_Locations.geojson"></script>
+    <script src="Hospitals.js"></script>
+    <!-- <script src="Hos.js"></script> -->
+    <!-- <script src="Hospitals.geojson"></script> -->
+    <!-- <script src="Homeless_Shelters.geojson"></script> -->
+    <!-- <script src="Pharmacies.geojson"></script> -->
+    <!-- <script src="Divvy_Bike_Locations.geojson"></script> -->
     <!--Chicago area Metra train lines-->
     <!-- <script src="Divvy%20Bike%20Stations.geojson"></script> -->
     <!--Chicago area Divvy bike stations-->
@@ -146,7 +148,7 @@
                 iconUrl: 'Icons/market.png'
             }),
             hospitalIcon = new MarkerIcon({
-                iconUrl: 'Icons/hospital.png'
+                iconUrl: 'Icons/Hospital.png'
             });
         childcareIcon = new MarkerIcon({
             iconUrl: 'Icons/childcare.png'
@@ -167,8 +169,42 @@
             iconUrl: 'Icons/pharmacy_yellow.png'
         });
 
+        // var hospital;
+        // // load Hospital geojson file
+        // $.getJSON('Hospitals.geojson', function(hospitals){
+        //     console.log('hospitals');
+        //     console.log(hospitals);
+        //     hospital = L.geoJson(hospitals, {
+        //         //  locate hospital objects in services_3 geoJSON, add them to map, with popup info available
+        //         pointToLayer: function(feature, latlng) {
+        //             var hMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
+        //                 icon: hospitalIcon
+        //             });
+        //             hMarker.on('mouseover', function(e) {
+        //                 hMarker.setIcon(hospitalSelectIcon);
+        //             });
+        //             hMarker.on('mouseout', function(e) {
+        //                 hMarker.setIcon(hospitalIcon);
+        //             });
+        //             return hMarker
+        //         },
+        //         filter: function(feature, layer) {
+        //             if (feature.properties.service_type == "Hospital") {
+        //                 return feature;
+        //             }
+        //         },
+        //         onEachFeature: function(feature, layer) {
+        //             var props = feature.properties;
+        //             var content = "<b>" + props.service_name + "</b></br>" + props.address;
+        //             layer.bindPopup(content);
+        //         }
+        //     }).addTo(map);
+        // });
+
         //        locate hospital objects in services_3 geoJSON, add them to map, with popup info available
-        var hospital = L.geoJson(services, {
+        console.log('--- hospitals ---');
+        console.log(hospitals);
+        var hospital = L.geoJson(hospitals, {
             pointToLayer: function(feature, latlng) {
                 var hMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
                     icon: hospitalIcon
@@ -182,13 +218,13 @@
                 return hMarker
             },
             filter: function(feature, layer) {
-                if (feature.properties.service_type == "Hospital") {
+                if (feature.properties.Service_Type == "HOSPITAL") {
                     return feature;
                 }
             },
             onEachFeature: function(feature, layer) {
                 var props = feature.properties;
-                var content = "<b>" + props.service_name + "</b></br>" + props.address;
+                var content = "<b>" + props.LABEL + "</b></br>" + props.ADDRESS;
                 layer.bindPopup(content);
             }
         }).addTo(map);
@@ -477,6 +513,7 @@
                 fillColor: '#ffec00'
             }).addTo(map);
         });
+
     </script>
 
 </body>
