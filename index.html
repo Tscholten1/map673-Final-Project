@@ -30,7 +30,7 @@
         }
 
         h2 {
-/*            display: inline-block;*/
+            /*            display: inline-block;*/
             line-height: 2px;
             color: #001323;
         }
@@ -93,7 +93,7 @@
     <script src="services_3.js"></script>
     <script src="Stops_2.js"></script>
     <script src="Hos.js"></script>
-    <script src="Hospitals.geojson"></script>
+    <script src="Hospitals.js"></script>
     <script src="Homeless_Shelters.geojson"></script>
     <script src="Pharmacies.geojson"></script>
     <script src="Divvy_Bike_Locations.geojson"></script>
@@ -146,7 +146,7 @@
                 iconUrl: 'Icons/market.png'
             }),
             hospitalIcon = new MarkerIcon({
-                iconUrl: 'Icons/hospital.png'
+                iconUrl: 'Icons/Hospital.png'
             });
         childcareIcon = new MarkerIcon({
             iconUrl: 'Icons/childcare.png'
@@ -168,7 +168,7 @@
         });
 
         //        locate hospital objects in services_3 geoJSON, add them to map, with popup info available
-        var hospital = L.geoJson(services, {
+        var hospital = L.geoJson(hospitals, {
             pointToLayer: function(feature, latlng) {
                 var hMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
                     icon: hospitalIcon
@@ -182,16 +182,17 @@
                 return hMarker
             },
             filter: function(feature, layer) {
-                if (feature.properties.service_type == "Hospital") {
+                if (feature.properties.Service_Type == "HOSPITAL") {
                     return feature;
                 }
             },
             onEachFeature: function(feature, layer) {
                 var props = feature.properties;
-                var content = "<b>" + props.service_name + "</b></br>" + props.address;
+                var content = "<b>" + props.LABEL + "</b></br>" + props.ADDRESS;
                 layer.bindPopup(content);
             }
         }).addTo(map);
+
 
         //        locate market objects in services_3 geoJSON, add them to map, with popup info available
         var market = L.geoJson(services, {
