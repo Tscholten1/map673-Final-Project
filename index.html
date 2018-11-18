@@ -15,7 +15,7 @@
             background: #ffb616;
             height: 20px;
             font-family: Lato, sans-serif;
-            color: #0D0000;
+            color: black;
         }
 
         header {
@@ -70,9 +70,9 @@
     <header>
         <h1>Getting to and from in Metro Chicagoland</h1>
 
-        <h2>Transportation options in relation to key neighborhood locations</h2>
+        <h2>Transportation options in relation to key neighborhood locations and services</h2>
 
-        <p>An interactive map for identifying common daily services and locations in the Chicago metropolitan area and common transportation options in relation to these .</p>
+        <p>This interactive map shows a sample of locations of common daily services in the city of Chicago and outlying areas in relation to common transportation options.</p>
 
 
     </header>
@@ -80,12 +80,12 @@
     <div id='map'></div>
 
     <footer>
-        <p class=author-info>Map created by Tom Scholten</p>
+        <p class=author-info><b>Map created by Tom Scholten</b></p>
 
         <p>Cost=Access! Per AAA, the average annual cost of maintaining a small sedan is $6957, or $19.33 per day. Via bicycling.com, the cost of maintaining a bicycle is $300 a year, or 82 cents per day. Purchasing a monthly Lextran bus pass averages to approximately $1 a day. As such, assuming a 25mph city driving speed, access to a car cost 24 times that of a bike and reduces travel time by almost two-thirds. Buses provide longer distance access but on fixed routes and times. As for walking, almost $20 per day reduces a 3 mile trip from an hour to 7 minutes. If you can afford it.
         </p>
 
-        <p>User Instructions: click on a location in the map boundary. Then click on a service to discover the time associated with traveling to that service on foot, via bicycle, or automobile. Double click the map to show an illustration of the area that falls within a ten minute walking distance. Refresh the browser to start over.
+        <p><b>User Instructions:</b>click in an area of the map boundary. Then click on a service to discover the time associated with traveling to that service on foot, via bicycle, or automobile. Double click the map to show an illustration of the area that falls within a ten minute walking distance. Refresh the browser to start over.
         </p>
     </footer>
 
@@ -96,13 +96,11 @@
     <script src="Hospitals.js"></script>
     <script src="Homeless_Shelters.geojson"></script>
     <script src="Pharmacies.geojson"></script>
+    <script src="Pharmacies.js"></script>
     <script src="Divvy_Bike_Locations.geojson"></script>
-    <!--Chicago area Metra train lines-->
-    <!-- <script src="Divvy%20Bike%20Stations.geojson"></script> -->
-    <!--Chicago area Divvy bike stations-->
 
     <script>
-        //        set map options to lock user to focus area in northeast Lexington
+        //        set map options to center map in the area of the Chicago metro area
         var options = {
             center: [39.477383, -86.264472],
             zoom: 7,
@@ -114,7 +112,6 @@
         var map = L.map('map', options);
 
         //        define tile layer used in this map
-
         var tiles = L.tileLayer('https://{s}.{base}.maps.cit.api.here.com/maptile/2.1/{type}/{mapID}/normal.day/{z}/{x}/{y}/{size}/{format}?app_id={app_id}&app_code={app_code}&lg={language}', {
             attribution: 'Map &copy; 1987-2014 <a href="http://developer.here.com">HERE</a>',
             subdomains: '1234',
@@ -167,7 +164,7 @@
             iconUrl: 'Icons/pharmacy_yellow.png'
         });
 
-        //        locate hospital objects in services_3 geoJSON, add them to map, with popup info available
+        //        NEW DATA LAYER!!!  locate hospital objects in Hospitals.js geoJSON, add them to map, with popup info available
         var hospital = L.geoJson(hospitals, {
             pointToLayer: function(feature, latlng) {
                 var hMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
@@ -221,6 +218,9 @@
         }).addTo(map);
 
         //        locate pharmacy objects in services_3 geoJSON, add them to map, with popup info available        
+        /*var pharmacies = L.geoJson(pharmacies, { pointToLayer: function(feature, latlng) { var pMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], { icon: pharmacyIcon }); pMarker.on('mouseover', function(e) { pMarker.setIcon(pharmacySelectIcon); }); pMarker.on('mouseout', function(e) { pMarker.setIcon(pharmacyIcon); }); return pMarker }, filter: function(feature, layer) { if (feature.properties.Service_Type == "Pharmacy") { return feature; } }, onEachFeature: function(feature, layer) { var props = feature.properties; var content = "<b>" + props.NAME + "</b></br>" + props.ADDRESS; layer.bindPopup(content); } }).addTo(map);*/
+
+        //        NEW DATA LAYER!!!  locate pharmacy objects in Pharmacies geoJSON, add them to map, with popup info available        
         var pharmacy = L.geoJson(services, {
             pointToLayer: function(feature, latlng) {
                 var pMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
@@ -430,7 +430,7 @@
             });
         });
 
-        //        create legend with layters that can be turned on and off in common color schemes to the geoJSON objects
+        //        create legend with layers that can be turned on and off in common color schemes to the geoJSON objects
         var sourcesLayers = {
             "<b style='color:red'>Hospitals</b>": hospital,
             "<b style='color:gray'>Pharmacies</b>": pharmacy,
