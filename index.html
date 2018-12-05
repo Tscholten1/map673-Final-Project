@@ -128,8 +128,8 @@
     <script>
         //        set map options to center map in the area of the Chicago metro area
         var options = {
-            center: [40.177833, -86.613745],
-            zoom: 7,
+            center: [41.834107, -87.957809],
+            zoom: 9,
             doubleClickZoom: false,
             dragging: true,
             scrollWheelZoom: true,
@@ -216,6 +216,38 @@
                 layer.bindPopup(content);
             }
         }).addTo(map);
+
+
+        //        NEW DATA LAYER!!!  locate pharmacies objects in Pharmacy.js geoJSON, add them to map, with popup info available
+        //  NOT WORKING AS OF 12.4
+        var pharmacies = L.geoJson(pharmacies, {
+            pointToLayer: function(feature, latlng) {
+                var hMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
+                    icon: pharmacyIcon
+                });
+                hMarker.on('mouseover', function(e) {
+                    hMarker.setIcon(pharmacySelectIcon);
+                });
+                hMarker.on('mouseout', function(e) {
+                    hMarker.setIcon(pharmacyIcon);
+                });
+                return hMarker
+            },
+            filter: function(feature, layer) {
+                if (feature.properties.Service_Type == "PHARMACY") {
+                    return feature;
+                }
+            },
+            onEachFeature: function(feature, layer) {
+                var props = feature.properties;
+                var content = "<b>" + props.LABEL + "</b></br>" + props.ADDRESS;
+                layer.bindPopup(content);
+            }
+        }).addTo(map);
+
+
+
+
 
 
         //        locate market objects in services_3 geoJSON, add them to map, with popup info available
