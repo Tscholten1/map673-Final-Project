@@ -1,4 +1,4 @@
-var stops = {
+var stopsData = {
    "type": "FeatureCollection",
    "features": [
   {

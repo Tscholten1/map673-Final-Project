@@ -1,4 +1,4 @@
-{
+var pharmaciesData = {
    "type": "FeatureCollection",
    "features": [
   {

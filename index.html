@@ -115,18 +115,20 @@
 
     </footer>
 
-    <!--    load geoJSON files used in this project-->
-    <script src="services_3.js"></script>
-    <script src="Stops_2.js"></script>
-    <script src="Hos.js"></script>
-    <script src="Hospitals.js"></script>
-    <script src="Homeless_Shelters.geojson"></script>
-    <script src="Pharmacies.geojson"></script>
-    <script src="Pharmacies.js"></script>
-    <script src="Divvy_Bike_Locations.geojson"></script>
+    <!--    load JavaScript files referencing GeoJSON data used in this project-->
+    <script src="data/services.js"></script>
+    <script src="data/stops.js"></script>
+    <script src="data/hospitals.js"></script>
+    <script src="data/pharmacies.js"></script>
+    <script src="data/childcare.js"></script>
+    
+    <!-- <script src="data/Hos.js"></script> -->
+    <!-- <script src="Homeless_Shelters.geojson"></script> -->
+    <!-- <script src="Pharmacies.geojson"></script> -->
+    <!-- <script src="Divvy_Bike_Locations.geojson"></script> -->
 
     <script>
-        //        set map options to center map in the area of the Chicago metro area
+        // set map options to center map in the area of the Chicago metro area
         var options = {
             center: [41.834107, -87.957809],
             zoom: 9,
@@ -135,10 +137,10 @@
             scrollWheelZoom: true,
         }
 
-        //        define map variable and connect it to div space in html code above
+        // define map variable and connect it to div space in html code above
         var map = L.map('map', options);
 
-        //        define tile layer used in this map
+        // define tile layer used in this map
         var tiles = L.tileLayer('https://{s}.{base}.maps.cit.api.here.com/maptile/2.1/{type}/{mapID}/normal.day/{z}/{x}/{y}/{size}/{format}?app_id={app_id}&app_code={app_code}&lg={language}', {
             attribution: 'Map &copy; 1987-2014 <a href="http://developer.here.com">HERE</a>',
             subdomains: '1234',
@@ -152,9 +154,8 @@
             format: 'png8',
             size: '256'
         });
+        
         map.addLayer(tiles);
-
-        //        console.log(services);
 
         var MarkerIcon = L.Icon.extend({
             options: {
@@ -165,11 +166,11 @@
 
         var busIcon = new MarkerIcon({
                 iconUrl: 'Icons/bus_stop.png'
-            }),
-            marketIcon = new MarkerIcon({
+        }),
+        marketIcon = new MarkerIcon({
                 iconUrl: 'Icons/market.png'
-            }),
-            hospitalIcon = new MarkerIcon({
+        }),
+        hospitalIcon = new MarkerIcon({
                 iconUrl: 'Icons/Hospital.png'
             });
         childcareIcon = new MarkerIcon({
@@ -191,8 +192,7 @@
             iconUrl: 'Icons/pharmacy_yellow.png'
         });
 
-        //        NEW DATA LAYER!!!  locate hospital objects in Hospitals.js geoJSON, add them to map, with popup info available
-        var hospital = L.geoJson(hospitals, {
+        var hospitals = L.geoJson(hospitalsData, {
             pointToLayer: function(feature, latlng) {
                 var hMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
                     icon: hospitalIcon
@@ -218,9 +218,7 @@
         }).addTo(map);
 
 
-        //        NEW DATA LAYER!!!  locate pharmacies objects in Pharmacy.js geoJSON, add them to map, with popup info available
-        //  NOT WORKING AS OF 12.4
-        var pharmacies = L.geoJson(pharmacies, {
+        var pharmacies = L.geoJson(pharmaciesData, {
             pointToLayer: function(feature, latlng) {
                 var hMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
                     icon: pharmacyIcon
@@ -246,67 +244,35 @@
         }).addTo(map);
 
 
+        // var markets = L.geoJson(marketsData, {
+        //     pointToLayer: function(feature, latlng) {
+        //         var mMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
+        //             icon: marketIcon
+        //         });
+        //         mMarker.on('mouseover', function(e) {
+        //             mMarker.setIcon(marketSelectIcon);
+        //         });
+        //         mMarker.on('mouseout', function(e) {
+        //             mMarker.setIcon(marketIcon);
+        //         });
+        //         return mMarker
+        //     },
+        //     filter: function(feature, layer) {
+        //         if (feature.properties.service_type == "Market") {
+        //             return feature;
+        //         }
+        //     },
+        //     onEachFeature: function(feature, layer) {
+        //         var props = feature.properties;
+        //         var content = "<b>" + props.service_name + "</b></br>" + props.address;
+        //         layer.bindPopup(content);
+        //     }
+        // }).addTo(map);
 
 
 
-
-        //        locate market objects in services_3 geoJSON, add them to map, with popup info available
-        var market = L.geoJson(services, {
-            pointToLayer: function(feature, latlng) {
-                var mMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
-                    icon: marketIcon
-                });
-                mMarker.on('mouseover', function(e) {
-                    mMarker.setIcon(marketSelectIcon);
-                });
-                mMarker.on('mouseout', function(e) {
-                    mMarker.setIcon(marketIcon);
-                });
-                return mMarker
-            },
-            filter: function(feature, layer) {
-                if (feature.properties.service_type == "Market") {
-                    return feature;
-                }
-            },
-            onEachFeature: function(feature, layer) {
-                var props = feature.properties;
-                var content = "<b>" + props.service_name + "</b></br>" + props.address;
-                layer.bindPopup(content);
-            }
-        }).addTo(map);
-
-        //        locate pharmacy objects in services_3 geoJSON, add them to map, with popup info available        
-        /*var pharmacies = L.geoJson(pharmacies, { pointToLayer: function(feature, latlng) { var pMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], { icon: pharmacyIcon }); pMarker.on('mouseover', function(e) { pMarker.setIcon(pharmacySelectIcon); }); pMarker.on('mouseout', function(e) { pMarker.setIcon(pharmacyIcon); }); return pMarker }, filter: function(feature, layer) { if (feature.properties.Service_Type == "Pharmacy") { return feature; } }, onEachFeature: function(feature, layer) { var props = feature.properties; var content = "<b>" + props.NAME + "</b></br>" + props.ADDRESS; layer.bindPopup(content); } }).addTo(map);*/
-
-        //        NEW DATA LAYER!!!  locate pharmacy objects in Pharmacies geoJSON, add them to map, with popup info available        
-        var pharmacy = L.geoJson(services, {
-            pointToLayer: function(feature, latlng) {
-                var pMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
-                    icon: pharmacyIcon
-                });
-                pMarker.on('mouseover', function(e) {
-                    pMarker.setIcon(pharmacySelectIcon);
-                });
-                pMarker.on('mouseout', function(e) {
-                    pMarker.setIcon(pharmacyIcon);
-                });
-                return pMarker
-            },
-            filter: function(feature, layer) {
-                if (feature.properties.service_type == "Pharmacy") {
-                    return feature;
-                }
-            },
-            onEachFeature: function(feature, layer) {
-                var props = feature.properties;
-                var content = "<b>" + props.service_name + "</b></br>" + props.address;
-                layer.bindPopup(content);
-            }
-        }).addTo(map);
-
-        //        locate childcare objects in services_3 geoJSON, add them to map, with popup info available        
-        var childcare = L.geoJson(services, {
+            //    locate childcare objects in services_3 geoJSON, add them to map, with popup info available        
+        var childcare = L.geoJson(childcareData, {
             pointToLayer: function(feature, latlng) {
                 var cMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
                     icon: childcareIcon
@@ -331,10 +297,8 @@
             }
         }).addTo(map);
 
-        console.log(stops);
 
-        //        locate bus stop objects in Stops_2 geoJSON, add them to map, with popup info available        
-        var stops = L.geoJson(stops, {
+        var stops = L.geoJson(stopsData, {
             pointToLayer: function(feature, latlng) {
                 return L.circleMarker(latlng, {
                     color: '#2792c1',
@@ -371,7 +335,7 @@
         }).addTo(map);
 
         map.on('click', function(e) {
-            hospital.eachLayer(function(layer) {
+            hospitals.eachLayer(function(layer) {
                 var distance = e.latlng.distanceTo(layer.getLatLng()) * (0.000621371);
 
                 var walkTime = distance / (3.1 / 60);
@@ -393,107 +357,107 @@
             });
         });
 
-        //        calculator for distance (in miles) and time (in minutes) to service with popup showing those values
-        map.on('click', function(e) {
-            market.eachLayer(function(layer) {
-                var distance = e.latlng.distanceTo(layer.getLatLng()) * (0.000621371);
+        // //        calculator for distance (in miles) and time (in minutes) to service with popup showing those values
+        // map.on('click', function(e) {
+        //     market.eachLayer(function(layer) {
+        //         var distance = e.latlng.distanceTo(layer.getLatLng()) * (0.000621371);
 
-                var walkTime = distance / (3.1 / 60);
-                var bikeTime = distance / (9.0 / 60);
-                var carTime = distance / (25 / 60);
+        //         var walkTime = distance / (3.1 / 60);
+        //         var bikeTime = distance / (9.0 / 60);
+        //         var carTime = distance / (25 / 60);
 
-                var marketName = layer.feature.properties.service_name;
-                var marketAddress = layer.feature.properties.address;
-                var content = "<b>" + marketName + ":</b><br>" + marketAddress + "<br>" +
-                    "You are <b>" + distance.toLocaleString() +
-                    "miles</b> from the click point.</br>" +
-                    "This trip would take</br>" +
-                    "<b>" + walkTime.toLocaleString() + "</b> min on foot</br>" +
-                    "<b>" + bikeTime.toLocaleString() + "</b> min by bike, and</br>" +
-                    "<b>" + carTime.toLocaleString() + "</b> min by car at 25 mph"
+        //         var marketName = layer.feature.properties.service_name;
+        //         var marketAddress = layer.feature.properties.address;
+        //         var content = "<b>" + marketName + ":</b><br>" + marketAddress + "<br>" +
+        //             "You are <b>" + distance.toLocaleString() +
+        //             "miles</b> from the click point.</br>" +
+        //             "This trip would take</br>" +
+        //             "<b>" + walkTime.toLocaleString() + "</b> min on foot</br>" +
+        //             "<b>" + bikeTime.toLocaleString() + "</b> min by bike, and</br>" +
+        //             "<b>" + carTime.toLocaleString() + "</b> min by car at 25 mph"
 
-                layer.bindPopup(content);
+        //         layer.bindPopup(content);
 
-            });
-        });
+        //     });
+        // });
 
-        //        calculator for distance (in miles) and time (in minutes) to service with popup showing those values        
-        map.on('click', function(e) {
-            pharmacy.eachLayer(function(layer) {
-                var distance = e.latlng.distanceTo(layer.getLatLng()) * (0.000621371);
+        // //        calculator for distance (in miles) and time (in minutes) to service with popup showing those values        
+        // map.on('click', function(e) {
+        //     pharmacy.eachLayer(function(layer) {
+        //         var distance = e.latlng.distanceTo(layer.getLatLng()) * (0.000621371);
 
-                var walkTime = distance / (3.1 / 60);
-                var bikeTime = distance / (9.0 / 60);
-                var carTime = distance / (25 / 60);
+        //         var walkTime = distance / (3.1 / 60);
+        //         var bikeTime = distance / (9.0 / 60);
+        //         var carTime = distance / (25 / 60);
 
-                var pharmacyName = layer.feature.properties.service_name;
-                var pharmacyAddress = layer.feature.properties.address;
-                var content = "<b>" + pharmacyName + ":</b><br>" + pharmacyAddress + "<br>" +
-                    "You are <b>" + distance.toLocaleString() +
-                    "miles</b> from the click point.</br>" +
-                    "This trip would take</br>" +
-                    "<b>" + walkTime.toLocaleString() + "</b> min on foot</br>" +
-                    "<b>" + bikeTime.toLocaleString() + "</b> min by bike, and</br>" +
-                    "<b>" + carTime.toLocaleString() + "</b> min by car at 25 mph"
+        //         var pharmacyName = layer.feature.properties.service_name;
+        //         var pharmacyAddress = layer.feature.properties.address;
+        //         var content = "<b>" + pharmacyName + ":</b><br>" + pharmacyAddress + "<br>" +
+        //             "You are <b>" + distance.toLocaleString() +
+        //             "miles</b> from the click point.</br>" +
+        //             "This trip would take</br>" +
+        //             "<b>" + walkTime.toLocaleString() + "</b> min on foot</br>" +
+        //             "<b>" + bikeTime.toLocaleString() + "</b> min by bike, and</br>" +
+        //             "<b>" + carTime.toLocaleString() + "</b> min by car at 25 mph"
 
-                layer.bindPopup(content);
+        //         layer.bindPopup(content);
 
-            });
-        });
+        //     });
+        // });
 
-        //        calculator for distance (in miles) and time (in minutes) to service with popup showing those values        
-        map.on('click', function(e) {
-            childcare.eachLayer(function(layer) {
-                var distance = e.latlng.distanceTo(layer.getLatLng()) * (0.000621371);
+        // //        calculator for distance (in miles) and time (in minutes) to service with popup showing those values        
+        // map.on('click', function(e) {
+        //     childcare.eachLayer(function(layer) {
+        //         var distance = e.latlng.distanceTo(layer.getLatLng()) * (0.000621371);
 
-                var walkTime = distance / (3.1 / 60);
-                var bikeTime = distance / (9.0 / 60);
-                var carTime = distance / (25 / 60);
+        //         var walkTime = distance / (3.1 / 60);
+        //         var bikeTime = distance / (9.0 / 60);
+        //         var carTime = distance / (25 / 60);
 
-                var childcareName = layer.feature.properties.service_name;
-                var childcareAddress = layer.feature.properties.address;
-                var content = "<b>" + childcareName + ":</b><br>" + childcareAddress + "<br>" +
-                    "You are <b>" + distance.toLocaleString() +
-                    "miles</b> from the click point.</br>" +
-                    "This trip would take</br>" +
-                    "<b>" + walkTime.toLocaleString() + "</b> min on foot</br>" +
-                    "<b>" + bikeTime.toLocaleString() + "</b> min by bike, and</br>" +
-                    "<b>" + carTime.toLocaleString() + "</b> min by car at 25 mph"
+        //         var childcareName = layer.feature.properties.service_name;
+        //         var childcareAddress = layer.feature.properties.address;
+        //         var content = "<b>" + childcareName + ":</b><br>" + childcareAddress + "<br>" +
+        //             "You are <b>" + distance.toLocaleString() +
+        //             "miles</b> from the click point.</br>" +
+        //             "This trip would take</br>" +
+        //             "<b>" + walkTime.toLocaleString() + "</b> min on foot</br>" +
+        //             "<b>" + bikeTime.toLocaleString() + "</b> min by bike, and</br>" +
+        //             "<b>" + carTime.toLocaleString() + "</b> min by car at 25 mph"
 
-                layer.bindPopup(content);
+        //         layer.bindPopup(content);
 
-            });
-        });
+        //     });
+        // });
 
-        //        calculator for distance (in miles) and time (in minutes) to service with popup showing those values        
-        map.on('click', function(e) {
-            stops.eachLayer(function(layer) {
-                var distance = e.latlng.distanceTo(layer.getLatLng()) * (0.000621371);
+        // //        calculator for distance (in miles) and time (in minutes) to service with popup showing those values        
+        // map.on('click', function(e) {
+        //     stops.eachLayer(function(layer) {
+        //         var distance = e.latlng.distanceTo(layer.getLatLng()) * (0.000621371);
 
-                var walkTime = distance / (3.1 / 60);
-                var bikeTime = distance / (9.0 / 60);
-                var carTime = distance / (25 / 60);
+        //         var walkTime = distance / (3.1 / 60);
+        //         var bikeTime = distance / (9.0 / 60);
+        //         var carTime = distance / (25 / 60);
 
-                var stopsName = layer.feature.properties.Bus_Stop_ID;
-                var stopsAddress = layer.feature.properties.Bus_Stop_Name;
-                var content = "<b>Bus Stop # " + stopsName + ":</b><br>" + stopsAddress + "<br>" +
-                    "You are <b>" + distance.toLocaleString() +
-                    "miles</b> from the click point.</br>" +
-                    "This trip would take</br>" +
-                    "<b>" + walkTime.toLocaleString() + "</b> min on foot</br>" +
-                    "<b>" + bikeTime.toLocaleString() + "</b> min by bike,</br>" +
-                    "plus the time for the bus to reach its destination!"
+        //         var stopsName = layer.feature.properties.Bus_Stop_ID;
+        //         var stopsAddress = layer.feature.properties.Bus_Stop_Name;
+        //         var content = "<b>Bus Stop # " + stopsName + ":</b><br>" + stopsAddress + "<br>" +
+        //             "You are <b>" + distance.toLocaleString() +
+        //             "miles</b> from the click point.</br>" +
+        //             "This trip would take</br>" +
+        //             "<b>" + walkTime.toLocaleString() + "</b> min on foot</br>" +
+        //             "<b>" + bikeTime.toLocaleString() + "</b> min by bike,</br>" +
+        //             "plus the time for the bus to reach its destination!"
 
-                layer.bindPopup(content);
+        //         layer.bindPopup(content);
 
-            });
-        });
+        //     });
+        // });
 
         //        create legend with layers that can be turned on and off in common color schemes to the geoJSON objects
         var sourcesLayers = {
-            "<b style='color:red'>Hospitals</b>": hospital,
-            "<b style='color:gray'>Pharmacies</b>": pharmacy,
-            "<b style='color:purple'>Groceries</b>": market,
+            "<b style='color:red'>Hospitals</b>": hospitals,
+            "<b style='color:gray'>Pharmacies</b>": pharmacies,
+            // "<b style='color:purple'>Groceries</b>": markets,
             "<b style='color:orange'>Childcare</b>": childcare,
             "<b style='color:#2792c1'>Bus Stops</b>": stops
         }

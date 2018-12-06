@@ -1,4 +1,4 @@
-var services = {
+var servicesData = {
     "type": "FeatureCollection",
     "features": [
         {

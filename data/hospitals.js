@@ -1,4 +1,4 @@
-var hospitals = {
+var hospitalsData = {
    "type": "FeatureCollection",
    "features": [
   {
