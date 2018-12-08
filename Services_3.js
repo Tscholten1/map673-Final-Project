@@ -331,33 +331,13426 @@ var services = {
                 "type": "Point",
                 "coordinates": [-87.777338, 41.968824]
             }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "service_name": "All About Kids Learning Academy",
+                "address": "514 E 75th St",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-87.611946, 41.758683]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Henry Booth House - Love N Learn Academy",
+                "address": "723 E 75th St",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-87.606804, 41.758325]
+            }
         },
-
-
-
         {
             "type": "Feature",
             "properties": {
-                "service_name": "Kids Cozy Cottage",
-                "address": "1451 Bryan Avenue",
+                "service_name": "A Child's World",
+                "address": "2145 E 83rd St",
+                "City": "Chicago",
+                "Phone Number": "(773) 978-6598",
+                "Ages Served": "None",
+                "Program Information": "Community Based, Head Start",
                 "service_type": "Childcare"
             },
             "geometry": {
                 "type": "Point",
-                "coordinates": [-84.466303, 38.05959]
+                "coordinates": [
+          -87.571599,
+          41.744159
+        ]
             }
-        }, {
+    },
+        {
             "type": "Feature",
             "properties": {
-                "service_name": "Children's Spot",
-                "address": "1016 North Limestone",
+                "service_name": "A N Pritzker School",
+                "address": "2009 W Schiller St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-4415",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
                 "service_type": "Childcare"
             },
             "geometry": {
                 "type": "Point",
-                "coordinates": [-84.47735, 38.06021]
+                "coordinates": [
+          -87.67789,
+          41.906956
+        ]
             }
-        }, {
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "ABC Preschool",
+                "address": "3800 N Austin Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 685-9033",
+                "Ages Served": "2 years to 6 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.776653,
+          41.949425
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Academy of St Benedict the African - Stewart",
+                "address": "6547 S Stewart Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 994-6100",
+                "Ages Served": "5-Mar",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.634413,
+          41.774735
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ada S. McKinley - Bunnyland Day Care",
+                "address": "545 W 119th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 568-5200",
+                "Ages Served": "6 weeks to 5 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.63669533,
+          41.67768858
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ada S. McKinley - Dream Child Development",
+                "address": "1836 W 87th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 445-5100",
+                "Ages Served": "6 weeks to 5 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.66937537,
+          41.73588715
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ada S. McKinley - Heaven's Learning Garden",
+                "address": "7801 S Wolcott Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 994-5437",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.67094178,
+          41.75221749
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ada S. McKinley - J & L Family Learning Day Care",
+                "address": "11640 S Wentworth Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 821-1808",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6277298,
+          41.6822564
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ada S. Mckinley - Little Folks Cottage",
+                "address": "5926 W Madison Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 379-4419",
+                "Ages Served": "6 weeks to 5 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.77302665,
+          41.88033026
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ada S. McKinley - Little Genius",
+                "address": "11439 S Michigan Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 629-8091",
+                "Ages Served": "2 years to 8 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.620478,
+          41.685924
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ada S. McKinley - Little Genius 2",
+                "address": "1000 W 103rd St",
+                "City": "Chicago",
+                "Phone Number": "(773) 629-8003",
+                "Ages Served": "2 years to 12 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.64787478,
+          41.70702673
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ada S. McKinley - Montessori Academy",
+                "address": "11025 S Halsted St",
+                "City": "Chicago",
+                "Phone Number": "(773) 468-0033",
+                "Ages Served": "None",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.642028,
+          41.693366
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ada S. McKinley - Montessori Academy 2",
+                "address": "10232 S Halsted St",
+                "City": "Chicago",
+                "Phone Number": "(773) 233-1100",
+                "Ages Served": "None",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.643231,
+          41.707697
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ada S. McKinley - New Knowledge Learning Center",
+                "address": "8440 S Kedzie Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 436-8150",
+                "Ages Served": "2 years to 6 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.70224316,
+          41.73947778
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ada S. McKinley - Precious Little Ones (47th)",
+                "address": "624 E 47th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 268-2685",
+                "Ages Served": "6 weeks to 3 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.61037213,
+          41.80958087
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ada S. McKinley - Precious Little Ones (51 St)",
+                "address": "221 E 51st St",
+                "City": "Chicago",
+                "Phone Number": "(773) 285-9902",
+                "Ages Served": "6 weeks to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.620163,
+          41.801795
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ada S. McKinley - Precious Little Ones (63rd St)",
+                "address": "22 E 63rd St",
+                "City": "Chicago",
+                "Phone Number": "(773) 891-5055",
+                "Ages Served": "6 weeks to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.624199,
+          41.7802999
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ada S. McKinley Community Services - Ersula Howard",
+                "address": "7222 S Exchange Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 221-9711",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.564609,
+          41.763831
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ada S. McKinley Community Services - Maggie Drummond",
+                "address": "4301 S Wabash Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 373-8200",
+                "Ages Served": "2 years to 5 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.624637,
+          41.816486
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ada S. McKinley Community Services - Roseland",
+                "address": "11400 S Edbrooke Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 468-1918",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.619949,
+          41.686926
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ada S. McKinley Community Services - Trumbull Park",
+                "address": "10534 S Oglesby Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 978-5341",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.565757,
+          41.704054
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Adlai E Stevenson Elementary School",
+                "address": "8010 S Kostner Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-2280",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.73158,
+          41.747293
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Agustin Lara Elementary Academy",
+                "address": "4619 S Wolcott Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-4389",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.672262,
+          41.809474
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Alain Locke Charter School",
+                "address": "3141 W Jackson Blvd",
+                "City": "Chicago",
+                "Phone Number": "(773) 265-7232",
+                "Ages Served": "5-Mar",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.705131,
+          41.877175
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Albany Park Community Center - Ainslie",
+                "address": "3401 W Ainslie Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 599-5907",
+                "Ages Served": "5-Mar",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.71341,
+          41.970213
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Albany Park Community Center - Uptown",
+                "address": "1020 W Bryn Mawr Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 769-3197",
+                "Ages Served": "5-Mar",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.656375,
+          41.983751
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Alessandro Volta Elementary School",
+                "address": "4950 N Avers Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-5080",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.724476,
+          41.971008
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Alex Haley Elementary Academy",
+                "address": "11411 S Eggleston Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-5340",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.633728,
+          41.686791
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Alexander Graham Elementary School",
+                "address": "745 W 45th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-1308",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.64407113,
+          41.81267391
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Alfred Nobel Elementary School",
+                "address": "4127 W Hirsch St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-4365",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.729492,
+          41.906234
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Alice L Barnard Computer Math & Science Center Elementary School",
+                "address": "10354 S Charles St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-2625",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.658363,
+          41.706056
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "All About Kids Learning Academy",
+                "address": "514 E 75th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 892-2800",
+                "Ages Served": "6 weeks to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.611946,
+          41.758683
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Allison's Infant and Toddler Center - Englewood",
+                "address": "5522 S Racine Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 436-3193",
+                "Ages Served": "0 years to 6 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.655207,
+          41.793085
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Allison's Infant and Toddler Center - Park Manor/Greater Grand Crossing",
+                "address": "440-442 E 71st St",
+                "City": "Chicago",
+                "Phone Number": "(773) 952-4391",
+                "Ages Served": "6 weeks to 5 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.613671,
+          41.765841
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Allison's Infant and Toddler Center - Roseland",
+                "address": "234 E 115th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 840-4502",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.616601,
+          41.685618
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Amos Alonzo Stagg Elementary School",
+                "address": "7424 S Morgan St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-3565",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.649117,
+          41.758704
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Andrew Carnegie Elementary School",
+                "address": "1414 E 61st Pl",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-0530",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.591067,
+          41.783279
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Anna R Langford Community Academy",
+                "address": "6010 S Throop St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-9180",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.65707,
+          41.784751
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Appeals for Charities",
+                "address": "50 W 71st St",
+                "City": "Chicago",
+                "Phone Number": "",
+                "Ages Served": "None",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.62714667,
+          41.7657109
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Archdiocese of Chicago - Augustus Tolton",
+                "address": "7120 S Calumet Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 224-3811",
+                "Ages Served": "3 years to 8 grade",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.617318,
+          41.764928
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Archdiocese of Chicago - Epiphany",
+                "address": "4223 W 25th St",
+                "City": "Chicago",
+                "Phone Number": "773.762.1542",
+                "Ages Served": "3 years to 8 grade",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.730283,
+          41.845886
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Archdiocese of Chicago - Maternity BVM",
+                "address": "1537 N Lawndale Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 227-1140",
+                "Ages Served": "3 years to 8 grade",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.718849,
+          41.90924
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Archdiocese of Chicago - Our Lady of Grace",
+                "address": "2446 N Ridgeway Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 342-0170",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.72085,
+          41.925824
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Archdiocese of Chicago - Our Lady of Tepeyac",
+                "address": "2235 S Albany Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 522-0024",
+                "Ages Served": "3 years to 4 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.702753,
+          41.850771
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Archdiocese of Chicago - Our Lady of the Snow",
+                "address": "4810 S Leamington Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 735-4810",
+                "Ages Served": "3 years to 8 grade",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.751686,
+          41.805509
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Archdiocese of Chicago - Pope John Paul II",
+                "address": "4325 S Richmond Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 523-6161",
+                "Ages Served": "3 years to 8 grade",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.698059,
+          41.815034
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Archdiocese of Chicago - Queen of the Universe",
+                "address": "7130 S Hamlin Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 582-4266",
+                "Ages Served": "3 years to 4 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.717487,
+          41.763375
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Archdiocese of Chicago - St. Agnes of Bohemia",
+                "address": "2643 S Central Park Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 522-0143",
+                "Ages Served": "3 years to 8 grade",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.714723,
+          41.843289
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Archdiocese of Chicago - St. Angela",
+                "address": "1332 N Massasoit Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 626-2655",
+                "Ages Served": "3 years to 8 grade",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.769407,
+          41.904855
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Archdiocese of Chicago - St. Ann",
+                "address": "2211 W 18th Pl",
+                "City": "Chicago",
+                "Phone Number": "(312) 829-4153",
+                "Ages Served": "3 years to 8 grade",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.681514,
+          41.856632
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Archdiocese of Chicago - St. Benedict the African",
+                "address": "6020 S Laflin St",
+                "City": "Chicago",
+                "Phone Number": "(773) 776-3316",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.661921,
+          41.784229
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Archdiocese of Chicago - St. Bruno",
+                "address": "4839 S Harding Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 847-0697",
+                "Ages Served": "3 years to 8 grade",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.722136,
+          41.80492
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Archdiocese of Chicago - St. Ethelreda",
+                "address": "8734 S Paulina St",
+                "City": "Chicago",
+                "Phone Number": "(773) 238-1757",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.665486,
+          41.734722
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Archdiocese of Chicago - St. Gall",
+                "address": "5515 S Sawyer Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 737-3454",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.703692,
+          41.793403
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Archdiocese of Chicago - St. John de la Salle",
+                "address": "10212 S Vernon Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 785-2331",
+                "Ages Served": "5-Mar",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.612597,
+          41.708692
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Archdiocese of Chicago - St. Margaret of Scotland",
+                "address": "9833 Throop Street",
+                "City": "Chicago",
+                "Phone Number": "(773) 238-1088",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.655187,
+          41.714956
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Archdiocese of Chicago - St. Mary of the Lake",
+                "address": "1026 W Buena Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 281-0018",
+                "Ages Served": "3 years to 8 grade",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.655612,
+          41.958434
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Archdiocese of Chicago - St. Mary Star of the Sea",
+                "address": "6424 S Kenneth Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 767-6160",
+                "Ages Served": "3 years to 8 grade",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.733683,
+          41.775819
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Archdiocese of Chicago - St. Nicholas of Tolentine",
+                "address": "3741 W 62nd St",
+                "City": "Chicago",
+                "Phone Number": "(773) 735-0772",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.716674,
+          41.780563
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Archdiocese of Chicago - St. Philip Neri",
+                "address": "2110 E 72nd St",
+                "City": "Chicago",
+                "Phone Number": "(773) 288-1138",
+                "Ages Served": "3 years to 8 grade",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.573222,
+          41.764501
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Archdiocese of Chicago - St. Richard",
+                "address": "5025 S Kenneth Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 582-8083",
+                "Ages Served": "3 years to 4 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.734246,
+          41.80166
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Archdiocese of Chicago - St. Sabina",
+                "address": "7801 S Throop Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 483-5000",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.655383,
+          41.752277
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Archdiocese of Chicago - St. Sylvester",
+                "address": "3027 W Palmer Sq",
+                "City": "Chicago",
+                "Phone Number": "(773) 772-5222",
+                "Ages Served": "3 years to 8 grade",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.703242,
+          41.920682
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Archdiocese of Chicago - Visitation",
+                "address": "900 W Garfield Blvd",
+                "City": "Chicago",
+                "Phone Number": "(773) 373-5200",
+                "Ages Served": "3 years to  grade",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.64682335,
+          41.79376106
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ariel Elementary Community Academy",
+                "address": "1119 E 46th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-1996",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.59814,
+          41.811325
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Arnold Mireles Elementary Academy",
+                "address": "9000 S Exchange Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-6360",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.552672,
+          41.731652
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Arthur Dixon Elementary School",
+                "address": "8306 S Saint Lawrence Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-3834",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.611012,
+          41.743127
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Arthur E Canty Elementary School",
+                "address": "3740 N Panama Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-1238",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.8297248,
+          41.94793878
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Arthur R. Ashe Elementary School",
+                "address": "8505 S Ingleside Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-3550",
+                "Ages Served": "None",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.60085029,
+          41.73999414
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Asa Philip Randolph Elementary School",
+                "address": "7316 S Hoyne Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-9015",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.675879,
+          41.760764
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ashburn Community Elementary School",
+                "address": "8300 S Saint Louis Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-7860",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.709755,
+          41.742236
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Asian Human Services - LEAF program",
+                "address": "2838 W Peterson Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 564-4944",
+                "Ages Served": "2 years to 5 years",
+                "Program Information": "Offers Home Visiting, Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.700837,
+          41.990699
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Asian Human Services - Passages Charter School",
+                "address": "1643 W Bryn Mawr Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 433-3530",
+                "Ages Served": "4 years to 4 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.670992,
+          41.983431
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Austin Polytechnical Academy",
+                "address": "231 N. Pine Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-6301",
+                "Ages Served": "14-18",
+                "Program Information": "Offers Home Visiting, Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.763325,
+          41.885064
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Avalon Park Elementary School",
+                "address": "8045 S Kenwood Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-6615",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.591425,
+          41.748537
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Barbara Vick Early Childhood & Family Center",
+                "address": "2554 W 113th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-9010",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.685632,
+          41.688117
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Barbara Vick Village",
+                "address": "6601 S Kedzie Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-9010",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.702988,
+          41.773491
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "BBF Family Service",
+                "address": "1512 S Pulaski Ave",
+                "City": "Chicago",
+                "Phone Number": "",
+                "Ages Served": "None",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.7252726,
+          41.86048485
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Beacon Therapeutic",
+                "address": "1912 S 103rd St",
+                "City": "Chicago",
+                "Phone Number": "(773) 298-1243",
+                "Ages Served": "None",
+                "Program Information": "Offers Home Visiting, Community Based, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.653802,
+          41.677377
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Beginners Depot",
+                "address": "2141 S 79th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 783-9270",
+                "Ages Served": "None",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.677266,
+          41.749908
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Belmont-Cragin Elementary School",
+                "address": "6041 W Diversey Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-3318",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.77749724,
+          41.93091469
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Benito Juarez Community Academy",
+                "address": "1450 W Cermak Rd",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-7030",
+                "Ages Served": "14-18",
+                "Program Information": "Offers Home Visiting, Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.662942,
+          41.852405
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Benjamin E Mays Elementary Academy",
+                "address": "6656 S Normal Blvd",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-3892",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6368395,
+          41.773192
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Bernhard Moos Elementary School",
+                "address": "1711 N California Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-4340",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.697008,
+          41.912147
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Betty's Daycare",
+                "address": "5725 W Chicago Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 261-1433",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.76898,
+          41.894736
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Blair Early Childhood Center",
+                "address": "6751 W 63rd Pl",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-2076",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.789696,
+          41.776484
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Bret Harte Elementary School",
+                "address": "1556 E 56th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-0870",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.586698,
+          41.793709
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Brian Piccolo Elementary Specialty School",
+                "address": "1040 N Keeler Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-4425",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.732352,
+          41.900298
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Brighton Park Elementary School",
+                "address": "3825 S Washtenaw Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-7237",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.691823,
+          41.823533
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Building Blocks Learning Academy",
+                "address": "1120 W 69th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 488-2222",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.652732,
+          41.768718
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Burnham Elementary Inclusive Academy",
+                "address": "9928 S Crandon Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-6350",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.5670391,
+          41.7147677
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Burnside Elementary Scholastic Academy",
+                "address": "650 E 91st Pl",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-3300",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.608291,
+          41.728843
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Busy Bees Child Development Center",
+                "address": "3155 S Shields Ave",
+                "City": "Chicago",
+                "Phone Number": "(312) 326-0200",
+                "Ages Served": "8 weeks to 13 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.63526,
+          41.836618
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Calmeca Academy of Fine Arts and Dual Language",
+                "address": "3456 W 38th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-7000",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.71075,
+          41.82432
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Carl von Linne Elementary School",
+                "address": "3221 N Sacramento Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-5262",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.70258,
+          41.940253
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Carole Robertson Center for Learning - 19th Street",
+                "address": "2929 W 19th St",
+                "City": "Chicago",
+                "Phone Number": "(312) 243-7300",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.699635,
+          41.855473
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Carole Robertson Center for Learning - Ogden",
+                "address": "3701 W Ogden Ave",
+                "City": "Chicago",
+                "Phone Number": "(312) 243-7300",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.718254,
+          41.853138
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Carole Robertson Center for Learning - Roosevelt",
+                "address": "2020 W Roosevelt Rd",
+                "City": "Chicago",
+                "Phone Number": "(312) 243-7300",
+                "Ages Served": "0 years to 5 years",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.67697,
+          41.866809
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Carrie Jacobs Bond Elementary School",
+                "address": "7050 S May St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-3480",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.65377,
+          41.765743
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Carroll-Rosenwald Specialty Elementary School",
+                "address": "2601 W 80th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-9414",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6877825,
+          41.7477465
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Carter G Woodson South Elementary School",
+                "address": "4511 S Evans Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-1280",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6078238,
+          41.8127305
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Casa Central - Early Learning Academy",
+                "address": "1343 N California Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 645-2300",
+                "Ages Served": "2 years to 5 years",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.696769,
+          41.906055
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Casimir Pulaski Elementary Fine Arts Academy",
+                "address": "2230 W McLean Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-4391",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.68332,
+          41.918416
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Catholic Charities - Chicago Lawn Child Development Center",
+                "address": "3001 W 59th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 925-1085",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.698817,
+          41.786069
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Catholic Charities - Cordi Marian Child Development Center",
+                "address": "1100 S May St",
+                "City": "Chicago",
+                "Phone Number": "(312) 666-3787",
+                "Ages Served": "2 years to 12 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.654789,
+          41.86774
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Catholic Charities - Our Lady of Lourdes Child Development Center",
+                "address": "1449 S Keeler Ave",
+                "City": "Chicago",
+                "Phone Number": "773.521.3126",
+                "Ages Served": "6 weeks to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.72988,
+          41.860922
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Catholic Charities - Our Lady of Tepeyac Child Development Center",
+                "address": "2414 S Albany Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 277-5888",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.702689,
+          41.847775
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Catholic Charities - St. Joseph Child Development Center",
+                "address": "4800 S Paulina Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 927-2524",
+                "Ages Served": "3 years to 12 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.667372,
+          41.806725
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Centers for New Horizons - Altgeld Gardens Early Learning Center",
+                "address": "941 E 132nd St",
+                "City": "Chicago",
+                "Phone Number": "(773) 468-3055",
+                "Ages Served": "0 years to 5 years",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.598578,
+          41.655827
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Centers for New Horizons - Dawson",
+                "address": "3901 S State St",
+                "City": "Chicago",
+                "Phone Number": "(773) 536-2187",
+                "Ages Served": "0 years to 5 years",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.626234,
+          41.82355
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Centers for New Horizons - Effie O. Ellis Early Learning Center",
+                "address": "4301 S Cottage Grove Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 548-9840",
+                "Ages Served": "0 years to 5 years",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.606252,
+          41.816623
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Cesar E Chavez Multicultural Academic Center ES",
+                "address": "4749 S Damen Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-4600",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.674638,
+          41.8070168
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Chance after Chance",
+                "address": "305-309 N Cicero Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 854-8182",
+                "Ages Served": "3 years to 6 years",
+                "Program Information": "Offers Home Visiting, Community Based, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.745156,
+          41.885655
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Channing's Child Care",
+                "address": "5701 W Division St",
+                "City": "Chicago",
+                "Phone Number": "(773) 379-7627",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.768267,
+          41.901839
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Charles Evans Hughes Elementary School",
+                "address": "4247 W 15th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-1762",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.732568,
+          41.860569
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Charles G Hammond Elementary School",
+                "address": "2819 W 21st Pl",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-4580",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.69605,
+          41.852837
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Charles Gates Dawes Elementary School",
+                "address": "3810 W 81st Pl",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-2350",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.717154,
+          41.745017
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Charles H Wacker Elementary School",
+                "address": "9746 S Morgan St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-2821",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.647958,
+          41.716329
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Charles Kozminski Elementary Community Academy",
+                "address": "936 E 54th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-0980",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.602613,
+          41.797913
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Charles N Holden Elementary School",
+                "address": "1104 W 31st St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-7200",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.654055,
+          41.838398
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Charles P Caldwell Academy of Math & Science ES",
+                "address": "8546 S Cregier Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-6300",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.581077,
+          41.739245
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Charles R Darwin Elementary School",
+                "address": "3116 W Belden Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-4110",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.705389,
+          41.92325
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Charles R Henderson Elementary School",
+                "address": "5650 S Wolcott Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-9080",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.671813,
+          41.790932
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Charles S Brownell Elementary School",
+                "address": "6741 S Michigan Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-3030",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.621835,
+          41.771502
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Charles S Deneen Elementary School",
+                "address": "7240 S Wabash Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-3035",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.624028,
+          41.762424
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Charles Sumner Math & Science Community Academy ES",
+                "address": "4320 W 5th Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-6730",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.733047,
+          41.870881
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Charles W Earle Elementary School",
+                "address": "2040 W 62nd St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-9130",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.67534,
+          41.7811501
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Chicago Academy Elementary School",
+                "address": "3400 N Austin Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-0146",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.77638,
+          41.942105
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Chicago Child Care Society - Englewood",
+                "address": "7000 S Parnell Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 897-0950",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.63821883,
+          41.76697526
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Chicago Child Care Society - Hyde Park",
+                "address": "5467 S University Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 643-0452",
+                "Ages Served": "2 years to 5 years",
+                "Program Information": "Offers Home Visiting, Community Based, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.5976385,
+          41.7959201
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Chicago Commons - JPE Daycare Center",
+                "address": "8625 S Cottage Grove Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 994-1300",
+                "Ages Served": "None",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.604472,
+          41.737672
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Chicago Commons - Learn Together Grow Together Child Development Center",
+                "address": "1126 W 99th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 568-4769",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.65151722,
+          41.71427508
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Chicago Commons - Smart From The Start",
+                "address": "4135 W Armitage Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 697-7057",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.730517,
+          41.916853
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Chicago Commons Association - Guadalupano Family Center",
+                "address": "1814 S Paulina St",
+                "City": "Chicago",
+                "Phone Number": "(312) 666-3883",
+                "Ages Served": "2 years to 12 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.668767,
+          41.85722
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Chicago Commons Association - NIA Family Center",
+                "address": "744 N Monticello Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 722-0115",
+                "Ages Served": "8 weeks to 5 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.717692,
+          41.89472
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Chicago Commons Association - Paulo Freire Family Center",
+                "address": "1653 W 43rd St",
+                "City": "Chicago",
+                "Phone Number": "(773) 826-6260",
+                "Ages Served": "8 weeks to 5 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.66722,
+          41.815822
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Chicago Commons Association - Taylor Center for New Experiences",
+                "address": "1633 N Hamlin Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 227-8551",
+                "Ages Served": "2 years to 5 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.721236,
+          41.91109
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Chicago Lighthouse for People who are Blind or Visually Impaired",
+                "address": "1850 W Roosevelt Rd",
+                "City": "Chicago",
+                "Phone Number": "(312) 666-1331",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6724009,
+          41.86726047
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Chicago Youth Centers - ABC Polk Brothers Early Childhood Program",
+                "address": "3415 W 13th Pl",
+                "City": "Chicago",
+                "Phone Number": "(773) 762-5655",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.711139,
+          41.863823
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Chicago Youth Centers - Centro Nuestro",
+                "address": "3222 W Division St",
+                "City": "Chicago",
+                "Phone Number": "(773) 489-3157",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.707785,
+          41.903103
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Chicago Youth Centers - Dorothy Gautreaux",
+                "address": "975 E 132nd St",
+                "City": "Chicago",
+                "Phone Number": "(773) 291-1000",
+                "Ages Served": "3 yeares to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.598154,
+          41.655654
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Chicago Youth Centers - Fellowship House",
+                "address": "844 W 32nd St",
+                "City": "Chicago",
+                "Phone Number": "(312) 326-2282",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.64745,
+          41.836456
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Chicago Youth Centers - First Step Learning Daycare",
+                "address": "6401 S Ashland Ave",
+                "City": "Chicago",
+                "Phone Number": "",
+                "Ages Served": "6 weeks to 6 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.66394121,
+          41.7774813
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Chicago Youth Centers - George E. Taylor",
+                "address": "3232 W Division St",
+                "City": "Chicago",
+                "Phone Number": "(773) 489-3157",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.70795,
+          41.902967
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Chicago Youth Centers - Graham Crackers",
+                "address": "10650 S Michigan Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 468-1128",
+                "Ages Served": "2 years to 6 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.62107415,
+          41.70015405
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Chicago Youth Centers - Little Kiddies",
+                "address": "1501 W Devon Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 465-7702",
+                "Ages Served": "6 weeks to 6 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.667985,
+          41.997869
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Chicago Youth Centers - Rebecca K. Crown",
+                "address": "7601 S Phillips Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 731-0444",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.56476,
+          41.757021
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Chicago Youth Centers - Tiny Scholars Academy",
+                "address": "1167 E 63rd St",
+                "City": "Chicago",
+                "Phone Number": "(773) 855-8104",
+                "Ages Served": "6 weeks to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.596902,
+          41.7804906
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Children's Center",
+                "address": "12803 S Halsted Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 264-5171",
+                "Ages Served": "6 weeks to 3 grade",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.640973,
+          41.661208
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Children's Center for Creative Learning - Kedzie",
+                "address": "3348 S Kedzie Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 890-3152",
+                "Ages Served": "6 weeks - 5 years old",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.70913643,
+          41.8321921
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Children's Center for Creative Learning - Western",
+                "address": "7954-58 S Western Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 471-4927",
+                "Ages Served": "6 weeks to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.683195,
+          41.748419
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Children's Developmental Institute - South Shore",
+                "address": "7037 S Stony Island Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 363-3200",
+                "Ages Served": "None",
+                "Program Information": "None",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.5854134,
+          41.7668376
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Children's Home & Aid Freidheim Child and Family Center",
+                "address": "1701 W 63rd St",
+                "City": "Chicago",
+                "Phone Number": "(773) 476-6998",
+                "Ages Served": "6 weeks to 5 years",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6671,
+          41.779307
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Children's International Academy",
+                "address": "5858 W Roosevelt Rd",
+                "City": "Chicago",
+                "Phone Number": "(773) 287-0808",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.771444,
+          41.86575
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Children's Place Association - Home-based",
+                "address": "3059 W Augusta Blvd",
+                "City": "Chicago",
+                "Phone Number": "(773) 826-1230",
+                "Ages Served": "0-3",
+                "Program Information": "Offers Home Visiting, Community Based, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.704061,
+          41.899039
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "ChildServ PEP Program",
+                "address": "4909 W Division St, #204",
+                "City": "Chicago",
+                "Phone Number": "(773) 693-0300",
+                "Ages Served": "0-3",
+                "Program Information": "Offers Home Visiting, Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.749257,
+          41.902296
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Chinese American Service League",
+                "address": "2141 S Tan Ct",
+                "City": "Chicago",
+                "Phone Number": "(312) 791-0454",
+                "Ages Served": "0 years to 5 grade",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.635804,
+          41.854485
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Chipper Preschool and Kindergarten",
+                "address": "8225 S Kedzie Ave",
+                "City": "Chicago",
+                "Phone Number": "773 778 5757",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.701862,
+          41.743543
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Christopher Columbus Elementary School",
+                "address": "1003 N Leavitt St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-4350",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.682029,
+          41.899544
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Christopher House - Belmont Cragin",
+                "address": "5235 W Belden Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 922-7500",
+                "Ages Served": "6 weeks to 4 grade",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.757395,
+          41.922247
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Christopher House - Logan Square",
+                "address": "3255 W Altgeld St",
+                "City": "Chicago",
+                "Phone Number": "(773) 235-4073",
+                "Ages Served": "2 years to 12 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.70957,
+          41.926501
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Christopher House - Uptown",
+                "address": "4701 N Winthrop Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 769-4540",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.657227,
+          41.967461
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Church of God Day Care",
+                "address": "1738 W Marquette Rd",
+                "City": "Chicago",
+                "Phone Number": "(773) 471-5222",
+                "Ages Served": "5-Mar",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.668012,
+          41.772156
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "City Colleges of Chicago - Kennedy King",
+                "address": "710 W 65th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 602-5481",
+                "Ages Served": "2 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6428725,
+          41.7761372
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "City Colleges of Chicago - Malcolm X",
+                "address": "1900 W Van Buren St",
+                "City": "Chicago",
+                "Phone Number": "(312) 850-7490",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6738099,
+          41.8769043
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "City Colleges of Chicago - Olive Harvey",
+                "address": "10001 S Woodlawn Ave, #1105",
+                "City": "Chicago",
+                "Phone Number": "(773) 291-6317",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.592116,
+          41.7105365
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "City Colleges of Chicago - Richard J. Daley",
+                "address": "7500 S Pulaski Rd, #1120",
+                "City": "Chicago",
+                "Phone Number": "(773) 838-7562",
+                "Ages Served": "3 years to 6 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.7238989,
+          41.7561784
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "City Colleges of Chicago - Truman",
+                "address": "1145 W Wilson Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 907-4740",
+                "Ages Served": "2 years to 7 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6590226,
+          41.9650863
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Clara Barton Elementary School",
+                "address": "7650 S Wolcott Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-3260",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.671408,
+          41.754433
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Claremont Academy Elementary School",
+                "address": "2300 W 64th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-8110",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.681222,
+          41.777597
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Columbia Explorers Elementary Academy",
+                "address": "4520 S Kedzie Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-4050",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.7045395,
+          41.8108949
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Community Learning Center",
+                "address": "10612 S Wentworth",
+                "City": "Chicago",
+                "Phone Number": "(773) 928-4104",
+                "Ages Served": "6-Feb",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.628236,
+          41.70115
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Concordia Place - Seeley",
+                "address": "3855 N Seeley St",
+                "City": "Chicago",
+                "Phone Number": "(773) 935-3739",
+                "Ages Served": "2 years to 6 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.679886,
+          41.952134
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Concordia Place - Whipple",
+                "address": "3300 N Whipple St",
+                "City": "Chicago",
+                "Phone Number": "773-463-1600 x111",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.704115,
+          41.941606
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Crown Community Academy of Fine Arts Center ES",
+                "address": "2128 S Saint Louis Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-1680",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.712363,
+          41.852671
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Cuddle Care Academy",
+                "address": "4800 S Lake Park",
+                "City": "Chicago",
+                "Phone Number": "(773) 285-1114",
+                "Ages Served": "6 weeks to 6 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.590792,
+          41.807502
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Cyrus H McCormick Elementary School",
+                "address": "2712 S Sawyer Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-7252",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.706205,
+          41.842425
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Daniel Boone Elementary School",
+                "address": "6710 N Washtenaw Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-2160",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.697361,
+          42.003254
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Daniel C Beard Elementary School",
+                "address": "6445 W Strong St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-1228",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.789537,
+          41.970195
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Daniel J Corkery Elementary School",
+                "address": "2510 S Kildare Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-1650",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.73109,
+          41.845515
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Daniel R Cameron Elementary School",
+                "address": "1234 N Monticello Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-4290",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.717825,
+          41.903802
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Daniel S Wentworth Elementary School",
+                "address": "7007 S Loomis",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-3394",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.658636,
+          41.766412
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Daniel Webster Elementary School",
+                "address": "4055 W Arthington St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-6925",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.726938,
+          41.869996
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "David G Farragut Career Academy High School",
+                "address": "2345 S Christiana Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-1300",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.708647,
+          41.848974
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Dewey Elementary Academy of Fine Arts",
+                "address": "638 W 54th Pl",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-1666",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6417428,
+          41.7952795
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "DeWitt Clinton Elementary School",
+                "address": "6110 N Fairfield Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-2025",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.698255,
+          41.992404
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Diversey Daycare",
+                "address": "3155 W Diversey",
+                "City": "Chicago",
+                "Phone Number": "(773) 342-7777",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.7071,
+          41.93179
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Donald Morrill Math & Science Elementary School",
+                "address": "6011 S Rockwell St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-9288",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.688635,
+          41.784448
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Dorsey Developmental Institute",
+                "address": "2050 E 93rd St",
+                "City": "Chicago",
+                "Phone Number": "(773) 375-4300",
+                "Ages Served": "2 years to 5 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.573411,
+          41.726421
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Douglas Taylor Elementary School",
+                "address": "9912 S Avenue H",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-6240",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.533261,
+          41.715627
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Dr Jorge Prieto Math and Science Academy Elementary School",
+                "address": "2231 N Central Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-0210",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.765202,
+          41.921045
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Dr Martin L King Jr Academy of Social Justice",
+                "address": "644 W 71st St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-3875",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.641097,
+          41.76526
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Dunbar Vocational Career Academy",
+                "address": "3000 S Martin Luther King Dr",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-9000",
+                "Ages Served": "14-18",
+                "Program Information": "Offers Home Visiting, Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.617244,
+          41.840527
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Dunne Technology Academy",
+                "address": "10845 S Union Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-5517",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.640089,
+          41.697025
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Durkin Park Elementary School",
+                "address": "8445 S Kolin Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-2322",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.730062,
+          41.739375
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Dvorak Technology Academy",
+                "address": "3615 W 16th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-1690",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.715805,
+          41.858946
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Easter Seals - A-Karrasel",
+                "address": "3420 W Fullerton Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 772-4333",
+                "Ages Served": "15 months to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.7129442,
+          41.9248187
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Easter Seals - A-Karrasel Galewood",
+                "address": "5504 W Fullerton Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 637-1022",
+                "Ages Served": "6 weeks to 8 grade",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.7638282,
+          41.9243536
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Easter Seals - Busy Bees II",
+                "address": "2351 S Wentworth Ave",
+                "City": "Chicago",
+                "Phone Number": "(312) 888-3167",
+                "Ages Served": "2 years to 6 grade",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6317108,
+          41.8495959
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Easter Seals - Living Witness",
+                "address": "4159 N Laramie Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 427-1011",
+                "Ages Served": "2 years to 12 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.7572213,
+          41.9564912
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Easter Seals - New Generation Creative Learning Center",
+                "address": "1910 W 64th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 471-6145",
+                "Ages Served": "2 years to 5 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.67172498,
+          41.77745123
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Easter Seals - Sweet Pea Academy",
+                "address": "1414 W 87th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 239-2322",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.65905423,
+          41.73604326
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Easter Seals - Wise Owl",
+                "address": "2734 W North Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 489-8402",
+                "Ages Served": "6 weeks to 6 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.695954,
+          41.91055
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Easter Seals Metropolitan Chicago - Gilchrist Marchman",
+                "address": "1312 S Racine Ave",
+                "City": "Chicago",
+                "Phone Number": "(312) 492-7402",
+                "Ages Served": "6 weeks to 5 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6570407,
+          41.8647426
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Easter Seals Metropolitan Chicago - Near South Side",
+                "address": "2214 S Federal St",
+                "City": "Chicago",
+                "Phone Number": "(773) 548-3614",
+                "Ages Served": "Six weeks to five years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.62933,
+          41.852047
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Eastside Child Development Center",
+                "address": "13338 S Brandon St",
+                "City": "Chicago",
+                "Phone Number": "(773) 646-2223",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.546264,
+          41.652482
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Edison Park Elementary School",
+                "address": "6220 N Olcott Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-0960",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.813682,
+          41.994198
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Edmond Burke Elementary School",
+                "address": "5356 S King Dr",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-1325",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.616046,
+          41.797078
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Edward A Bouchet Math & Science Academy ES",
+                "address": "7355 S Jeffery Blvd",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-0501",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.576175,
+          41.761302
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Edward Beasley Elementary Magnet Academic Center",
+                "address": "5165 S State St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-1230",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6257685,
+          41.8000928
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Edward Coles Elementary Language Academy",
+                "address": "8441 S Yates Blvd",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-6550",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.565468,
+          41.741744
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Edward Everett Elementary School",
+                "address": "3419 S Bell Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-4550",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.681279,
+          41.83175
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Edward Jenner Elementary Academy of the Arts",
+                "address": "1119 N Cleveland Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-8440",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.641025,
+          41.90256
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Edward K Ellington Elementary School",
+                "address": "243 N Parkside Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-6361",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.766678,
+          41.885478
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Edward N Hurley Elementary School",
+                "address": "3849 W 69th Pl",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-2068",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.718753,
+          41.76685
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Edward White Elementary Career Academy",
+                "address": "1136 W 122nd St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-5672",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.650365,
+          41.672235
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Effie O Ellis YMCA",
+                "address": "10 S Kedzie Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 533-9011",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.706123,
+          41.88085
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "El Hogar Del Niño",
+                "address": "1710 S Loomis Ave",
+                "City": "Chicago",
+                "Phone Number": "(312) 733-5584",
+                "Ages Served": "2 years to 12 years",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.661624,
+          41.858389
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "El Valor - Carlos H Cantu Cihldren & Family Center",
+                "address": "2434 S Kildare Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 242-2700",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.731637,
+          41.846825
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "El Valor - Centro Infantil Puerto Rican Community Center",
+                "address": "2739 W Division St",
+                "City": "Chicago",
+                "Phone Number": "(773) 342-8866",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.695957,
+          41.902811
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "El Valor - Children's World",
+                "address": "3356 S Ashland Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 523-0100",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6659619,
+          41.8326629
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "El Valor - Guadalupe A Reyes Children & Family Center",
+                "address": "1951 W 19th Street",
+                "City": "Chicago",
+                "Phone Number": "(312) 997-2021",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.675537,
+          41.855753
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "El Valor - Kiddy Kare Preschool",
+                "address": "4401 S Kedzie Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 247-6642",
+                "Ages Served": "None",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.703782,
+          41.813403
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "El Valor - Kidz Creative Concepts",
+                "address": "719 E 63rd St",
+                "City": "Chicago",
+                "Phone Number": "(773) 752-5439",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6075972,
+          41.7802825
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "El Valor - Lots of Love NFP",
+                "address": "1015 W 79th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 783-8181",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.649561,
+          41.750297
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "El Valor - Lots of Love Preschool",
+                "address": "1139 W 79th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 874-4954",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.65291,
+          41.750238
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "El Valor - Mari's Bumble Bee Academy",
+                "address": "9725 S Commerical Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 221-7692",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.551002,
+          41.718655
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "El Valor - Power Daycare",
+                "address": "725 W 123rd St",
+                "City": "Chicago",
+                "Phone Number": "(773) 568-5794",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6402324,
+          41.6704576
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "El Valor - Rey B Gonzalez Children & Family Center",
+                "address": "3050 E 92nd St",
+                "City": "Chicago",
+                "Phone Number": "(773) 721-9311",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.549165,
+          41.728577
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "El Valor - Small World Daycare Center",
+                "address": "834 W 31st St",
+                "City": "Chicago",
+                "Phone Number": "(312) 808-1125",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.647781,
+          41.8381141
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "El Valor - Smart Learning Center",
+                "address": "2841 S Archer Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 523-8228",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.66091032,
+          41.84040947
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Eli Whitney Elementary School",
+                "address": "2815 S Komensky Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-1560",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.725621,
+          41.840084
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Eliza Chappell Elementary School",
+                "address": "2135 W Foster Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-2390",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.684142,
+          41.975932
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ella Flagg Young Elementary School",
+                "address": "1434 N Parkside Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-6200",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.767028,
+          41.906366
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ellen Mitchell Elementary School",
+                "address": "2233 W Ohio St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-7655",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.682637,
+          41.892159
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Emiliano Zapata Elementary Academy",
+                "address": "2728 S Kostner Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-1390",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.734245,
+          41.842453
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Emmett Louis Till Math and Science Academy",
+                "address": "6543 S Champlain Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-0570",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.609293,
+          41.775726
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Enrico Tonti Elementary School",
+                "address": "5815 S Homan Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-9280",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.708255,
+          41.78772
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Erie Neighborhood House",
+                "address": "1701 W Superior St",
+                "City": "Chicago",
+                "Phone Number": "(312) 563-5800",
+                "Ages Served": "2 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.670013,
+          41.894882
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Erie Neighborhood House - Charter School SA",
+                "address": "1405 N Washtenaw Ave",
+                "City": "Chicago",
+                "Phone Number": "",
+                "Ages Served": "None",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.69428773,
+          41.90675727
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Erie Neighborhood House - Erie House",
+                "address": "1347 W Erie St",
+                "City": "Chicago",
+                "Phone Number": "",
+                "Ages Served": "None",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.66084863,
+          41.89354507
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ernst Prussing Elementary School",
+                "address": "4650 N Menard Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-3460",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.77296,
+          41.965887
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Esmond Elementary School",
+                "address": "1865 W Montvale Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-2650",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.669517,
+          41.689107
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Everett McKinley Dirksen Elementary School",
+                "address": "8300 W Addison Chicago IL ",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-1090",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.83418392,
+          41.94503837
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Eyes on the Future",
+                "address": "6969 N Ravenswood Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 973-0771",
+                "Ages Served": "12 weeks to 12 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.675311,
+          42.008421
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Fairfield Elementary Academy",
+                "address": "6201 S Fairfield Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-9500",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.692196,
+          41.780933
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Fairyland Nursery School",
+                "address": "4350 N Milwaukee Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 725-1246",
+                "Ages Served": "2 years to 6 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.75421,
+          41.960102
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Family Child Care Home",
+                "address": "845 W 69th St",
+                "City": "Chicago",
+                "Phone Number": "773 382-4704",
+                "Ages Served": "0-3",
+                "Program Information": "Community Based, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.646262,
+          41.768705
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Family Focus - Englewood",
+                "address": "326 W 64th St, #305",
+                "City": "Chicago",
+                "Phone Number": "(773) 962-0366",
+                "Ages Served": "0-adult",
+                "Program Information": "Offers Home Visiting, Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.632983,
+          41.778732
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Family Focus - Lawndale",
+                "address": "3517 W Arthington St",
+                "City": "Chicago",
+                "Phone Number": "(773) 722-5057",
+                "Ages Served": "0-adult",
+                "Program Information": "Offers Home Visiting, Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.713449,
+          41.869321
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Family Focus - Nuestra Familia",
+                "address": "4145 W Armitage Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 276-0940",
+                "Ages Served": "0 years to 18 years",
+                "Program Information": "Offers Home Visiting, Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.730883,
+          41.917021
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Federico Garcia Lorca Elementary School",
+                "address": "3231 N Springfield Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-0950",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.724808,
+          41.940104
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ferdinand Peck Elementary School",
+                "address": "4026 W 59th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-2450",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.7241109,
+          41.786181
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Fernwood Elementary School",
+                "address": "10041 S Union Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-2700",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.640521,
+          41.711664
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Fifth City",
+                "address": "3411 W 5th Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 826-8686",
+                "Ages Served": "2 years to 12 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.711418,
+          41.876789
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Firman House West ",
+                "address": "37 W 47th St",
+                "City": "Chicago",
+                "Phone Number": "",
+                "Ages Served": "None",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6279406,
+          41.80905308
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "First Lutheran YMCA",
+                "address": "3500 W Fullerton Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 862-5960",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.714669,
+          41.924774
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "First Start Children's Academy",
+                "address": "4753 W Washington Blvd",
+                "City": "Chicago",
+                "Phone Number": "(773) 379-4928",
+                "Ages Served": "2 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.744602,
+          41.881796
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "First Start Children's Academy South",
+                "address": "5700 S Ashland Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 778-4850",
+                "Ages Served": "0 years to 12 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.664695,
+          41.7903
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Florence Nightingale Elementary School",
+                "address": "5250 S Rockwell St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-9270",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.689261,
+          41.798085
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Fort Dearborn Elementary School",
+                "address": "9025 S Throop St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-2680",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.655367,
+          41.72991
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Foster Park Elementary School",
+                "address": "8530 S Wood St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-2725",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.668006,
+          41.738787
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Francis M McKay Elementary School",
+                "address": "6938 S Washtenaw",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-9340",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6906686,
+          41.7675023
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Francis W Parker Elementary Community Academy",
+                "address": "328 W 69th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-3375",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6336252,
+          41.7691776
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Frank I Bennett Elementary School",
+                "address": "10115 S Prairie Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-5460",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.617482,
+          41.710623
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Frank L Gillespie Elementary School",
+                "address": "9301 S State St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-5065",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.623416,
+          41.725211
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Frank W Gunsaulus Elementary Scholastic Academy",
+                "address": "4420 S Sacramento Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-7215",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.699262,
+          41.813277
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Frank W Reilly Elementary School",
+                "address": "3650 W School St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-5250",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.719067,
+          41.941027
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Franz Peter Schubert Elementary School",
+                "address": "2727 N Long Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-3080",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.761274,
+          41.930357
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Frazier Preparatory Academy",
+                "address": "3711 W Douglas Blvd",
+                "City": "Chicago",
+                "Phone Number": "(773) 521-1303",
+                "Ages Served": "4 years to 5 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.71823449,
+          41.86109213
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Frederic Chopin Elementary School",
+                "address": "2450 W Rice St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-4080",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.688125,
+          41.896645
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Frederick Funston Elementary School",
+                "address": "2010 N Central Park",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-4125",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.717343,
+          41.917931
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Frederick Stock Elementary School",
+                "address": "7507 W Birchwood Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-1215",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.814172,
+          42.016953
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Fresh Start Academy",
+                "address": "6924 W North Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 479-2870",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.818678,
+          42.001814
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Friedrich Ludwig Jahn Elementary School",
+                "address": "3149 N Wolcott Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-5500",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.675884,
+          41.938931
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Fussy Baby Network",
+                "address": "451 N LaSalle St",
+                "City": "Chicago",
+                "Phone Number": "(312) 893-7234",
+                "Ages Served": "0 - 1 year old: homevisiting",
+                "Program Information": "Offers Home Visiting, Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.632385,
+          41.890764
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Gads Hill Center - Archer Children's Program",
+                "address": "4236 S Archer Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 269-6595",
+                "Ages Served": "2.5 - 5",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.702141,
+          41.815594
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Gads Hill Center - Cullerton",
+                "address": "1919 W Cullerton Ave",
+                "City": "Chicago",
+                "Phone Number": "",
+                "Ages Served": "None",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.67406119,
+          41.85479927
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Gad's Hill Center - Diana's Playpen of Little Geniuses",
+                "address": "6236 S Western Ave",
+                "City": "Chicago",
+                "Phone Number": "773 737 6700",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.684055,
+          41.779991
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Gad's Hill Center - Hunt's Early Childhood Academy",
+                "address": "2701 W 79th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 863-8260",
+                "Ages Served": "2 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.69035,
+          41.74969
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Gads Hill Center - Kove Learning Academy",
+                "address": "3137 W 71st St",
+                "City": "Chicago",
+                "Phone Number": "(773) 696-4742",
+                "Ages Served": "2.6 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.701854,
+          41.764112
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Gad's Hill Center - Literacy Zone",
+                "address": "5831 S Western Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 306-0856",
+                "Ages Served": "2 years to 12 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6837553,
+          41.7873256
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Gad's Hill Center - M & E Daycare",
+                "address": "3728 W 79th St",
+                "City": "Chicago",
+                "Phone Number": "773.585.7979",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.7152436,
+          41.7498354
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Gads Hill Center - North/South Lawndale",
+                "address": "2653 W Ogden Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 521-1196",
+                "Ages Served": "2.5-12",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.692801,
+          41.862137
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Gads Hill Center - Ogden",
+                "address": "2653 W Ogden Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 521-1196",
+                "Ages Served": "30 months to 13 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.692801,
+          41.862137
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Gad's Hill Center - Peachtree Educational Daycare Inc",
+                "address": "2845 W 71st St",
+                "City": "Chicago",
+                "Phone Number": "(773) 776-9043",
+                "Ages Served": "6 weeks to 6 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.694802,
+          41.764246
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Gad's Hill Center - VOCEL",
+                "address": "5058 W Jackson Blvd",
+                "City": "Chicago",
+                "Phone Number": "(773) 797-2210",
+                "Ages Served": "None",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.7515687,
+          41.8771673
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Gad's Hill Center -Smart from the Start",
+                "address": "1939 W 79th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 966-6499",
+                "Ages Served": "None",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.672177,
+          41.749979
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Gage Park High School",
+                "address": "5630 S Rockwell St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-9230",
+                "Ages Served": "14-18",
+                "Program Information": "Offers Home Visiting, Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.688865,
+          41.791395
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Garfield YMCA",
+                "address": "7 N Homan Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 265-3900",
+                "Ages Served": "2 years to 5 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.710979,
+          41.880938
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Genevieve Melody Elementary School",
+                "address": "3937 W Wilcox St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-6850",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.7233438,
+          41.878877
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "George Armstrong International Studies ES",
+                "address": "2110 W Greenleaf Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-2150",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.683094,
+          42.010124
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "George B McClellan Elementary School",
+                "address": "3527 S Wallace St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-1732",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.641045,
+          41.830125
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "George B Swift Elementary Specialty School",
+                "address": "5900 N Winthrop Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-2695",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.658485,
+          41.989496
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "George Leland Elementary School",
+                "address": "512 S Lavergne Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-6340",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.7491874,
+          41.8738822
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "George M Pullman Elementary School",
+                "address": "11311 S Forrestville Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-5395",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.609533,
+          41.68881
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "George Manierre Elementary School",
+                "address": "1420 N Hudson Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-8456",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.639837,
+          41.907229
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "George Rogers Clark Elementary School",
+                "address": "1045 S Monitor Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-6225",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.770513,
+          41.86803
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "George W Curtis Elementary School",
+                "address": "32 E 115th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-5050",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.622209,
+          41.685352
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "George W Tilton Elementary School",
+                "address": "223 N Keeler Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-6746",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.729746,
+          41.884245
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "George Washington Carver Primary School",
+                "address": "902 E 133rd Pl",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-5674",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6018094,
+          41.6532497
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "George Washington Elementary School",
+                "address": "3611 E 114th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-5010",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.536031,
+          41.688197
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Gerald Delgado Kanoon Elementary Magnet School",
+                "address": "2233 S Kedzie Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-1736",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.704937,
+          41.850714
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Grace Mission Child Development Center",
+                "address": "5332 S Western Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 476-1990",
+                "Ages Served": "5-Mar",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.684303,
+          41.796631
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Grover Cleveland Elementary School",
+                "address": "3121 W Byron St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-5130",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.706333,
+          41.952103
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Hana Early Childhood Center",
+                "address": "4300 N California Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 583-8281",
+                "Ages Served": "2 years to 12 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.698748,
+          41.959543
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Hannah G Solomon Elementary School",
+                "address": "6206 N Hamlin Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-5226",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.723942,
+          41.993909
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Hanson Park Elementary School",
+                "address": "5411 W Fullerton Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-3100",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.761362,
+          41.923977
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Happy Holiday Nursery & Kindergarten",
+                "address": "401 E 111th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 821-7009",
+                "Ages Served": "2 years to 6 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.613199,
+          41.692459
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Happy Kids Learning",
+                "address": "4545 N Kedzie Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 866-1405",
+                "Ages Served": "None",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.707989,
+          41.964342
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Harlan Community Academy High School",
+                "address": "9652 S Michigan Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-5400",
+                "Ages Served": "None",
+                "Program Information": "Offers Home Visiting, Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.620544,
+          41.718919
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Harold Washington Elementary School",
+                "address": "9130 S University Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-6225",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.596388,
+          41.728465
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Harriet Beecher Stowe Elementary School",
+                "address": "3444 W Wabansia Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-4175",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.712468,
+          41.911876
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Harriet E Sayre Elementary Language Academy",
+                "address": "1850 N Newland Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-3351",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.798609,
+          41.913549
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Haymarket Center Early Head Start Home Based Program",
+                "address": "120 N Sangamon Ave",
+                "City": "Chicago",
+                "Phone Number": "(312) 504-0039",
+                "Ages Served": "0-3",
+                "Program Information": "Offers Home Visiting, Community Based, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.650948,
+          41.883827
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Healthy Parents & Babies Doula and Home Visiting Program",
+                "address": "4859 S Wabash Ave",
+                "City": "Chicago ",
+                "Phone Number": "(773) 373-8670",
+                "Ages Served": "0 - 3 ",
+                "Program Information": "Offers Home Visiting, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.624262,
+          41.805627
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Helen M Hefferan Elementary School",
+                "address": "4409 W Wilcox St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-6192",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.735501,
+          41.878537
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Helen Peirce International Studies ES",
+                "address": "1423 W Bryn Mawr Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-2440",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.666693,
+          41.983504
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Helge A Haugan Elementary School",
+                "address": "4540 N Hamlin Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-5040",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.723214,
+          41.963731
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Henry Booth House - 4 Ever Young",
+                "address": "441 E 79th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 966-6872",
+                "Ages Served": "6 weeks to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6132016,
+          41.7511225
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Henry Booth House - Brite New Minds",
+                "address": "112 E 51st St",
+                "City": "Chicago",
+                "Phone Number": "(773) 924-3090",
+                "Ages Served": "None",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.62225,
+          41.802013
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Henry Booth House - Creative Little Ones",
+                "address": "9528 S Halsted Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 629-6119",
+                "Ages Served": "6 weeks to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6434003,
+          41.72061
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Henry Booth House - Crystal Palace",
+                "address": "1459 W 47th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 994-6844",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.662348,
+          41.808376
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Henry Booth House - Gina's Unbelievable",
+                "address": "7239 S Dobson Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 324-2010",
+                "Ages Served": "6 weeks to 6 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.599376,
+          41.762639
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Henry Booth House - Hegewisch",
+                "address": "2725 E 130th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 646-2400",
+                "Ages Served": "6 weeks to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.55713,
+          41.6588909
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Henry Booth House - High Mountain",
+                "address": "919 N Lavergne Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 626-3997",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.75055,
+          41.897448
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Henry Booth House - Hope for Youth",
+                "address": "5900 W Iowa St",
+                "City": "Chicago",
+                "Phone Number": "(773) 626-0322",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.7725619,
+          41.896842
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Henry Booth House - Jelly Bean (74th St)",
+                "address": "7419 S Cottage Grove Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 488-4141",
+                "Ages Served": "3 years to 6 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.605033,
+          41.759722
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Henry Booth House - Jelly Bean Learning Center",
+                "address": "1455 W 63rd St",
+                "City": "Chicago",
+                "Phone Number": "(773) 321-5096",
+                "Ages Served": "6 weeks to 6 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.661536,
+          41.779249
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Henry Booth House - Jelly Bean Learning Center",
+                "address": "8501 S Ashland Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 239-5437",
+                "Ages Served": "2 years to 6 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.662766,
+          41.739322
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Henry Booth House - Jelly Bean Learning Center",
+                "address": "448 E 61st St",
+                "City": "Chicago",
+                "Phone Number": "(773) 733-5861",
+                "Ages Served": "6 weeks to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6136903,
+          41.7839186
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Henry Booth House - Jelly Bean Learning Center",
+                "address": "358 E 71st St",
+                "City": "Chicago",
+                "Phone Number": "(773) 873-8888",
+                "Ages Served": "6 weeks to 6 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.615868,
+          41.765709
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Henry Booth House - Jones Academy",
+                "address": "4344 S Wentworth Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 536-3257",
+                "Ages Served": "6 weeks to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6314211,
+          41.815074
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Henry Booth House - Kids R First",
+                "address": "7538 S Halsted St",
+                "City": "Chicago",
+                "Phone Number": "(773) 488-9443",
+                "Ages Served": "None",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.644229,
+          41.756553
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Henry Booth House - Kids R First",
+                "address": "1155 W 81st St",
+                "City": "Chicago",
+                "Phone Number": "(773) 783-8080",
+                "Ages Served": "None",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.652846,
+          41.746842
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Henry Booth House - Lakeview Development Center",
+                "address": "1531 W Lawrence Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 878-2223",
+                "Ages Served": "15 months to 12 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.668589,
+          41.968865
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Henry Booth House - Laugh & Giggles",
+                "address": "106 W 119th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 468-7331",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.625512,
+          41.678254
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Henry Booth House - Little Leaders of Tomorrow",
+                "address": "301 N Mayfield Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 378-8302",
+                "Ages Served": "2 years to 12 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.7715556,
+          41.8858665
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Henry Booth House - Love N Learn Academy",
+                "address": "723 E 75th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 723-0338",
+                "Ages Served": "6 weeks to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.606804,
+          41.758325
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Henry Booth House - Near South",
+                "address": "2929 S Wabash Ave",
+                "City": "Chicago",
+                "Phone Number": "(312) 791-0424",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.624833,
+          41.8409759
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Henry Booth House - North Kenwood Day Care Center",
+                "address": "516 E 43rd St, #518",
+                "City": "Chicago",
+                "Phone Number": "(773) 268-2223",
+                "Ages Served": "6 weeks to 6 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6133014,
+          41.816695
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Henry Booth House - Prodigy Child Learning Center",
+                "address": "1921 E 79th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 221-3100",
+                "Ages Served": "6 weeks to 6 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.577493,
+          41.751494
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Henry Booth House - Project Orr Design Studio",
+                "address": "1401 S 79th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 221-7171",
+                "Ages Served": "15 months to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.590359,
+          41.751181
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Henry Booth House - Star Kids Math & Science",
+                "address": "11053 S Vincennes Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 779-5900",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.662692,
+          41.692382
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Henry Clay Elementary School",
+                "address": "13231 S Burley Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-5600",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.542698,
+          41.652097
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Henry D Lloyd Elementary School",
+                "address": "2103 N Lamon Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-3070",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.746396,
+          41.919506
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Henry H Nash Elementary School",
+                "address": "4837 W Erie St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-6125",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.746583,
+          41.892242
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Henry O Tanner Elementary School",
+                "address": "7350 S Evans Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-3870",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.606691,
+          41.761113
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "High Ridge YMCA",
+                "address": "2424 W Touhy Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 262-8300",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.691433,
+          42.012908
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Higher Learning Daycare & Education Center",
+                "address": "2526 E 73rd St",
+                "City": "Chicago",
+                "Phone Number": "(773) 734-1251",
+                "Ages Served": "6 weeks to 6 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.563187,
+          41.762886
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Hiram H Belding Elementary School",
+                "address": "4207 W Irving Park Road",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-3590",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.73335713,
+          41.95339976
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Holy Family Ministries - Little Learners Academy",
+                "address": "3415 W Arthington Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 265-0550",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.711812,
+          41.869634
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Home of Life Community Development Corporation",
+                "address": "4650 W Madison St",
+                "City": "Chicago",
+                "Phone Number": "(773) 626-8655",
+                "Ages Served": "6 weeks to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.74192,
+          41.880956
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Horace Greeley Elementary School",
+                "address": "832 W Sheridan Rd",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-5800",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.651188,
+          41.952866
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Horace Mann Elementary School",
+                "address": "8050 S Chappel Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-6640",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.574726,
+          41.748863
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Howard Area Community Center",
+                "address": "7510 N Ashland Ave",
+                "City": "Chicago",
+                "Phone Number": "773-764-7610 ",
+                "Ages Served": "6 weeks to 5 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.671325,
+          42.018116
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ida B Wells Preparatory Elementary Academy",
+                "address": "249 E 37th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-1204",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.619945,
+          41.823806
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Imani Children's Academy",
+                "address": "11443 S Halsted St",
+                "City": "Chicago",
+                "Phone Number": "(773) 660-9667",
+                "Ages Served": "15 months to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.64199,
+          41.685592
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Improved Child Care - Albany Child Care",
+                "address": "5954 S Albany Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 737-7810",
+                "Ages Served": "15 months to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.700873,
+          41.784672
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Infant Welfare Society of Chicago",
+                "address": "3600 W Fullerton Ave",
+                "City": "Chicago",
+                "Phone Number": "",
+                "Ages Served": "None",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.7186851,
+          41.9247364
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Inter-American Elementary Magnet School",
+                "address": "851 W Waveland Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-5490",
+                "Ages Served": "5-Mar",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.65127,
+          41.9487247
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ira F Aldridge Elementary School",
+                "address": "630 E 131st St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-5614",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.607033,
+          41.657338
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Irma C Ruiz Elementary School",
+                "address": "2410 S Leavitt St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-4825",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.680637,
+          41.848166
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Irvin C Mollison Elementary School",
+                "address": "4415 S Dr Martin L King Jr Dr",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-1804",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.616448,
+          41.814724
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Isabelle C O'Keeffe Elementary School",
+                "address": "6940 S Merrill Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-0600",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.572725,
+          41.769071
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "It Takes a Village Child Care Services",
+                "address": "4000 W Division St",
+                "City": "Chicago",
+                "Phone Number": "(773) 276-1730",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.727065,
+          41.902793
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "It Takes A Village, ELC",
+                "address": "4020 W Division St",
+                "City": "Chicago",
+                "Phone Number": "(773) 772-9940",
+                "Ages Served": "0-3",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.727099,
+          41.902935
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Jackie Robinson Elementary School",
+                "address": "4225 S Lake Park Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-1777",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.598843,
+          41.817471
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Jacob Beidler Elementary School",
+                "address": "3151 W Walnut St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-6811",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.705415,
+          41.885385
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "James B Farnsworth Elementary School",
+                "address": "5414 N Linder Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-3535",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.765978,
+          41.979588
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "James B McPherson Elementary School",
+                "address": "4728 N Wolcott Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-2625",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.676494,
+          41.968597
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "James G Blaine Elementary School",
+                "address": "1420 W Grace St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-5750",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.665601,
+          41.951089
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "James Hedges Elementary School",
+                "address": "4747 S Winchester Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-7360",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.673307,
+          41.806848
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "James Madison Elementary School",
+                "address": "7433 S Dorchester Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-0551",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.590795,
+          41.759635
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "James Monroe Elementary School",
+                "address": "3651 W Schubert Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-4155",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.718723,
+          41.930067
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "James N Thorp Elementary School",
+                "address": "8914 S Buffalo Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-6250",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.545054,
+          41.732887
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "James Otis Elementary School",
+                "address": "525 N Armour St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-7665",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.665318,
+          41.891888
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "James R Doolittle Jr Elementary School",
+                "address": "535 E 35th st",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-1040",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6128428,
+          41.8311181
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "James Russell Lowell Elementary School",
+                "address": "3320 W Evergreen Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-4300",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.709985,
+          41.906493
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "James Shields Elementary School",
+                "address": "4250 S Rockwell St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-7285",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.689548,
+          41.815917
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "James Wadsworth Elementary School",
+                "address": "6650 S Ellis Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-0730",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.597434,
+          41.779022
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "James Ward Elementary School",
+                "address": "2701 S Shields Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-9050",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.635314,
+          41.843437
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "James Weldon Johnson Elementary School of Excellence",
+                "address": "1420 S Albany Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-1829",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.703026,
+          41.861671
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Jane A Neil Elementary School",
+                "address": "8555 S Michigan Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-3000",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.621038,
+          41.739045
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Jane Addams Elementary School",
+                "address": "10810 S Avenue H",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-6210",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.53296771,
+          41.69857658
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Jean Baptiste Beaubien Elementary School",
+                "address": "5025 N Laramie Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-3500",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.757623,
+          41.971643
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Jeanne Kenney YMCA",
+                "address": "7600 S Parnell Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 904-0195",
+                "Ages Served": "6 weeks to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.638827,
+          41.755952
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Jensen Elementary Scholastic Academy",
+                "address": "3030 W Harrison St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-6840",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.702283,
+          41.874284
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Jesse Owens Elementary Community Academy",
+                "address": "12450 S State St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-5475",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6223001,
+          41.6677891
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Jesse Sherwood Elementary School",
+                "address": "245 W 57th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-0829",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.63196,
+          41.790864
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Johann W von Goethe Elementary School",
+                "address": "2236 N Rockwell St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-4135",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.692796,
+          41.922599
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "John A Walsh Elementary School",
+                "address": "2015 S Peoria St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-7950",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.64761,
+          41.854114
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "John B Drake Elementary School",
+                "address": "2710 S Dearborn St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-9129",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.62886,
+          41.8441791
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "John B Murphy Elementary School",
+                "address": "3539 W Grace St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-5223",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.716618,
+          41.950148
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "John Barry Elementary School",
+                "address": "4634 W Diversey Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-3455",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.742598,
+          41.931603
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "John C Burroughs Elementary School",
+                "address": "3542 S Washtenaw Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-7226",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.692362,
+          41.829048
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "John C Dore Elementary School",
+                "address": "6108 S Natoma Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-2080",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.787485,
+          41.780505
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "John Charles Haines Elementary School",
+                "address": "247 W 23rd Pl",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-9200",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.63341,
+          41.850019
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "John D Shoop Math Science Technical Academy ES",
+                "address": "11140 S Bishop St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-2715",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.658588,
+          41.691435
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "John Fiske Elementary School",
+                "address": "6020 S Langley Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-0990",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6085429,
+          41.7852614
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "John Foster Dulles Elementary School of Excellence",
+                "address": "6311 S Calumet Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-0690",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.617237,
+          41.779802
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "John Greenleaf Whittier Elementary School",
+                "address": "1900 W 23rd St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-4590",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.673894,
+          41.850489
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "John H Hamline Elementary School",
+                "address": "4652 S Bishop St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-4565",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.661265,
+          41.807322
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "John H Kinzie Elementary School",
+                "address": "5625 S Mobile Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-2425",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.779276,
+          41.789359
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "John Harvard Elementary School",
+                "address": "7525 S Harvard Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-3045",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.632817,
+          41.757063
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "John Hay Elementary Community Academy",
+                "address": "1018 N Laramie Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-6000",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.755719,
+          41.899295
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "John J Audubon Elementary School",
+                "address": "3500 N Hoyne Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-5470",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.680946,
+          41.945025
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "John J Pershing Elementary Humanities Magnet",
+                "address": "3200 S Calumet Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-9272",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.613469,
+          41.838145
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "John L Marsh Elementary School",
+                "address": "9822 S Exchange Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-6430",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.552396,
+          41.716895
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "John M Smyth Elementary School",
+                "address": "1059 W 13th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-7180",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6540125,
+          41.8649951
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "John Milton Gregory Elementary School",
+                "address": "3715 W Polk St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-6820",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.718612,
+          41.8708
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "John Palmer Elementary School",
+                "address": "5051 N Kenneth Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-3704",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.739097,
+          41.972964
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "John Spry Elementary Community School",
+                "address": "2400 S Marshall Blvd",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-1700",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.696696,
+          41.847859
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "John T McCutcheon Elementary School",
+                "address": "4865 N Sheridan Rd",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-2680",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.654266,
+          41.971351
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "John T Pirie Fine Arts & Academic Center ES",
+                "address": "650 E 85th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-3435",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.60877,
+          41.740252
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "John W Cook Elementary School",
+                "address": "8150 S Bishop St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-3315",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.659851,
+          41.74523
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "John Whistler Elementary School",
+                "address": "11533 S Ada St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-5560",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.655496,
+          41.684319
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Johnnie Colemon Elementary Academy",
+                "address": "1441 W 119th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-3975",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.65944,
+          41.677548
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Jonathan Burr Elementary School",
+                "address": "1621 W Wabansia Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-4090",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.668039,
+          41.91196
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Jonathan Y Scammon Elementary School",
+                "address": "4201 W Henderson St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-3475",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.732117,
+          41.941741
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Jordan Elementary Community School",
+                "address": "7414 N Wolcott Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-2220",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.677795,
+          42.017093
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Jose De Diego Elementary Community Academy",
+                "address": "1313 N Claremont Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-4451",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.685842,
+          41.905173
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Josefa Ortiz De Dominguez Elementary School",
+                "address": "3000 S Lawndale Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-1600",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.717307,
+          41.838295
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Joseph Brennemann Elementary School",
+                "address": "4251 N Clarendon Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-5766",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.649827,
+          41.959959
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Joseph E Gary Elementary School",
+                "address": "3740 W 31st St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-1455",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.71802,
+          41.837004
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Joseph Jungman Elementary School",
+                "address": "1746 S Miller St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-7375",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.652314,
+          41.858593
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Joseph Kellman Corporate Community ES",
+                "address": "3030 W Arthington St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-6602",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.702131,
+          41.870351
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Joseph Lovett Elementary School",
+                "address": "6333 W Bloomingdale Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-3130",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.783151,
+          41.912796
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Joseph Warren Elementary School",
+                "address": "9239 S Jeffery Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-6625",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.571391,
+          41.683601
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Josephine C Locke Elementary School",
+                "address": "2828 N Oak Park Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-3300",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.795493,
+          41.931391
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Joshua D Kershaw Elementary School",
+                "address": "6450 S Lowe Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-3050",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.640793,
+          41.776631
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Josiah Pickard Elementary School",
+                "address": "2301 W 21st Pl",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-7280",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.683997,
+          41.852166
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Joyce Kilmer Elementary School",
+                "address": "6700 N Greenview Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-2115",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.668266,
+          42.003701
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Joyful Noise Daycare",
+                "address": "4243 W North Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 252-5990",
+                "Ages Served": "0 - 6",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.733098,
+          41.909763
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Judah International Outreach - Judah Foundational Community School",
+                "address": "856 N Pulaski",
+                "City": "Chicago",
+                "Phone Number": "(773) 770-3739",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.726255,
+          41.897093
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Julia Ward Howe Elementary School",
+                "address": "720 N Lorel Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-6060",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.759307,
+          41.893606
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Kenyatta's Day Care & Learning Center",
+                "address": "2334 E 75th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 221-3777",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.57719321,
+          41.76086128
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Kiddie Garden Little Angels",
+                "address": "4235 S Kedzie Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 843-1976",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.703915,
+          41.816145
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Kiddy Kare Learning Centers - Kiddy Kare",
+                "address": "4401 S Kedzie Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 247-6642",
+                "Ages Served": "13 months to 12 years",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.704254,
+          41.812211
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Kiddy Kare Learning Centers - Kidz Colony",
+                "address": "6287 S Archer Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 767-8522",
+                "Ages Served": "13 months to 12 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.77786,
+          41.793041
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Kiddy Kare Learning Centers - Little Learners",
+                "address": "6255 S Mayfield Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 581-5541",
+                "Ages Served": "13 months to 10 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.769048,
+          41.778419
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Kiddy Kare Learning Centers - Little Tykes I",
+                "address": "1711 W 35th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 254-7710",
+                "Ages Served": "2 years to 12 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.668449,
+          41.830198
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Kiddy Kare Learning Centers - Little Tykes II",
+                "address": "1723 W 35th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 579-1791",
+                "Ages Served": "15 months to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.668901,
+          41.830192
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Kids R Us",
+                "address": "7453 S Vincennes Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 846-5437",
+                "Ages Served": "6 weeks to 6 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.630994,
+          41.758772
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Kimball Daycare",
+                "address": "1636 N Kimball ",
+                "City": "Chicago",
+                "Phone Number": "(   )",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.7121206,
+          41.9112339
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Kimball Head Start",
+                "address": "5101 N Kimball Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 509-5657",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.71331,
+          41.974449
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Lake Shore Schools",
+                "address": "5611 N Clark St",
+                "City": "Chicago",
+                "Phone Number": "(773) 561-6707",
+                "Ages Served": "6 weeks - 3 1/2 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.668488,
+          41.983922
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Lake Shore Schools - Greenview",
+                "address": "6769 N Greenview Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 743-1118",
+                "Ages Served": "3 years to 14 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.668118,
+          42.004845
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Lake View High School",
+                "address": "4015 N Ashland Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-5440",
+                "Ages Served": "0-3",
+                "Program Information": "Offers Home Visiting, Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.668971,
+          41.954621
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Langston Hughes Elementary School",
+                "address": "240 W 104th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-5075",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.629223,
+          41.705277
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "LaSalle II Magnet Elementary School",
+                "address": "1148 N Honore St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-0490",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.673587,
+          41.902569
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Laughlin Falconer Elementary School",
+                "address": "4632 W Diversey Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-3560",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.742552,
+          41.931604
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Laura S Ward Elementary School",
+                "address": "646 N Lawndale Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-6440",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.7188613,
+          41.8931142
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Lawndale Elementary Community Academy",
+                "address": "3444 W Douglas Blvd",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-1635",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.712927,
+          41.862889
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Lazaro Cardenas Elementary School",
+                "address": "2345 S Millard Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-1465",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.716106,
+          41.848348
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "LEARN Charter",
+                "address": "3415 W Arthington St",
+                "City": "Chicago",
+                "Phone Number": "(773) 826-9122",
+                "Ages Served": 4,
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.711812,
+          41.869634
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Lee's Cuddles N Care",
+                "address": "6100 W North Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 745-8054",
+                "Ages Served": "6 weeks to 6 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.777829,
+          41.909537
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Legacy Charter",
+                "address": "4217 W 18th St",
+                "City": "Chicago",
+                "Phone Number": "",
+                "Ages Served": "None",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.73050828,
+          41.85725659
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Leif Ericson Elementary Scholastic Academy",
+                "address": "3600 W 5th Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-6660",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.716014,
+          41.875895
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Lenart Elementary Regional Gifted Center",
+                "address": "8101 S LaSalle St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-0040",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.627511,
+          41.746133
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Leslie Lewis Elementary School",
+                "address": "1431 N Leamington Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-3060",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.754622,
+          41.906445
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Lionel Hampton Fine & Performing Arts School",
+                "address": "3434 W 77th St",
+                "City": "Chicago",
+                "Phone Number": "",
+                "Ages Served": "None",
+                "Program Information": "None",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.7089941,
+          41.7537764
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Little Achievers Learning Center",
+                "address": "3801 W Diversey Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 276-1600",
+                "Ages Served": "6 weeks to 6 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.722261,
+          41.931608
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Little Angels Family Daycare",
+                "address": "6701 S Emerald Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 488-8777",
+                "Ages Served": "6 weeks to 6 years",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.642851,
+          41.772291
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Little Bear Day Care",
+                "address": "6411 S Pulaski Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 581-1110",
+                "Ages Served": "0-3",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.722321,
+          41.776461
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Little Brown Bear",
+                "address": "8046 S Western Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 434-3500",
+                "Ages Served": "6-Feb",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.68316,
+          41.746894
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Little Folks Daycare",
+                "address": "2527 E 73rd St",
+                "City": "Chicago",
+                "Phone Number": "(773) 221-0300",
+                "Ages Served": "2 years to 6 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.562873,
+          41.762616
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Little Hands Child Creative Center",
+                "address": "7146 S Ashland Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 471-0662",
+                "Ages Served": "2 years to 5 years",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.663948,
+          41.763546
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Little Kids Village Learning",
+                "address": "2656 W 71st St",
+                "City": "Chicago",
+                "Phone Number": "(773) 776-4753",
+                "Ages Served": "6 weeks to 6 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.690422,
+          41.764924
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Little People Daycare",
+                "address": "7428 N Rogers Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 761-2305",
+                "Ages Served": "2 years to 13 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.674171,
+          42.016802
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Little Village Elementary School",
+                "address": "2620 S Lawndale Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-1880",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.71724,
+          41.843927
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Logandale Middle School",
+                "address": "2945 N Sawyer Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-5244",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.708125,
+          41.934736
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Loop Learning Center",
+                "address": "2001 S Michigan Ave, #450",
+                "City": "Chicago",
+                "Phone Number": "(312) 225-8828",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.623167,
+          41.8551319
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Lorenz Brentano Math & Science Academy ES",
+                "address": "2723 N Fairfield Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-4100",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.695988,
+          41.930396
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Los Pequenos Angelitos",
+                "address": "3711 W 55th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 735-5827",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.716471,
+          41.79223
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Louis A Agassiz Elementary School",
+                "address": "2851 N Seminary Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-5725",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.656186,
+          41.93398
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Louis Nettelhorst Elementary School",
+                "address": "3252 N Broadway St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-5810",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.644455,
+          41.941305
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Louis Pasteur Elementary School",
+                "address": "5825 S Kostner Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-2270",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.732768,
+          41.787158
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ludwig Van Beethoven Elementary School",
+                "address": "25 W 47th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-1480",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.626894,
+          41.809197
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Luke O'Toole Elementary School",
+                "address": "6550 S Seeley Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-9040",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.675022,
+          41.774757
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Luther Burbank Elementary School",
+                "address": "2035 N Mobile Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-3000",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.781554,
+          41.917416
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Lutheran Social Services - Austin Town Hall",
+                "address": "5610 W Lake St",
+                "City": "Chicago",
+                "Phone Number": "(773) 379-0901",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.7660851,
+          41.88803028
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Lutheran Social Services - Rogers Park",
+                "address": "1754 W Devon Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 262-3366",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.674788,
+          41.998213
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Lutheran Social Services - Winthrop",
+                "address": "4848 N Winthrop Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 878-3210",
+                "Ages Served": "2 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.657874,
+          41.970692
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Lyman A Budlong Elementary School",
+                "address": "2701 W Foster Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-2591",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.696701,
+          41.97573
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Mae's Early Child Development & Therapeutic Daycare",
+                "address": "1431 W 111th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 429-9251",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.658223,
+          41.691901
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Mahalia Jackson Elementary School",
+                "address": "917 W 88th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-3341",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.646599,
+          41.734195
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Mancel Talcott Elementary School",
+                "address": "1840 W Ohio St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-7130",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.674263,
+          41.892407
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Manuel Perez Elementary School",
+                "address": "2001 S Throop St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-7650",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6587642,
+          41.8551817
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Marcus Moziah Garvey Elementary School",
+                "address": "10309 S Morgan St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-2763",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.647668,
+          41.706672
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Maria Saucedo Elementary Scholastic Academy",
+                "address": "2850 W 24th Blvd",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-1770",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.695381,
+          41.847889
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Mariano Azuela Elementary School",
+                "address": "4707 W Marquette Rd",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-7395",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.738503,
+          41.771108
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Marillac St. Vincent Family Services - Marillac Social Center",
+                "address": "212 S Francisco Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 722-7440",
+                "Ages Served": "15 months to 13 years",
+                "Program Information": "Offers Home Visiting, Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.698668,
+          41.878195
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Marillac St. Vincent Family Services - St. Vincent DePaul Center",
+                "address": "2145 North Halsted St",
+                "City": "Chicago",
+                "Phone Number": "(312) 943-6776",
+                "Ages Served": "3 months to 13 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6480454,
+          41.9213937
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Mark Twain Elementary School",
+                "address": "5134 S Lotus Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-2290",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.758842,
+          41.799464
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Marquette Elementary School",
+                "address": "6550 S Richmond St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-9260",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.696946,
+          41.774484
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Marshall YMCA",
+                "address": "3250 W Adams St",
+                "City": "Chicago",
+                "Phone Number": "(773) 265-0145",
+                "Ages Served": "0-3",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.706983,
+          41.878383
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Martha Ruggles Elementary School",
+                "address": "7831 S Prairie Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-3085",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.61816,
+          41.752316
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Marvin Camras Elementary School",
+                "address": "3000 N Mango Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-2960",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.770035,
+          41.934893
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Mary Crane Center - Lake and Pulaski",
+                "address": "316 N Pulaski Rd",
+                "City": "Chicago",
+                "Phone Number": "(773) 265-5954",
+                "Ages Served": "15 months to 5 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.725821,
+          41.885975
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Mary Crane Center - Molade Center",
+                "address": "1120 N Lamon Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 287-7365",
+                "Ages Served": "2 years to 5 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.748813,
+          41.901559
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Mary Crane Center - Morse",
+                "address": "1545 W Morse Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 262-1390",
+                "Ages Served": "2 years to 5 years",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.669543,
+          42.007589
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Mary Crane Center - North",
+                "address": "2905 N Leavitt Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 938-8130",
+                "Ages Served": "6 weeks to 5 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.682886,
+          41.934331
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Mary Crane League - Archdiocese St Dorothy",
+                "address": "7740 S Eberhart Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 783-0555",
+                "Ages Served": "None",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6127664,
+          41.7534766
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Mary Crane League - Archdiocese St Nicolas of Tolentine",
+                "address": "3721 W 62nd St",
+                "City": "Chicago",
+                "Phone Number": "(773) 735-1121",
+                "Ages Served": "None",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.7162856,
+          41.7802635
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Mary E Courtenay Elementary Language Arts Center",
+                "address": "4425 N Magnolia Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-5790",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6609552,
+          41.9625323
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Mary E McDowell Elementary School",
+                "address": "1419 E 89th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-6404",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.589707,
+          41.733198
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Mary Gage Peterson Elementary School",
+                "address": "5510 N Christiana Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-5070",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.71248,
+          41.981412
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Mary Mapes Dodge Elementary Renaissance Academy",
+                "address": "431 N Troy St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-6640",
+                "Ages Served": "3 to 5",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.704657,
+          41.8890389
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Matthew Gallistel Elementary Language Academy",
+                "address": "10347 S Ewing Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-6540",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.535101,
+          41.706897
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "McCann's DayCare Center",
+                "address": "8612 S Stony Island Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 375-7932",
+                "Ages Served": "2 years to 6 grade",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.58602,
+          41.73827
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "McCormick Tribune YMCA",
+                "address": "1834 N Lawndale Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 235-2525",
+                "Ages Served": "2 years to 12 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.719751,
+          41.914548
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Medgar Evers Elementary School",
+                "address": "9811 S Lowe Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-2565",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.639398,
+          41.715237
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Melville W Fuller Elementary School",
+                "address": "4214 S Saint Lawrence Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-1687",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.611696,
+          41.817971
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Metropolitan Family Services - Calumet Family Service Center",
+                "address": "235 E 103rd",
+                "City": "Chicago",
+                "Phone Number": "(773) 371-3600",
+                "Ages Served": "5-Feb",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.617247,
+          41.707244
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Metropolitan Family Services - Learning and Wellness Center",
+                "address": "5338 S Loomis Blvd",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-0101",
+                "Ages Served": "6 weeks to 5 years",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6600764,
+          41.7964032
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Metropolitan Family Services - Midway Children's Center",
+                "address": "3215 W 63rd St",
+                "City": "Chicago",
+                "Phone Number": "773.884.2350",
+                "Ages Served": "2 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.703209,
+          41.776483
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Metropolitan Family Services - Midway Headstart Center",
+                "address": "6422 S Kedzie Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 884-2400",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.703208,
+          41.776444
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Metropolitan Family Services - North Children's Center",
+                "address": "3255 N Central Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 371-3782",
+                "Ages Served": "2 years to 5 years",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.766523,
+          41.939819
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Michael Faraday Elementary School",
+                "address": "3250 W Monroe St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-6670",
+                "Ages Served": "5-Mar",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.706081,
+          41.87966
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Mildred I Lavizzo Elementary School",
+                "address": "138 W 109th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-5300",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.627887,
+          41.696292
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Milton Brunson Math & Science Specialty ES",
+                "address": "932 N Central Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-6025",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.765499,
+          41.897647
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Minnie Mars Jamieson Elementary School",
+                "address": "5650 N Mozart St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-2395",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.700061,
+          41.984602
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Montessori Foundations of Chicago",
+                "address": "3575 S Archer Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 254-5437",
+                "Ages Served": "6 weeks to 6 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.679631,
+          41.82879
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Montessori School of Englewood",
+                "address": "6550 S Seeley Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-9255",
+                "Ages Served": "3 years to 6 grade",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6729074,
+          41.7719816
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Montessori School of Englewood Charter",
+                "address": "7033 S Honore Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 306-1759",
+                "Ages Served": "None",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.669889,
+          41.76571
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Morton School of Excellence",
+                "address": "431 N Troy St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-6791",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.704657,
+          41.889039
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Mosaic Early Childhood Academy",
+                "address": "5332 W Addison St",
+                "City": "Chicago",
+                "Phone Number": "(773) 777-7411",
+                "Ages Served": "15 months to 12 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.76065,
+          41.945963
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Mother's Touch Day Care",
+                "address": "2501 W 71st St",
+                "City": "Chicago",
+                "Phone Number": "(773) 436-3177",
+                "Ages Served": "6 weeks to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.685905,
+          41.764587
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Mount Vernon Elementary School",
+                "address": "10540 S Morgan St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-2825",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.647582,
+          41.702485
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Myra Bradwell Communications Arts & Sciences ES",
+                "address": "7736 S Burnham Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-6600",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.557329,
+          41.755311
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Nathan Hale Elementary School",
+                "address": "6140 S Melvina Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-2265",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.776492,
+          41.780287
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Nathan S Davis Elementary School",
+                "address": "3014 W 39th Pl",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-4540",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.699922,
+          41.821785
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Nathanael Greene Elementary School",
+                "address": "3525 S Honore St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-4560",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.671358,
+          41.829687
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "National Teachers Elementary Academy",
+                "address": "55 W Cermak Rd",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-9970",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.627935,
+          41.852804
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "New Concept Preschool (Institute for Positive Education)",
+                "address": "7825 S Ellis Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 651-9599",
+                "Ages Served": "2 years to 6 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.59983105,
+          41.75296986
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "New Field Elementary School",
+                "address": "1707 W Morse Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-2773",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.672457,
+          42.007775
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "New Pisgah Day Care",
+                "address": "8130 S Racine Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 873-5392",
+                "Ages Served": "6 weeks to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.653683,
+          41.746042
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Newton Bateman Elementary School",
+                "address": "4220 N Richmond St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-5055",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.702383,
+          41.958751
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Nicholson Technology Academy",
+                "address": "6006 S Peoria St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-3285",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.647298,
+          41.784008
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ninos Heroes Elementary School",
+                "address": "8344 S Commercial Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-6694",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.551724,
+          41.743329
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Norman A Bridge Elementary School",
+                "address": "3800 N New England Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-3718",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.799191,
+          41.949974
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "North Austin Head Start",
+                "address": "1500 N Mason Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 237-1930",
+                "Ages Served": "5-Mar",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.77468,
+          41.90785
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "North Avenue Day Nursery",
+                "address": "2001 W Pierce Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 342-4499",
+                "Ages Served": "2 years to 12 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.677415,
+          41.909346
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "North Lawndale YMCA",
+                "address": "3449 W Arthington St",
+                "City": "Chicago",
+                "Phone Number": "(773) 638-0773",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.712644,
+          41.869636
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "North River Elementary School",
+                "address": "4416 N Troy St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-0590",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.707396,
+          41.962323
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "North Star Child Development",
+                "address": "4341 W North Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 252-9200",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.73516,
+          41.909612
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Northwestern University Settlement House",
+                "address": "1400 W Augusta Blvd",
+                "City": "Chicago",
+                "Phone Number": "773.278.7471",
+                "Ages Served": "2 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.66249,
+          41.899788
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Norwood Park Elementary School",
+                "address": "5900 N Nina Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-1198",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.802936,
+          41.98809
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Oliver S Westcott Elementary School",
+                "address": "409 W 80th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-3090",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.634565,
+          41.748938
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Oliver Wendell Holmes Elementary School",
+                "address": "955 W Garfield Blvd",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-9025",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.649662,
+          41.793866
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "One Hope United - Bridgeport Child Development Center",
+                "address": "3053 S Normal Ave",
+                "City": "Chicago",
+                "Phone Number": "(312) 842-5566",
+                "Ages Served": "2 years to 12 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.63895,
+          41.838343
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "One Hope United - Bridgeport Child Development Center II",
+                "address": "514 W 31st St",
+                "City": "Chicago",
+                "Phone Number": "(312) 949-4015",
+                "Ages Served": "2 years to 12 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.639651,
+          41.838191
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "One Hope United - Edgewater Early Learning Center",
+                "address": "5244 N Lakewood Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 907-0278",
+                "Ages Served": "2 years to 12 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.662701,
+          41.977378
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "One Hope United - Wings",
+                "address": "707 E 47th St",
+                "City": "Chicago",
+                "Phone Number": "(312) 949-5590",
+                "Ages Served": "0-3",
+                "Program Information": "Offers Home Visiting, Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.60871,
+          41.809476
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Onward Neighborhood House - Belmont Cragin",
+                "address": "5423 W Diversey St",
+                "City": "Chicago",
+                "Phone Number": "(773) 622-3215",
+                "Ages Served": "2 years to 12 years",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.762332,
+          41.931258
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Onward Neighborhood House - New Beginnings",
+                "address": "5445 W North Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 385-5365",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.762415,
+          41.909126
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Oriole Park Elementary School",
+                "address": "5424 N Oketo Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-1201",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.8121749,
+          41.9745119
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Orozco Fine Arts & Sciences Elementary School",
+                "address": "1940 W 18th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-7215",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.675055,
+          41.857859
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Orr Family Development Center YMCA",
+                "address": "730 N Pulaski Rd",
+                "City": "Chicago",
+                "Phone Number": "(773) 565-0130",
+                "Ages Served": "6 weeks - 3 years old",
+                "Program Information": "Community Based, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.726046,
+          41.894071
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Orville T Bright Elementary School",
+                "address": "10740 S Calhoun Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-6215",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.562815,
+          41.700046
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Oscar DePriest Elementary School",
+                "address": "139 S Parkside Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-6800",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.765608,
+          41.877941
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Oscar F Mayer Elementary School",
+                "address": "2250 N Clifton Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-5535",
+                "Ages Served": "5-Mar",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6575052,
+          41.922872
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ounce of Prevention - Educare",
+                "address": "5044 S Wabash Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 924-2334",
+                "Ages Served": "6 weeks to 5 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.624303,
+          41.80257
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Pablo Casals Elementary School",
+                "address": "3501 W Potomac Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-4444",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.714194,
+          41.90456
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Park Manor Elementary School",
+                "address": "7037 S Rhodes Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-3070",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.611601,
+          41.766906
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Parkside Elementary Community Academy",
+                "address": "6938 S East End Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-0940",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.583047,
+          41.768834
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Pathways To Learning Child Care Centers - Ashburn",
+                "address": "3450 W 79th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 436-9244",
+                "Ages Served": "15 months to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.709178,
+          41.749779
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Pathways To Learning Child Care Centers - Kedzie",
+                "address": "6535 S Kedzie Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 778-0017",
+                "Ages Served": "6 weeks to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.702667,
+          41.774249
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Patrick Henry Elementary School",
+                "address": "4250 N Saint Louis Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-5060",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.71552,
+          41.95863
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Paul Cuffe Math-Science Technology Academy ES",
+                "address": "8324 S Racine Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-8250",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.653755,
+          41.742446
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Paul Revere Elementary School",
+                "address": "1010 E 72nd St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-0618",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.600213,
+          41.764128
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Perkins Bass Elementary School",
+                "address": "1140 W 66th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-3275",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.654024,
+          41.775209
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Peter A Reinberg Elementary School",
+                "address": "3425 N Major Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-3465",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.769071,
+          41.942602
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Peter Cooper Elementary Dual Language Academy",
+                "address": "1624 W 19th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-7205",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.66644,
+          41.855985
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Philip Rogers Elementary School",
+                "address": "7345 N Washtenaw Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-2125",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.697254,
+          42.015046
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Phillip D Armour Elementary School",
+                "address": "911 W 32nd Pl",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-4530",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6490453,
+          41.8356116
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Phobe Apperson Hearst Elementary School",
+                "address": "4640 S Lamon Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-2376",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.745634,
+          41.80866
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Pilsen Elementary Community Academy",
+                "address": "1420 W 17th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-7675",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.662242,
+          41.858855
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Portage Park Elementary School",
+                "address": "5330 W Berteau Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-3576",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.760483,
+          41.956923
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Rachel Carson Elementary School",
+                "address": "5516 S Maplewood Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-9222",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.687934,
+          41.793112
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Rachel's Learning Center - Austin",
+                "address": "5242 W North Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 237-1444",
+                "Ages Served": "6 weeks to 6 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.757359,
+          41.909782
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Rachel's Learning Center - North Lawndale",
+                "address": "3430 W Roosevelt Rd",
+                "City": "Chicago",
+                "Phone Number": "(773) 533-0444",
+                "Ages Served": "6 weeks to 6 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.711901,
+          41.866642
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Rainbow Daycare",
+                "address": "3250 W Irving Park Rd",
+                "City": "Chicago",
+                "Phone Number": "(773) 478-8182",
+                "Ages Served": "6 weeks to 6 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.710084,
+          41.954056
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ralph H Metcalfe Elementary Community Academy",
+                "address": "12339 S Normal Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-5590",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.63443,
+          41.670157
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Rauner YMCA",
+                "address": "2700 S Western Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 847-3115",
+                "Ages Served": "2 years to 12 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.686763,
+          41.843811
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ravenswood Elementary School",
+                "address": "4332 N Paulina St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-5525",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.671169,
+          41.96137
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Richard Edwards Elementary School",
+                "address": "4950 S Laporte Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-4875",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.7466989,
+          41.802295
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Richard Henry Lee Elementary School",
+                "address": "6448 S Tripp Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-2255",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.728795,
+          41.775402
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Richard J Daley Elementary Academy",
+                "address": "5024 S Wolcott Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-9091",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.672112,
+          41.802184
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Richard J Oglesby Elementary School",
+                "address": "7646 S Green St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-3060",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.645384,
+          41.755201
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Richard T Crane Tech Prep High School",
+                "address": "2245 W. Jackson Blvd.",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-7192",
+                "Ages Served": "0 - 3",
+                "Program Information": "Offers Home Visiting, Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.682111,
+          41.877344
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Richard Yates Elementary School",
+                "address": "1839 N Richmond St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-4550",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.700332,
+          41.914611
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Robert Fulton Elementary School",
+                "address": "5300 S Hermitage Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-9000",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.668687,
+          41.797134
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Robert Healy Elementary School",
+                "address": "3040 S Parnell Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-9190",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.640248,
+          41.839839
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Robert L Grimes Elementary School",
+                "address": "4918 W 64th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-2364",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.7455355,
+          41.7767143
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Robert Nathaniel Dett Elementary School",
+                "address": "2131 W Monroe St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-7160",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.680586,
+          41.879696
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Rodolfo Lozano Bilingual & International Center Elementary School",
+                "address": "1501 N Greenview Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-4750",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.665186,
+          41.908844
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ronald Brown Elementary Community Academy",
+                "address": "12607 S Union Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-5385",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.639056,
+          41.664972
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Ronald E McNair Elementary School",
+                "address": "4820 W Walton St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-8980",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.747343,
+          41.897995
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Roswell B Mason Elementary School",
+                "address": "4217 W 18th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-1530",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.7305377,
+          41.8566228
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Rueben Salazar Elementary Bilingual Center",
+                "address": "160 W Wendell St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-8310",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6340307,
+          41.9014848
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Rufus M Hitch Elementary School",
+                "address": "5625 N McVicker Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-1189",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.778619,
+          41.983825
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Salmon P Chase Elementary School",
+                "address": "2021 N Point St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-4185",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.694668,
+          41.918042
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Salvation Army - All Things are Possible",
+                "address": "4014 W Chicago Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 489-2460",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.726772,
+          41.895645
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Salvation Army - Creative Little Ones",
+                "address": "2809 W 59th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 476-2562",
+                "Ages Served": "6 weeks to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.693902,
+          41.78638
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Salvation Army - Family Outreach Initiative",
+                "address": "1548 W Adams St",
+                "City": "Chicago",
+                "Phone Number": "312 291-7914",
+                "Ages Served": "5-Mar",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.666261,
+          41.879018
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Salvation Army - Incarnation Head Start",
+                "address": "1345 N Karlov Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 276-4118",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.728727,
+          41.90569
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Salvation Army - New Hope Head Start",
+                "address": "4255 W Division St",
+                "City": "Chicago",
+                "Phone Number": "(773) 772-4908",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.733332,
+          41.902272
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Salvation Army - New Moms",
+                "address": "5317 W Chicago Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 295-5095",
+                "Ages Served": "6 weeks to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.758705,
+          41.894893
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Salvation Army - Red Shield",
+                "address": "945 W 69th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 358-3224",
+                "Ages Served": "6 weeks to 5 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6462434,
+          41.7685802
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Scott Joplin Elementary School",
+                "address": "7931 S Honore St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-3425",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.669445,
+          41.749615
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "SGA Youth and Family Services -  Home Based Program",
+                "address": "3152 W 47th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 410-1740",
+                "Ages Served": "0 - 5",
+                "Program Information": "Offers Home Visiting, Community Based, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.70362718,
+          41.80834934
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "SGA Youth and Family Services - Home Based Program",
+                "address": "4222 S Archer Ave",
+                "City": "Chicago",
+                "Phone Number": "(312) 447-4356",
+                "Ages Served": "None",
+                "Program Information": "Offers Home Visiting, Community Based, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.700348,
+          41.816641
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "SGA Youth and Family Services - Little Village (Telpochcalli Community Arts Fine Arts School)",
+                "address": "2832 W 24th Blvd",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-1402",
+                "Ages Served": "None",
+                "Program Information": "Offers Home Visiting, Community Based, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.695381,
+          41.847889
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Sharon Christa McAuliffe Elementary School",
+                "address": "1841 N Springfield Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-4400",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.723584,
+          41.913824
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Shining Star",
+                "address": "338 E 103rd St",
+                "City": "Chicago",
+                "Phone Number": "(773) 488-7827",
+                "Ages Served": "0 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.614608,
+          41.707572
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Shining Star",
+                "address": "3012 E 92nd St",
+                "City": "Chicago",
+                "Phone Number": "(773) 488-7827",
+                "Ages Served": "0 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.550344,
+          41.728568
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Shining Star",
+                "address": "854 E 79th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 488-7827",
+                "Ages Served": "0 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.53565,
+          41.703361
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Shining Star",
+                "address": "10540 S Ewing",
+                "City": "Chicago",
+                "Phone Number": "(773) 488-7827",
+                "Ages Served": "0 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.603542,
+          41.751302
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Simpson Early Head Start",
+                "address": "1321 S Paulina Ave",
+                "City": "Chicago",
+                "Phone Number": "(312) 492-7799",
+                "Ages Served": "0 - 2",
+                "Program Information": "Community Based, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.668636,
+          41.864363
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Socorro Sandoval Elementary School",
+                "address": "5534 S Saint Louis Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-0457",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.7123734,
+          41.7930142
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "South Chicago YMCA",
+                "address": "3039 E 91st St",
+                "City": "Chicago",
+                "Phone Number": "(773) 721-9100",
+                "Ages Served": "3 years to 12 years",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.549734,
+          41.73006
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "South East Asia - International Bridge School",
+                "address": "5120 N Broadway",
+                "City": "Chicago",
+                "Phone Number": "(773) 989-7433",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.66025926,
+          41.97523155
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "South Shore Fine Arts Academy",
+                "address": "1415 E 70th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-8340",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.590433,
+          41.767809
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "South Shore United Methodist Child Care Center",
+                "address": "7350 S Jeffrey Blvd",
+                "City": "Chicago",
+                "Phone Number": "(773) 324-4430",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.576213,
+          41.761337
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "South Side YMCA",
+                "address": "6330 S Stony Island Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 947-0700",
+                "Ages Served": "2 years to 5 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.586462,
+          41.780031
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Southeast Area Elementary School",
+                "address": "3930 E 105th",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-8040",
+                "Ages Served": "None",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.528156,
+          41.704787
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "South-East Asia Center - International Bridge School",
+                "address": "1112 W Foster Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 989-7433",
+                "Ages Served": "2 - 13 years old",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6583944,
+          41.97647794
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Spencer Technology Academy",
+                "address": "214 N Lavergne Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-6150",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.750336,
+          41.884574
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "St. Catherines - St. Lucy's",
+                "address": "27 W Washington Blvd",
+                "City": "Chicago",
+                "Phone Number": "(708) 386-5286",
+                "Ages Served": "None",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.776214,
+          41.882057
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "St. Turibius",
+                "address": "4120 W 57th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 585-5150",
+                "Ages Served": "5-Mar",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.726379,
+          41.789555
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "State of Illinois Child Development Center",
+                "address": "160 N LaSalle St, #201",
+                "City": "Chicago",
+                "Phone Number": "(312) 814-4782",
+                "Ages Served": "2 years to 6 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.632562,
+          41.885076
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Stephen F Gale Elementary Community Academy",
+                "address": "1631 W Jonquil Ter",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-2100",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.672219,
+          42.021062
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Stephen K Hayt Elementary School",
+                "address": "1518 W Granville Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-2040",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.668159,
+          41.994466
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Stepping Stones Early Childhood Center",
+                "address": "1300 E 75th St",
+                "City": "Chicago",
+                "Phone Number": "773.493.0000",
+                "Ages Served": "15 months to 5 years",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.59304,
+          41.75894
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Suder Montessori Magnet ES",
+                "address": "2022 W Washington Blvd",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-7685",
+                "Ages Served": "5-Mar",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.67721,
+          41.8831457
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Talman Elementary School",
+                "address": "5450 S Talman Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-7850",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.690171,
+          41.794683
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Tarkington School of Excellence Elementary School",
+                "address": "3330 W 71st St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-4700",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.706318,
+          41.764539
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Teddy Bear I",
+                "address": "2649 W 51st St",
+                "City": "Chicago",
+                "Phone Number": "(773) 476-0700",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.691017,
+          41.800778
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Teddy Bear II",
+                "address": "3473 W Columbus Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 434-2327",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.70906,
+          41.745404
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Teddy Bear III",
+                "address": "6401 S Pulaski Rd",
+                "City": "Chicago",
+                "Phone Number": "(773) 284-2292",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.722327,
+          41.776702
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Teddy Bear V",
+                "address": "5160 S Pulaski Rd",
+                "City": "Chicago",
+                "Phone Number": "(773) 284-7030",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.723432,
+          41.798485
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Telpochcalli Elementary School",
+                "address": "2832 W 24th Blvd",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-1402",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.695381,
+          41.847889
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Temple Head Start",
+                "address": "1 N Ogden Ave",
+                "City": "Chicago",
+                "Phone Number": "(312) 492-6803",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.666052,
+          41.881463
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "The Children's Place Early Learning Center",
+                "address": "1800 N. Humboldt Blvd.",
+                "City": "Chicago",
+                "Phone Number": "(773) 395-9193",
+                "Ages Served": "0 years to 5 years",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.702751,
+          41.91396
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "The Learning Tree Preschool - GIA",
+                "address": "8233 S Pulaski Rd",
+                "City": "Chicago",
+                "Phone Number": "(773) 884-3345",
+                "Ages Served": "0 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.721317,
+          41.742904
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "The Learning Tree Preschool - NIA",
+                "address": "8128 S Kedzie Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 778-8802",
+                "Ages Served": "0 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.70266,
+          41.745261
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Theodore Herzl Elementary School",
+                "address": "3711 W Douglas Blvd",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-1480",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.7201586,
+          41.8620838
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Theophilus Schmid Elementary School",
+                "address": "9755 S Greenwood Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-6235",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.597039,
+          41.717551
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Thomas A Hendricks Elementary Community Academy",
+                "address": "4316 S Princeton Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-1696",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.633566,
+          41.815971
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Thomas Chalmers Specialty Elementary School",
+                "address": "2745 W Roosevelt Rd",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-1720",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.694738,
+          41.866498
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Thomas Drummond Elementary School",
+                "address": "1845 W Cortland St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-4120",
+                "Ages Served": "5-Mar",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.6741711,
+          41.9159951
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Thomas J Higgins Elementary Community Academy",
+                "address": "11710 S Morgan St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-5625",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.646911,
+          41.681204
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Thomas Kelly High School",
+                "address": "4136 S California Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-4900",
+                "Ages Served": "14-18",
+                "Program Information": "Offers Home Visiting, Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.694693,
+          41.818206
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Tilden Career Community Academy High School",
+                "address": "4747 S Union Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-1625",
+                "Ages Served": "14-18",
+                "Program Information": "Offers Home Visiting, Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.643,
+          41.807664
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Trinity United Church of Christ - Deton Brooks",
+                "address": "6921 S Stony Island Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 966-1596",
+                "Ages Served": "2 years to 5 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.586232,
+          41.769112
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Trinity United Church of Christ - Dr Jeremiah A Wright Jr Early Care & Learning Center",
+                "address": "532 W 95th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 966-1503",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.63773354,
+          41.72176434
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "True To Life Foundation",
+                "address": "1712 East 87th Street",
+                "City": "Chicago",
+                "Phone Number": "(773) 374-7046",
+                "Ages Served": "0-3",
+                "Program Information": "Offers Home Visiting, Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.581931,
+          41.737084
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Tuesday's Child",
+                "address": "3633 N California Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 423-5055",
+                "Ages Served": "0-6",
+                "Program Information": "Offers Home Visiting, Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.697741,
+          41.947443
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "University of Chicago - Donoghue",
+                "address": "707 E 37th St.",
+                "City": "Chicago",
+                "Phone Number": "(773) 285-5301",
+                "Ages Served": 4,
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.608575,
+          41.827759
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "University of Chicago - North Kenwood Oakland",
+                "address": "1119 E 46th st.",
+                "City": "Chicago",
+                "Phone Number": "(773) 236-5399",
+                "Ages Served": 4,
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.59814,
+          41.811325
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "University of Illinois at Chicago Children's Hospital - Healthy Steps",
+                "address": "1919 W Taylor St",
+                "City": "Chicago",
+                "Phone Number": "(312) 413-5328",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "Offers Home Visiting, Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.670519,
+          41.869265
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "V & J Day Care Center",
+                "address": "1 E 113th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 785-3940",
+                "Ages Served": "None",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.622768,
+          41.688696
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Velma F Thomas Early Childhood Center",
+                "address": "3625 S Hoyne Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-4088",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.677633,
+          41.827811
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Virgil Grissom Elementary School",
+                "address": "12810 S Escanaba Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-5380",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.553792,
+          41.66192
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Walt Disney II Magnet School",
+                "address": "3815 N Kedvale Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-3750",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.730652,
+          41.950079
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Walt Disney Magnet Elementary School",
+                "address": "4140 N Marine Dr",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-5840",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.646151,
+          41.957077
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Walter Q Gresham Elementary School",
+                "address": "8524 S Green St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-3350",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.644942,
+          41.739221
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Washington D Smyser Elementary School",
+                "address": "4310 N Melvina Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-3711",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.781889,
+          41.959167
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Washington Irving Elementary School",
+                "address": "749 S Oakley Blvd",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-7295",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.683705,
+          41.871631
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Wee Care Nursery School & Kindergarten",
+                "address": "1845 E 79th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 221-4442",
+                "Ages Served": "2 years to 6 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.579077,
+          41.751307
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Wendell E Green Elementary School",
+                "address": "1150 W 96th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-2575",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.651982,
+          41.719234
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Wendell Phillips Academy High School",
+                "address": "244 E Pershing Rd",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-1603",
+                "Ages Served": "0 - 3",
+                "Program Information": "Offers Home Visiting, Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.619945,
+          41.823806
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Wendell Smith Elementary School",
+                "address": "744 E 103rd St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-5689",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.605389,
+          41.707479
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "West Austin Development Center",
+                "address": "4920 W Madison St",
+                "City": "Chicago",
+                "Phone Number": "(773) 261-2223",
+                "Ages Served": "6 weeks to 12 years",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.748711,
+          41.880627
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "West Park Elementary Academy",
+                "address": "1425 N Tripp Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-4940",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.732198,
+          41.907006
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "West Ridge Elementary School",
+                "address": "6700 N Whipple Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-8250",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.705828,
+          42.002923
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Whiz Kids Nursery Center",
+                "address": "518 W 103 St",
+                "City": "Chicago",
+                "Phone Number": "(773) 233-9445",
+                "Ages Served": "6 weeks to 6 years",
+                "Program Information": "Offers Home Visiting, Community Based, Head Start, Early Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.636331,
+          41.707127
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Wholly Innocence Daycare Center",
+                "address": "34 N Sangamon St",
+                "City": "Chicago",
+                "Phone Number": "(312) 226-7984",
+                "Ages Served": "6 weeks to 5 years",
+                "Program Information": "Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.650877,
+          41.881689
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Willa Cather Elementary School",
+                "address": "2908 W Washington Blvd",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-6780",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.699025,
+          41.882869
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "William C Goudy Technology Academy",
+                "address": "5120 N Winthrop Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-2480",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.657849,
+          41.976023
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "William C Reavis Math & Science Specialty Elementary School",
+                "address": "834 E 50th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-1060",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.604399,
+          41.804301
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "William E B Dubois Elementary School",
+                "address": "330 E 133rd St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-5582",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.614006,
+          41.653657
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "William E Dever Elementary School",
+                "address": "3436 N Osceola Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-3090",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.813014,
+          41.942197
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "William F Finkl Elementary School",
+                "address": "2332 S Western Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-5850",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.685571,
+          41.849629
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "William G Hibbard Elementary School",
+                "address": "3244 W Ainslie St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-5191",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.71001,
+          41.970277
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "William H Brown Elementary School",
+                "address": "54 N Hermitage Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-7250",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.670583,
+          41.882633
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "William H Prescott Elementary School",
+                "address": "1632 W Wrightwood Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-5505",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.669615,
+          41.928771
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "William H Ray Elementary School",
+                "address": "5631 S Kimbark Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-0970",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.594827,
+          41.7915
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "William H Ryder Math & Science Specialty ES",
+                "address": "8716 S Wallace St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-3843",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.638768,
+          41.736006
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "William H Seward Communication Arts Academy ES",
+                "address": "4600 S Hermitage Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-4890",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.66879,
+          41.810284
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "William H Wells Community Academy High School",
+                "address": "936 N. Ashland Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-7010",
+                "Ages Served": "14-18",
+                "Program Information": "Offers Home Visiting, Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.667434,
+          41.898919
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "William J Onahan Elementary School",
+                "address": "6634 W Raven St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-1180",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.793136,
+          41.993714
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "William K New Sullivan Elementary School",
+                "address": "8331 S Mackinaw Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-6585",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.542663,
+          41.744059
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "William P Gray Elementary School",
+                "address": "4632 W Diversey Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-3520",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.74558452,
+          41.93170149
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "William P Nixon Elementary School",
+                "address": "4150 W Dickens Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-4375",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.731499,
+          41.919313
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "William Penn Elementary School",
+                "address": "1616 S Avers Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-1665",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.721784,
+          41.858337
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "William T Sherman Elementary School",
+                "address": "1000 W 52nd St",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-1757",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.650169,
+          41.799678
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "William W Carter Elementary School",
+                "address": "5740 S Michigan Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-0860",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.622371,
+          41.789996
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Wilma Rudolph Elementary Learning Center",
+                "address": "110 N Paulina St",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-7460",
+                "Ages Served": "3 to 5",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.669387,
+          41.883309
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Wolfgang A Mozart Elementary School",
+                "address": "2200 N Hamlin Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 534-4160",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.721771,
+          41.920893
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Women's Treatment Center",
+                "address": "140 N Ashland Ave",
+                "City": "Chicago",
+                "Phone Number": "(312) 850-0050",
+                "Ages Served": "0-3",
+                "Program Information": "Offers Home Visiting, Community Based",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.667289,
+          41.884896
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Woodlawn Community Elementary School",
+                "address": "6657 S Kimbark Ave",
+                "City": "Chicago",
+                "Phone Number": "(773) 535-0801",
+                "Ages Served": "3 years to 5 years",
+                "Program Information": "CPS Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.594295,
+          41.77348
+        ]
+            }
+    },
+        {
+            "type": "Feature",
+            "properties": {
+                "service_name": "Young Achievers Academy",
+                "address": "520 E 79th St",
+                "City": "Chicago",
+                "Phone Number": "(773) 846-9707",
+                "Ages Served": "3 years to 6 years",
+                "Program Information": "Community Based, Head Start",
+                "service_type": "Childcare"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          -87.611704,
+          41.751177
+        ]
+            }
+    },
+
+        {
             "type": "Feature",
             "properties": {
                 "service_name": "Creative Child",
@@ -8612,20 +22005,6 @@ var services = {
         ]
             }
     },
-
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-84.471748, 38.064083]
-            },
-            "properties": {
-                "NAME": "Kids Unlimited",
-                "ADDRESS": "1527 N Limestone"
-            }
-                },
-
-
 
     ]
 }
