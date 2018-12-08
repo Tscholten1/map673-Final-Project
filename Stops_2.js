@@ -5,11 +5,11 @@ var stops = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [-84.492935, 38.042527]
+       "coordinates":  [-87.601216, 41.802708]
     },
     "properties": {
     "Bus_Stop_ID":1479,
-    "Bus_Stop_Name":"Elm Tree @ Main Outbound",
+    "Bus_Stop_Name":"51st and Ellis Bus Stop",
     "Bus_Stop_Route_Number":9,
     "Bus_Stop_Route_Name":"Eastland"
     }

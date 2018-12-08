@@ -37,35 +37,35 @@ var services = {
         }, {
             "type": "Feature",
             "properties": {
-                "service_name": "George's Deli",
-                "address": "161 North Limestone",
+                "service_name": "Pete's Fresh Market",
+                "address": "2526 W Cermak Rd",
                 "service_type": "Market"
             },
             "geometry": {
                 "type": "Point",
-                "coordinates": [-84.495641, 38.047632]
+                "coordinates": [-87.689289, 41.853276]
             }
         }, {
             "type": "Feature",
             "properties": {
-                "service_name": "Town Branch Market",
-                "address": "233 East Main Street",
+                "service_name": "200 LIQUORS",
+                "address": "204 E 47TH ST",
                 "service_type": "Market"
             },
             "geometry": {
                 "type": "Point",
-                "coordinates": [-84.494297, 38.04428]
+                "coordinates": [-87.6209518, 41.8094238]
             }
         }, {
             "type": "Feature",
             "properties": {
-                "service_name": "Ohio Street Market",
-                "address": "368 Ohio Street",
+                "service_name": "3600 COMMISSARY",
+                "address": "3600 N LAKE SHORE DR",
                 "service_type": "Market"
             },
             "geometry": {
                 "type": "Point",
-                "coordinates": [-84.486159, 38.046802]
+                "coordinates": [-87.6436497585, 41.9486836744]
             }
         }, {
             "type": "Feature",
@@ -323,13 +323,13 @@ var services = {
         }, {
             "type": "Feature",
             "properties": {
-                "service_name": "Kids Unlimited",
-                "address": "1527 North Limestone",
+                "service_name": "Pinocchio Child Care",
+                "address": "5932 W Gunnison St",
                 "service_type": "Childcare"
             },
             "geometry": {
                 "type": "Point",
-                "coordinates": [-84.471748, 38.064083]
+                "coordinates": [-87.777338, 41.968824]
             }
         }, {
             "type": "Feature",
@@ -541,5 +541,8 @@ var services = {
                 "coordinates": [-84.498076, 38.043133]
             }
         }
+
+
+
     ]
-};
+}
