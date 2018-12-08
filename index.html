@@ -4,9 +4,12 @@
     <meta charset=utf-8 />
     <title>Services and Access Map</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" />
     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+
+
 
     <style>
         body {
@@ -118,12 +121,11 @@
     <!--    load geoJSON files used in this project-->
     <script src="services_3.js"></script>
     <script src="Stops_2.js"></script>
-    <script src="Hos.js"></script>
     <script src="Hospitals.js"></script>
-    <script src="Homeless_Shelters.geojson"></script>
-    <script src="Pharmacies.geojson"></script>
+    <script src="Homeless_Shelters.js"></script>
     <script src="Pharmacies.js"></script>
-    <script src="Divvy_Bike_Locations.geojson"></script>
+    <script src="Pharmacies.js"></script>
+    <script src="Divvy_Bike_Locations.js"></script>
 
     <script>
         //        set map options to center map in the area of the Chicago metro area
@@ -220,7 +222,7 @@
 
         //        NEW DATA LAYER!!!  locate pharmacies objects in Pharmacy.js geoJSON, add them to map, with popup info available
         //  NOT WORKING AS OF 12.4
-        var pharmacies = L.geoJson(pharmacies, {
+        var pharmacies = L.geojson(pharmacies, {
             pointToLayer: function(feature, latlng) {
                 var hMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
                     icon: pharmacyIcon
@@ -244,8 +246,6 @@
                 layer.bindPopup(content);
             }
         }).addTo(map);
-
-
 
 
 
