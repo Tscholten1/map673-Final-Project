@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.0.0/dist/MarkerCluster.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.0.0/dist/MarkerCluster.Default.css" />
     <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <script src="catiline.js"></script>
+    <script src="leaflet.shpfile.js"></script>
 
     <style>
         body {
@@ -151,7 +153,6 @@
             size: '256'
         });
         map.addLayer(tiles);
-
         //        console.log(services);
 
         var MarkerIcon = L.Icon.extend({
@@ -160,6 +161,8 @@
                 iconAnchor: [11.5, 19]
             }
         });
+
+
 
         var busIcon = new MarkerIcon({
             iconUrl: 'Icons/bus_stop.png'
