@@ -6,6 +6,8 @@
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.0.0/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.0.0/dist/MarkerCluster.Default.css" />
     <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
 
     <style>
@@ -35,9 +37,11 @@
             color: #001323;
         }
 
+        /*Changes size and dimensions of map*/
+
         #map {
             width: 85%;
-            height: 580px;
+            height: 680px;
             border: 3px solid black;
             margin: 15px auto;
         }
@@ -73,9 +77,7 @@
 
         <h2>Transportation options in relation to key neighborhood locations and services</h2>
 
-        <p>This interactive map shows a sample of locations of common daily services in the city of Chicago and outlying areas in relation to common transportation options.</p>
-
-
+        <p>Access to transportation is a necessary element of modern life to obtain goods, services, and education as well as to gain employment, seek medical care, and enjoy cultural and recreational opportunities. The goal of this map is to show multiple data layers throughout the greater Chicago metropolitan area that paint a picture of existing transportation options in relation to key social institutions such as hospitals, schools, grocery stores as well areas that may be underserved by public/mass transit transportation.</p>
     </header>
 
     <div id='map'></div>
@@ -83,12 +85,12 @@
     <footer>
         <p class=author-info><b>Map created by Tom Scholten</b></p>
 
-        <p><b>User Instructions:</b> click in an area of the map boundary. Then click on a service to discover the time associated with traveling to that service on foot, via bicycle, or automobile. Double click the map to show an illustration of the area that falls within a ten minute walking distance. Refresh the browser to start over.
+        <p><b>User Instructions:</b>click in an area of the map boundary. Then click on a service to discover the time associated with traveling to that service on foot, via bicycle, or automobile. Double click the map to show an illustration of the area that falls within a ten minute walking distance. Refresh the browser to start over.
         </p>
 
-        <p>Access to transportation is a necessary element of modern life to obtain goods, services, and education as well as to gain employment, seek medical care, and enjoy cultural and recreational opportunities. The goal of this map is to show multiple data layers throughout the greater Chicago metropolitan area that paint a picture of existing transportation options in relation to key social institutions such as hospitals, schools, grocery stores as well areas that may be underserved by public/mass transit transportation.</p>
+        <p></p>
 
-        <p>Stimulates Economic Development:</p>
+        <p>Advantages of public/mass transportation: Stimulates Economic Development:</p>
         <ul>
             <li>Every $10 million in capital investment in public transportation yields $30 million in increased sales.</li>
             <li>Every $10 million in operating investment in public transportation yields $32 Million in increased sales.</li>
@@ -101,7 +103,6 @@
         </p>
         <p><b>Enhanced Quality of Life. </b>Public transportation facilities and corridors are natural focal points for economic and social activities. These activities help create strong neighborhood centers that are more economically stable.
         </p>
-
 
         <p>While transit clearly benefits those who use it, even larger benefits spread to all citizens in the form of economic development, reduced congestion, cleaner air, and enhanced quality of life. According to AAA, the average annual cost of maintaining a small sedan is $6957, or $19.33 per day. Via bicycling.com, the cost of maintaining a bicycle is $300 a year, or 82 cents per day. Purchasing a monthly CTA/Pace train and bus pass averages to approximately $3.50 a day. As such, assuming a 25mph city driving speed, access to a car cost 24 times that of a bike and reduces travel time by almost two-thirds. Buses provide longer distance access but on fixed routes and times. As for walking, almost $20 per day reduces a 3 mile trip from an hour to 7 minutes. If you can afford it.
         </p>
@@ -116,16 +117,11 @@
     </footer>
 
     <!--    load geoJSON files used in this project-->
-	
-
     <script src="Services_3.js"></script>
-	
     <script src="Stops_2.js"></script>
-
     <script src="Hospitals.js"></script>
-    <!--    <script src="Homeless_Shelters.geojson"></script> -->
     <script src="Pharmacies.js"></script>
-    <!--    <script src="Divvy_Bike.geojson"></script> -->
+
 
     <script>
         //        set map options to center map in the area of the Chicago metro area
@@ -140,7 +136,7 @@
         //        define map variable and connect it to div space in html code above
         var map = L.map('map', options);
 
-        //        define tile layer used in this map
+        //        define map tile layer used in this map
         var tiles = L.tileLayer('https://{s}.{base}.maps.cit.api.here.com/maptile/2.1/{type}/{mapID}/normal.day/{z}/{x}/{y}/{size}/{format}?app_id={app_id}&app_code={app_code}&lg={language}', {
             attribution: 'Map &copy; 1987-2014 <a href="http://developer.here.com">HERE</a>',
             subdomains: '1234',
@@ -174,24 +170,24 @@
         var hospitalIcon = new MarkerIcon({
             iconUrl: 'Icons/hospital.png'
         });
-		var childcareIcon = new MarkerIcon({
-			iconUrl: 'Icons/childcare.png'
-		});
-		var pharmacyIcon = new MarkerIcon({
-			iconUrl: 'Icons/pharmacy.png'
-		});
-		var marketSelectIcon = new MarkerIcon({
-			iconUrl: 'Icons/market_yellow.png'
-		});
-		var hospitalSelectIcon = new MarkerIcon({
-			iconUrl: 'Icons/hospital_yellow.png'
-		});
-		var childcareSelectIcon = new MarkerIcon({
-			iconUrl: 'Icons/childcare_yellow.png'
-		});
-		var pharmacySelectIcon = new MarkerIcon({
-			iconUrl: 'Icons/pharmacy_yellow.png'
-		});
+        var childcareIcon = new MarkerIcon({
+            iconUrl: 'Icons/childcare.png'
+        });
+        var pharmacyIcon = new MarkerIcon({
+            iconUrl: 'Icons/pharmacy.png'
+        });
+        var marketSelectIcon = new MarkerIcon({
+            iconUrl: 'Icons/market_yellow.png'
+        });
+        var hospitalSelectIcon = new MarkerIcon({
+            iconUrl: 'Icons/hospital_yellow.png'
+        });
+        var childcareSelectIcon = new MarkerIcon({
+            iconUrl: 'Icons/childcare_yellow.png'
+        });
+        var pharmacySelectIcon = new MarkerIcon({
+            iconUrl: 'Icons/pharmacy_yellow.png'
+        });
 
         //        NEW DATA LAYER!!!  locate hospital objects in Hospitals.js geoJSON, add them to map, with popup info available
         var hospital = L.geoJson(hospitals, {
@@ -220,7 +216,6 @@
         }).addTo(map);
 
         //        NEW DATA LAYER!!!  locate pharmacies objects in Pharmacy.js geoJSON, add them to map, with popup info available
-        //  NOT WORKING AS OF 12.4
         var pharmacy = L.geoJson(pharmacies, {
             pointToLayer: function(feature, latlng) {
                 var hMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
@@ -273,8 +268,6 @@
             }
         }).addTo(map);
 
-		
-
         //        locate childcare objects in services_3 geoJSON, add them to map, with popup info available        
         var childcare = L.geoJson(services, {
             pointToLayer: function(feature, latlng) {
@@ -301,7 +294,7 @@
             }
         }).addTo(map);
 
-//        console.log(stops);
+        //        console.log(stops);
 
         //        locate bus stop objects in Stops_2 geoJSON, add them to map, with popup info available        
         var stops = L.geoJson(stops, {
@@ -461,11 +454,11 @@
         //        create legend with layers that can be turned on and off in common color schemes to the geoJSON objects
         var sourcesLayers = {
             "<b style='color:red'>Hospitals</b>": hospital,
-			"<b style='color:gray'>Pharmacies</b>": pharmacy,
+            "<b style='color:gray'>Pharmacies</b>": pharmacy,
             "<b style='color:purple'>Groceries</b>": market,
             "<b style='color:orange'>Childcare</b>": childcare,
             "<b style='color:#2792c1'>Bus Stops</b>": stops
-			
+
         }
         L.control.layers(null, sourcesLayers, {
             collapsed: false
