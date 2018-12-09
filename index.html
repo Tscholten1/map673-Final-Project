@@ -87,7 +87,7 @@
     <footer>
         <p class=author-info><b>Map created by Tom Scholten</b></p>
 
-        <p><b>User Instructions:</b>click in an area of the map boundary. Then click on a service to discover the time associated with traveling to that service on foot, via bicycle, or automobile. Double click the map to show an illustration of the area that falls within a ten minute walking distance. Refresh the browser to start over.
+        <p><b>User Instructions:</b> click in an area of the map boundary. Then click on a service to discover the time associated with traveling to that service on foot, via bicycle, or automobile. Double click the map to show an illustration of the area that falls within a ten minute walking distance. Refresh the browser to start over.
         </p>
 
         <p></p>
@@ -123,6 +123,7 @@
     <script src="Stops_2.js"></script>
     <script src="Hospitals.js"></script>
     <script src="Pharmacies.js"></script>
+    <script src="CTA_RailLines.shp"></script>
 
 
     <script>
@@ -161,8 +162,6 @@
                 iconAnchor: [11.5, 19]
             }
         });
-
-
 
         var busIcon = new MarkerIcon({
             iconUrl: 'Icons/bus_stop.png'
