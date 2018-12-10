@@ -6,11 +6,12 @@
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.0.0/dist/MarkerCluster.css" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.0.0/dist/MarkerCluster.Default.css" />
-    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
-    <!--    <script src="catiline.js"></script>-->
-    <script src="leaflet.shpfile.js"></script>
+
+    <script src="leaflet-src.js"></script>
+
+    <link rel="stylesheet" href="MarkerCluster.css" />
+    <link rel="stylesheet" href="MarkerCluster.Default.css" />
+    <script src="leaflet.markercluster-src.js"></script>
 
     <style>
         body {
@@ -39,11 +40,9 @@
             color: #001323;
         }
 
-        /*Changes size and dimensions of map*/
-
         #map {
             width: 85%;
-            height: 680px;
+            height: 580px;
             border: 3px solid black;
             margin: 15px auto;
         }
@@ -70,6 +69,7 @@
             text-align: right;
             font-style: italic;
         }
+
     </style>
 </head>
 
@@ -79,20 +79,22 @@
 
         <h2>Transportation options in relation to key neighborhood locations and services</h2>
 
-        <p>Access to transportation is a necessary element of modern life to obtain goods, services, and education as well as to gain employment, seek medical care, and enjoy cultural and recreational opportunities. The goal of this map is to show multiple data layers throughout the greater Chicago metropolitan area that paint a picture of existing transportation options in relation to key social institutions such as hospitals, schools, grocery stores as well areas that may be underserved by public/mass transit transportation.</p>
+        <p>This interactive map shows a sample of locations of common daily services in the city of Chicago and outlying areas in relation to common transportation options.</p>
+
+
     </header>
 
     <div id='map'></div>
 
     <footer>
-        <p class=author-info><b>Map created by Tom Scholten</b></p>
+        <p class="author-info"><b>Map created by Tom Scholten</b></p>
 
         <p><b>User Instructions:</b> click in an area of the map boundary. Then click on a service to discover the time associated with traveling to that service on foot, via bicycle, or automobile. Double click the map to show an illustration of the area that falls within a ten minute walking distance. Refresh the browser to start over.
         </p>
 
-        <p></p>
+        <p>Access to transportation is a necessary element of modern life to obtain goods, services, and education as well as to gain employment, seek medical care, and enjoy cultural and recreational opportunities. The goal of this map is to show multiple data layers throughout the greater Chicago metropolitan area that paint a picture of existing transportation options in relation to key social institutions such as hospitals, schools, grocery stores as well areas that may be underserved by public/mass transit transportation.</p>
 
-        <p>Advantages of public/mass transportation: Stimulates Economic Development:</p>
+        <p>Stimulates Economic Development:</p>
         <ul>
             <li>Every $10 million in capital investment in public transportation yields $30 million in increased sales.</li>
             <li>Every $10 million in operating investment in public transportation yields $32 Million in increased sales.</li>
@@ -105,6 +107,7 @@
         </p>
         <p><b>Enhanced Quality of Life. </b>Public transportation facilities and corridors are natural focal points for economic and social activities. These activities help create strong neighborhood centers that are more economically stable.
         </p>
+
 
         <p>While transit clearly benefits those who use it, even larger benefits spread to all citizens in the form of economic development, reduced congestion, cleaner air, and enhanced quality of life. According to AAA, the average annual cost of maintaining a small sedan is $6957, or $19.33 per day. Via bicycling.com, the cost of maintaining a bicycle is $300 a year, or 82 cents per day. Purchasing a monthly CTA/Pace train and bus pass averages to approximately $3.50 a day. As such, assuming a 25mph city driving speed, access to a car cost 24 times that of a bike and reduces travel time by almost two-thirds. Buses provide longer distance access but on fixed routes and times. As for walking, almost $20 per day reduces a 3 mile trip from an hour to 7 minutes. If you can afford it.
         </p>
@@ -123,10 +126,9 @@
     <script src="Stops_2.js"></script>
     <script src="Hospitals.js"></script>
     <script src="Pharmacies.js"></script>
-    <!--    <script src="CTA_RailLines.shp"></script>-->
-    <script src="CPS_Locations.geojson"></script>
 
     <script>
+        var markers;
         //        set map options to center map in the area of the Chicago metro area
         var options = {
             center: [41.834107, -87.957809],
@@ -135,11 +137,10 @@
             dragging: true,
             scrollWheelZoom: true,
         }
-
         //        define map variable and connect it to div space in html code above
         var map = L.map('map', options);
 
-        //        define map tile layer used in this map
+        //        define tile layer used in this map
         var tiles = L.tileLayer('https://{s}.{base}.maps.cit.api.here.com/maptile/2.1/{type}/{mapID}/normal.day/{z}/{x}/{y}/{size}/{format}?app_id={app_id}&app_code={app_code}&lg={language}', {
             attribution: 'Map &copy; 1987-2014 <a href="http://developer.here.com">HERE</a>',
             subdomains: '1234',
@@ -154,7 +155,6 @@
             size: '256'
         });
         map.addLayer(tiles);
-        //        console.log(services);
 
         var MarkerIcon = L.Icon.extend({
             options: {
@@ -194,9 +194,15 @@
             iconUrl: 'Icons/school.png'
         });
 
+        var markersCluster_hospital = L.markerClusterGroup();
+        var markersCluster_pharmacy = L.markerClusterGroup();
+        var markersCluster_market = L.markerClusterGroup();
+        var markersCluster_childcare = L.markerClusterGroup();
+        var markersCluster_stops = L.markerClusterGroup();
 
+        //map.fitBounds(markersCluster.getBounds()); //set view on the cluster extend	
 
-        //        Locate HOSPITAL objects in Hospitals.geoJSON, add them to map, with popup info available
+        //        NEW DATA LAYER!!!  locate hospital objects in Hospitals.js geoJSON, add them to map, with popup info available
         var hospital = L.geoJson(hospitals, {
             pointToLayer: function(feature, latlng) {
                 var hMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
@@ -220,9 +226,11 @@
                 var content = "<b>" + props.LABEL + "</b></br>" + props.ADDRESS;
                 layer.bindPopup(content);
             }
-        }).addTo(map);
+        }).addTo(markersCluster_hospital);
+        map.addLayer(markersCluster_hospital);
 
-        //        Locate PHARMACY objects in Pharmacy.geoJSON, add them to map, with popup info available
+        //        NEW DATA LAYER!!!  locate pharmacies objects in Pharmacy.js geoJSON, add them to map, with popup info available
+        //  NOT WORKING AS OF 12.4
         var pharmacy = L.geoJson(pharmacies, {
             pointToLayer: function(feature, latlng) {
                 var hMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
@@ -246,10 +254,10 @@
                 var content = "<b>" + props.LABEL + "</b></br>" + props.ADDRESS;
                 layer.bindPopup(content);
             }
-        }).addTo(map);
+        }).addTo(markersCluster_pharmacy);
+        map.addLayer(markersCluster_pharmacy);
 
-
-        //        locate MARKET objects in services_3 geoJSON, add them to map, with popup info available
+        //        locate market objects in services_3 geoJSON, add them to map, with popup info available
         var market = L.geoJson(services, {
             pointToLayer: function(feature, latlng) {
                 var mMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
@@ -273,9 +281,10 @@
                 var content = "<b>" + props.service_name + "</b></br>" + props.address;
                 layer.bindPopup(content);
             }
-        }).addTo(map);
+        }).addTo(markersCluster_market);
+        map.addLayer(markersCluster_market);
 
-        //        locate CHILDCARE objects in services_3 geoJSON, add them to map, with popup info available        
+        //        locate childcare objects in services_3 geoJSON, add them to map, with popup info available        
         var childcare = L.geoJson(services, {
             pointToLayer: function(feature, latlng) {
                 var cMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
@@ -299,39 +308,10 @@
                 var content = "<b>" + props.service_name + "</b></br>" + props.address;
                 layer.bindPopup(content);
             }
-        }).addTo(map);
+        }).addTo(markersCluster_childcare);
+        map.addLayer(markersCluster_childcare);
 
-        //        Locate school objects in CPS_Locations.geoJSON, add them to map, with popup info available
-        var school = L.geoJson(school, {
-            pointToLayer: function(feature, latlng) {
-                var hMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
-                    icon: schoolIcon
-                });
-                hMarker.on('mouseover', function(e) {
-                    hMarker.setIcon(schoolSelectIcon);
-                });
-                hMarker.on('mouseout', function(e) {
-                    hMarker.setIcon(schoolIcon);
-                });
-                return hMarker
-            },
-            filter: function(feature, layer) {
-                if (feature.properties.Service_Type == "school") {
-                    return feature;
-                }
-            },
-            onEachFeature: function(feature, layer) {
-                var props = feature.properties;
-                var content = "<b>" + props.SCHOOL_NM + "</b></br>" + props.ADDRESS;
-                layer.bindPopup(content);
-            }
-        }).addTo(map);
-
-
-
-        //        console.log(stops);
-
-        //        locate BUS STOPS objects in Stops_2 geoJSON, add them to map, with popup info available        
+        //        locate bus stop objects in Stops_2 geoJSON, add them to map, with popup info available        
         var stops = L.geoJson(stops, {
             pointToLayer: function(feature, latlng) {
                 return L.circleMarker(latlng, {
@@ -366,9 +346,9 @@
                     });
                 });
             }
-        }).addTo(map);
+        }).addTo(markersCluster_stops);
+        map.addLayer(markersCluster_stops);
 
-        //         calculator for distance (in miles) and time (in minutes) to service with popup showing those values
         map.on('click', function(e) {
             hospital.eachLayer(function(layer) {
                 var distance = e.latlng.distanceTo(layer.getLatLng()) * (0.000621371);
@@ -487,43 +467,14 @@
             });
         });
 
-        //          calculator for distance (in miles) and time (in minutes) to service with popup showing those values        
-        map.on('click', function(e) {
-            school.eachLayer(function(layer) {
-                var distance = e.latlng.distanceTo(layer.getLatLng()) * (0.000621371);
-
-                var walkTime = distance / (3.1 / 60);
-                var bikeTime = distance / (9.0 / 60);
-                var carTime = distance / (25 / 60);
-
-                var schoolName = layer.feature.properties.service_type;
-                var schoolAddress = layer.feature.properties.address;
-                var content = "<b>school_nm " + school_nm + ":</b><br>" + Address + "<br>" +
-                    "You are <b>" + distance.toLocaleString() +
-                    "miles</b> from the click point.</br>" +
-                    "This trip would take</br>" +
-                    "<b>" + walkTime.toLocaleString() + "</b> min on foot</br>" +
-                    "<b>" + bikeTime.toLocaleString() + "</b> min by bike,</br>" +
-                    "plus the time for the bus to reach its destination!"
-
-                layer.bindPopup(content);
-
-            });
-        });
-
-
-        //        
-
-
         //        create legend with layers that can be turned on and off in common color schemes to the geoJSON objects
         var sourcesLayers = {
-            "<b style='color:red'>Hospitals</b>": hospital,
-            "<b style='color:gray'>Pharmacies</b>": pharmacy,
-            "<b style='color:purple'>Groceries</b>": market,
-            "<b style='color:orange'>Childcare</b>": childcare,
-            "<b style='color:#2792c1'>Bus Stop</b>": stops,
-            "<b style='color:#2792c1'>School</b>": school
-
+            "<b style='color:red'>Hospitals</b>": markersCluster_hospital,
+            "<b style='color:gray'>Pharmacies</b>": markersCluster_pharmacy,
+            "<b style='color:purple'>Groceries</b>": markersCluster_market,
+            "<b style='color:orange'>Childcare</b>": markersCluster_childcare,
+            "<b style='color:#2792c1'>Bus Stop</b>": markersCluster_stops,
+            //            "<b style='color:#2792c1'>School</b>": markersCluster_school
         }
         L.control.layers(null, sourcesLayers, {
             collapsed: false
@@ -551,7 +502,6 @@
 
             // call the function and pass the marker's coords
             //            testDistance(clickCoords);
-
         });
         map.on('dblclick', function(e) {
             if (map.hasLayer(walkCircle)) {
@@ -563,8 +513,8 @@
                 fillColor: '#ffec00'
             }).addTo(map);
         });
-    </script>
 
+    </script>
 </body>
 
 </html>
