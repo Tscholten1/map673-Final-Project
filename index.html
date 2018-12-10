@@ -124,7 +124,7 @@
     <script src="Hospitals.js"></script>
     <script src="Pharmacies.js"></script>
     <script src="CTA_RailLines.shp"></script>
-
+    <script src="CPS_Locations.geojson"></script>
 
     <script>
         //        set map options to center map in the area of the Chicago metro area
@@ -190,8 +190,13 @@
         var pharmacySelectIcon = new MarkerIcon({
             iconUrl: 'Icons/pharmacy_yellow.png'
         });
+        var pharmacySelectIcon = new MarkerIcon({
+            iconUrl: 'Icons/school.png'
+        });
 
-        //        NEW DATA LAYER!!!  locate hospital objects in Hospitals.js geoJSON, add them to map, with popup info available
+
+
+        //        Locate HOSPITAL objects in Hospitals.geoJSON, add them to map, with popup info available
         var hospital = L.geoJson(hospitals, {
             pointToLayer: function(feature, latlng) {
                 var hMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
@@ -217,7 +222,7 @@
             }
         }).addTo(map);
 
-        //        NEW DATA LAYER!!!  locate pharmacies objects in Pharmacy.js geoJSON, add them to map, with popup info available
+        //        Locate PHARMACY objects in Pharmacy.geoJSON, add them to map, with popup info available
         var pharmacy = L.geoJson(pharmacies, {
             pointToLayer: function(feature, latlng) {
                 var hMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
@@ -244,7 +249,7 @@
         }).addTo(map);
 
 
-        //        locate market objects in services_3 geoJSON, add them to map, with popup info available
+        //        locate MARKET objects in services_3 geoJSON, add them to map, with popup info available
         var market = L.geoJson(services, {
             pointToLayer: function(feature, latlng) {
                 var mMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
@@ -270,7 +275,7 @@
             }
         }).addTo(map);
 
-        //        locate childcare objects in services_3 geoJSON, add them to map, with popup info available        
+        //        locate CHILDCARE objects in services_3 geoJSON, add them to map, with popup info available        
         var childcare = L.geoJson(services, {
             pointToLayer: function(feature, latlng) {
                 var cMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
@@ -296,9 +301,13 @@
             }
         }).addTo(map);
 
+        //        locate childcare objects in services_3 geoJSON, add them to map, with popup info available        
+        /*var school = L.geoJson(CPS_Locations, { pointToLayer: function(feature, latlng) { var cMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], { icon: schoolIcon }); cMarker.on('mouseover', function(e) { cMarker.setIcon(childcareSelectIcon); }); cMarker.on('mouseout', function(e) { cMarker.setIcon(childcareIcon); }); return cMarker }, filter: function(feature, layer) { if (feature.properties.service_type == "school") { return feature; } }, onEachFeature: function(feature, layer) { var props = feature.properties; var content = "<b>" + props.service_type + "</b></br>" + props.address; layer.bindPopup(content); } }).addTo(map);*/
+
+
         //        console.log(stops);
 
-        //        locate bus stop objects in Stops_2 geoJSON, add them to map, with popup info available        
+        //        locate BUS STOPS objects in Stops_2 geoJSON, add them to map, with popup info available        
         var stops = L.geoJson(stops, {
             pointToLayer: function(feature, latlng) {
                 return L.circleMarker(latlng, {
@@ -335,6 +344,7 @@
             }
         }).addTo(map);
 
+        //         calculator for distance (in miles) and time (in minutes) to service with popup showing those values
         map.on('click', function(e) {
             hospital.eachLayer(function(layer) {
                 var distance = e.latlng.distanceTo(layer.getLatLng()) * (0.000621371);
@@ -459,7 +469,8 @@
             "<b style='color:gray'>Pharmacies</b>": pharmacy,
             "<b style='color:purple'>Groceries</b>": market,
             "<b style='color:orange'>Childcare</b>": childcare,
-            "<b style='color:#2792c1'>Bus Stops</b>": stops
+            "<b style='color:#2792c1'>Bus Stop</b>": stops,
+            //            "<b style='color:#2792c1'>School</b>": school
 
         }
         L.control.layers(null, sourcesLayers, {
@@ -485,8 +496,6 @@
             // add it to the map and assign it
             // to the existing variable marker
             marker = L.marker(clickCoords).addTo(map);
-
-
 
             // call the function and pass the marker's coords
             //            testDistance(clickCoords);
