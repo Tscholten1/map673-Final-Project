@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.0.0/dist/MarkerCluster.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.0.0/dist/MarkerCluster.Default.css" />
     <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
-    <script src="catiline.js"></script>
+    <!--    <script src="catiline.js"></script>-->
     <script src="leaflet.shpfile.js"></script>
 
     <style>
@@ -123,7 +123,7 @@
     <script src="Stops_2.js"></script>
     <script src="Hospitals.js"></script>
     <script src="Pharmacies.js"></script>
-    <script src="CTA_RailLines.shp"></script>
+    <!--    <script src="CTA_RailLines.shp"></script>-->
     <script src="CPS_Locations.geojson"></script>
 
     <script>
@@ -301,8 +301,32 @@
             }
         }).addTo(map);
 
-        //        locate childcare objects in services_3 geoJSON, add them to map, with popup info available        
-        /*var school = L.geoJson(CPS_Locations, { pointToLayer: function(feature, latlng) { var cMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], { icon: schoolIcon }); cMarker.on('mouseover', function(e) { cMarker.setIcon(childcareSelectIcon); }); cMarker.on('mouseout', function(e) { cMarker.setIcon(childcareIcon); }); return cMarker }, filter: function(feature, layer) { if (feature.properties.service_type == "school") { return feature; } }, onEachFeature: function(feature, layer) { var props = feature.properties; var content = "<b>" + props.service_type + "</b></br>" + props.address; layer.bindPopup(content); } }).addTo(map);*/
+        //        Locate school objects in CPS_Locations.geoJSON, add them to map, with popup info available
+        var school = L.geoJson(school, {
+            pointToLayer: function(feature, latlng) {
+                var hMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
+                    icon: schoolIcon
+                });
+                hMarker.on('mouseover', function(e) {
+                    hMarker.setIcon(schoolSelectIcon);
+                });
+                hMarker.on('mouseout', function(e) {
+                    hMarker.setIcon(schoolIcon);
+                });
+                return hMarker
+            },
+            filter: function(feature, layer) {
+                if (feature.properties.Service_Type == "school") {
+                    return feature;
+                }
+            },
+            onEachFeature: function(feature, layer) {
+                var props = feature.properties;
+                var content = "<b>" + props.SCHOOL_NM + "</b></br>" + props.ADDRESS;
+                layer.bindPopup(content);
+            }
+        }).addTo(map);
+
 
 
         //        console.log(stops);
@@ -463,6 +487,34 @@
             });
         });
 
+        //          calculator for distance (in miles) and time (in minutes) to service with popup showing those values        
+        map.on('click', function(e) {
+            school.eachLayer(function(layer) {
+                var distance = e.latlng.distanceTo(layer.getLatLng()) * (0.000621371);
+
+                var walkTime = distance / (3.1 / 60);
+                var bikeTime = distance / (9.0 / 60);
+                var carTime = distance / (25 / 60);
+
+                var schoolName = layer.feature.properties.service_type;
+                var schoolAddress = layer.feature.properties.address;
+                var content = "<b>school_nm " + school_nm + ":</b><br>" + Address + "<br>" +
+                    "You are <b>" + distance.toLocaleString() +
+                    "miles</b> from the click point.</br>" +
+                    "This trip would take</br>" +
+                    "<b>" + walkTime.toLocaleString() + "</b> min on foot</br>" +
+                    "<b>" + bikeTime.toLocaleString() + "</b> min by bike,</br>" +
+                    "plus the time for the bus to reach its destination!"
+
+                layer.bindPopup(content);
+
+            });
+        });
+
+
+        //        
+
+
         //        create legend with layers that can be turned on and off in common color schemes to the geoJSON objects
         var sourcesLayers = {
             "<b style='color:red'>Hospitals</b>": hospital,
@@ -470,7 +522,7 @@
             "<b style='color:purple'>Groceries</b>": market,
             "<b style='color:orange'>Childcare</b>": childcare,
             "<b style='color:#2792c1'>Bus Stop</b>": stops,
-            //            "<b style='color:#2792c1'>School</b>": school
+            "<b style='color:#2792c1'>School</b>": school
 
         }
         L.control.layers(null, sourcesLayers, {
