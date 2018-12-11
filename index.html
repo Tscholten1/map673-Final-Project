@@ -8,7 +8,7 @@
     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 
     <script src="leaflet-src.js"></script>
-
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
     <link rel="stylesheet" href="MarkerCluster.css" />
     <link rel="stylesheet" href="MarkerCluster.Default.css" />
     <script src="leaflet.markercluster-src.js"></script>
@@ -120,6 +120,7 @@
 
     </footer>
 
+
     <!--    load geoJSON files used in this project-->
     <script src="Services_3.js"></script>
     <script src="Stops_2.js"></script>
@@ -200,7 +201,7 @@
 
         //map.fitBounds(markersCluster.getBounds()); //set view on the cluster extend	
 
-        //        NEW DATA LAYER!!!  locate hospital objects in Hospitals.js geoJSON, add them to map, with popup info available
+        //        locate HOSPITAL objects in Hospitals.js geoJSON, add them to map, with popup info available
         var hospital = L.geoJson(hospitals, {
             pointToLayer: function(feature, latlng) {
                 var hMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
@@ -227,8 +228,7 @@
         }).addTo(markersCluster_hospital);
         map.addLayer(markersCluster_hospital);
 
-        //        NEW DATA LAYER!!!  locate pharmacies objects in Pharmacy.js geoJSON, add them to map, with popup info available
-        //  NOT WORKING AS OF 12.4
+        //        locate PHARMACY objects in Pharmacy.js geoJSON, add them to map, with popup info available
         var pharmacy = L.geoJson(pharmacies, {
             pointToLayer: function(feature, latlng) {
                 var hMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
@@ -480,7 +480,7 @@
             "<b style='color:purple'>Groceries</b>": markersCluster_market,
             "<b style='color:orange'>Childcare</b>": markersCluster_childcare,
             "<b style='color:#2792c1'>Bus Stops</b>": markersCluster_stops,
-//            "<b style='color:#2792c1'>sCHOOLS</b>": markersCluster_school
+            //            "<b style='color:#2792c1'>sCHOOLS</b>": markersCluster_school
 
         }
         L.control.layers(null, sourcesLayers, {
