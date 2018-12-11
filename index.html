@@ -69,7 +69,6 @@
             text-align: right;
             font-style: italic;
         }
-
     </style>
 </head>
 
@@ -126,6 +125,8 @@
     <script src="Stops_2.js"></script>
     <script src="Hospitals.js"></script>
     <script src="Pharmacies.js"></script>
+    <script src="Schools.geojson"></script>
+    <script src="CTA_RailLines.geojson"></script>
 
     <script>
         var markers;
@@ -190,9 +191,6 @@
         var pharmacySelectIcon = new MarkerIcon({
             iconUrl: 'Icons/pharmacy_yellow.png'
         });
-        var pharmacySelectIcon = new MarkerIcon({
-            iconUrl: 'Icons/school.png'
-        });
 
         var markersCluster_hospital = L.markerClusterGroup();
         var markersCluster_pharmacy = L.markerClusterGroup();
@@ -242,6 +240,7 @@
                 hMarker.on('mouseout', function(e) {
                     hMarker.setIcon(pharmacyIcon);
                 });
+
                 return hMarker
             },
             filter: function(feature, layer) {
@@ -251,7 +250,7 @@
             },
             onEachFeature: function(feature, layer) {
                 var props = feature.properties;
-                var content = "<b>" + props.LABEL + "</b></br>" + props.ADDRESS;
+                var content = "<b>" + props.NAME + "</b></br>" + props.ADDRESS;
                 layer.bindPopup(content);
             }
         }).addTo(markersCluster_pharmacy);
@@ -311,6 +310,7 @@
         }).addTo(markersCluster_childcare);
         map.addLayer(markersCluster_childcare);
 
+
         //        locate bus stop objects in Stops_2 geoJSON, add them to map, with popup info available        
         var stops = L.geoJson(stops, {
             pointToLayer: function(feature, latlng) {
@@ -338,12 +338,18 @@
                         fillColor: 'yellow',
                         color: 'yellow'
                     });
+
+                    console.log("mouse over");
+
                 });
                 layer.on('mouseout', function() {
                     layer.setStyle({
                         fillColor: '#2792c1',
                         color: '#2792c1'
                     });
+
+                    console.log("mouse over");
+
                 });
             }
         }).addTo(markersCluster_stops);
@@ -357,8 +363,8 @@
                 var bikeTime = distance / (9.0 / 60);
                 var carTime = distance / (25 / 60);
 
-                var hospitalName = layer.feature.properties.service_name;
-                var hospitalAddress = layer.feature.properties.address;
+                var hospitalName = layer.feature.properties.LABEL;
+                var hospitalAddress = layer.feature.properties.ADDRESS;
                 var content = "<b>" + hospitalName + ":</b><br>" + hospitalAddress + "<br>" +
                     "You are <b>" + distance.toLocaleString() +
                     "miles</b> from the click point.</br>" +
@@ -404,8 +410,8 @@
                 var bikeTime = distance / (9.0 / 60);
                 var carTime = distance / (25 / 60);
 
-                var pharmacyName = layer.feature.properties.service_name;
-                var pharmacyAddress = layer.feature.properties.address;
+                var pharmacyName = layer.feature.properties.NAME;
+                var pharmacyAddress = layer.feature.properties.ADDRESS;
                 var content = "<b>" + pharmacyName + ":</b><br>" + pharmacyAddress + "<br>" +
                     "You are <b>" + distance.toLocaleString() +
                     "miles</b> from the click point.</br>" +
@@ -473,8 +479,9 @@
             "<b style='color:gray'>Pharmacies</b>": markersCluster_pharmacy,
             "<b style='color:purple'>Groceries</b>": markersCluster_market,
             "<b style='color:orange'>Childcare</b>": markersCluster_childcare,
-            "<b style='color:#2792c1'>Bus Stop</b>": markersCluster_stops,
-            //            "<b style='color:#2792c1'>School</b>": markersCluster_school
+            "<b style='color:#2792c1'>Bus Stops</b>": markersCluster_stops,
+//            "<b style='color:#2792c1'>sCHOOLS</b>": markersCluster_school
+
         }
         L.control.layers(null, sourcesLayers, {
             collapsed: false
@@ -513,7 +520,6 @@
                 fillColor: '#ffec00'
             }).addTo(map);
         });
-
     </script>
 </body>
 
