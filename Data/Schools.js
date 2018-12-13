@@ -1,11 +1,11 @@
-{
+var schools = {
    "type": "FeatureCollection",
    "features": [
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.74009744,41.80757851 ]
+       "coordinates":  [ -87.7400,41.8075 ]
     },
     "properties": {
     "Coordinates":"-87.74009743581296 41.807578506885676)",

@@ -14,13 +14,11 @@ var stops = {
     "Bus_Stop_Route_Name":"Eastland"
     }
   },
-       
-       
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [-84.491052, 38.04455]
+       "coordinates":  [-87.601916, 41.802508]
     },
     "properties": {
     "Bus_Stop_ID":1480,
