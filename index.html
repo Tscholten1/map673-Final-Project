@@ -4,10 +4,9 @@
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
-
-<!--    <link href="https://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" rel="stylesheet">-->
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-<!--    <script src="Sources/leaflet-src.js"></script>-->
+    <!--    <link href="https://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" rel="stylesheet">-->
+    <!--   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">-->
+    <!--    <script src="Sources/leaflet-src.js"></script>-->
     <link href="Styles/MarkerCluster.css" rel="stylesheet">
     <link href="Styles/MarkerCluster.Default.css" rel="stylesheet">
     <script src="Sources/leaflet.markercluster-src.js"></script>
@@ -392,7 +391,7 @@
         map.addLayer(markersCluster_stops);
 
 
-        //        locate childcare objects in services_3 geoJSON, add them to map, with popup info available        
+        //        locate CHILDCARE objects in services_3 geoJSON, add them to map, with popup info available        
         var train = L.geoJson(trains, {
             pointToLayer: function(feature, latlng) {
                 var cMarker = L.marker([feature.geometry.coordinates[0][0][1], feature.geometry.coordinates[0][0][0]], {
@@ -597,7 +596,7 @@
             "<b style='color:green'>Schools</b>": markersCluster_schools,
             "<b style='color:orange'>Childcare</b>": markersCluster_childcare,
             "<b style='color:#2792c1'>Bus Stops</b>": markersCluster_stops,
-            "<b style='color:yellow'>Train Stops</b>": markersCluster_trains
+            "<b style='color:navy'>CTA Train Lines</b>": markersCluster_trains
         }
         L.control.layers(null, sourcesLayers, {
             collapsed: false
