@@ -2,12 +2,15 @@
     <meta charset="utf-8">
     <title>Services and Access Map</title>
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
-    <link href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" rel="stylesheet">
-    <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-	<script src="Sources/leaflet-src.js"></script>
-	<link href="Styles/MarkerCluster.css" rel="stylesheet">
-	<link href="Styles/MarkerCluster.Default.css" rel="stylesheet">
-	<script src="Sources/leaflet.markercluster-src.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
+
+    <link href="https://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="Sources/leaflet-src.js"></script>
+    <link href="Styles/MarkerCluster.css" rel="stylesheet">
+    <link href="Styles/MarkerCluster.Default.css" rel="stylesheet">
+    <script src="Sources/leaflet.markercluster-src.js"></script>
     <style>
         body {
             margin: 0px;
@@ -110,21 +113,21 @@
             <li><a href="https://www.apta.com/mediacenter/ptbenefits/Pages/default.aspx">American Public Transportation Association</a></li>
             <li><a href="https://www.nationalexpresstransit.com/blog/9-benefits-of-public-transportation">9 Benefits of Public Transportation</a></li>
             <li><a href="https://www.apta.com/resources/aboutpt/pages/transitcalculator.aspx">Public Transportation Calculator</a></li>
-            <li><a href="http://www.html.am/html-codes/links/">hyperlink</a></li>
+            <li><a href="https://www.html.am/html-codes/links/">hyperlink</a></li>
         </ul>
 
     </footer>
 
     <!--    load geoJSON files used in this project-->
     <script src="Data/Hospitals.js"></script>
-	<script src="Data/Pharmacies.js"></script>
-	<script src="Data/Schools.js"></script>
-	<script src="Data/Services_3.js"></script>
+    <script src="Data/Pharmacies.js"></script>
+    <script src="Data/Schools.js"></script>
+    <script src="Data/Services_3.js"></script>
     <script src="Data/Stops_2.js"></script>
     <script src="Data/Trains.js"></script>
 
     <script>
-		var markers;
+        var markers;
         //        set map options to center map in the area of the Chicago metro area
         var options = {
             center: [41.834107, -87.957809],
@@ -138,7 +141,7 @@
 
         //        define tile layer used in this map
         var tiles = L.tileLayer('https://{s}.{base}.maps.cit.api.here.com/maptile/2.1/{type}/{mapID}/normal.day/{z}/{x}/{y}/{size}/{format}?app_id={app_id}&app_code={app_code}&lg={language}', {
-            attribution: 'Map &copy; 1987-2014 <a href="http://developer.here.com">HERE</a>',
+            attribution: 'Map &copy; 1987-2014 <a href="https://developer.here.com">HERE</a>',
             subdomains: '1234',
             mapID: 'newest',
             app_id: '4YK8GRpcnECOf3a1wDa6',
@@ -168,48 +171,48 @@
         var hospitalIcon = new MarkerIcon({
             iconUrl: 'Icons/hospital.png'
         });
-		var schoolIcon = new MarkerIcon({
-			iconUrl: 'Icons/school.png'
-		});
-		var childcareIcon = new MarkerIcon({
-			iconUrl: 'Icons/childcare.png'
-		});
-		var pharmacyIcon = new MarkerIcon({
-			iconUrl: 'Icons/pharmacy.png'
-		});
-		var trainIcon = new MarkerIcon({
-			iconUrl: 'Icons/train.png'
-		});
-		var marketSelectIcon = new MarkerIcon({
-			iconUrl: 'Icons/market_yellow.png'
-		});
-		var hospitalSelectIcon = new MarkerIcon({
-			iconUrl: 'Icons/hospital_yellow.png'
-		});
-		var schoolSelectIcon = new MarkerIcon({
-			iconUrl: 'Icons/school_yellow.png'
-		});
-		var childcareSelectIcon = new MarkerIcon({
-			iconUrl: 'Icons/childcare_yellow.png'
-		});
-		var pharmacySelectIcon = new MarkerIcon({
-			iconUrl: 'Icons/pharmacy_yellow.png'
-		});
-		var trainSelectIcon = new MarkerIcon({
-			iconUrl: 'Icons/train_yellow.png'
-		});
+        var schoolIcon = new MarkerIcon({
+            iconUrl: 'Icons/school.png'
+        });
+        var childcareIcon = new MarkerIcon({
+            iconUrl: 'Icons/childcare.png'
+        });
+        var pharmacyIcon = new MarkerIcon({
+            iconUrl: 'Icons/pharmacy.png'
+        });
+        var trainIcon = new MarkerIcon({
+            iconUrl: 'Icons/train.png'
+        });
+        var marketSelectIcon = new MarkerIcon({
+            iconUrl: 'Icons/market_yellow.png'
+        });
+        var hospitalSelectIcon = new MarkerIcon({
+            iconUrl: 'Icons/hospital_yellow.png'
+        });
+        var schoolSelectIcon = new MarkerIcon({
+            iconUrl: 'Icons/school_yellow.png'
+        });
+        var childcareSelectIcon = new MarkerIcon({
+            iconUrl: 'Icons/childcare_yellow.png'
+        });
+        var pharmacySelectIcon = new MarkerIcon({
+            iconUrl: 'Icons/pharmacy_yellow.png'
+        });
+        var trainSelectIcon = new MarkerIcon({
+            iconUrl: 'Icons/train_yellow.png'
+        });
 
-		var markersCluster_hospital = L.markerClusterGroup();
-		var markersCluster_pharmacy = L.markerClusterGroup();
-		var markersCluster_market = L.markerClusterGroup();
-		var markersCluster_childcare = L.markerClusterGroup();
-		var markersCluster_stops = L.markerClusterGroup();
-		var markersCluster_schools = L.markerClusterGroup();
-		var markersCluster_trains = L.markerClusterGroup();
+        var markersCluster_hospital = L.markerClusterGroup();
+        var markersCluster_pharmacy = L.markerClusterGroup();
+        var markersCluster_market = L.markerClusterGroup();
+        var markersCluster_childcare = L.markerClusterGroup();
+        var markersCluster_stops = L.markerClusterGroup();
+        var markersCluster_schools = L.markerClusterGroup();
+        var markersCluster_trains = L.markerClusterGroup();
 
-		//map.fitBounds(markersCluster.getBounds()); //set view on the cluster extend	
+        //map.fitBounds(markersCluster.getBounds()); //set view on the cluster extend	
 
-        //        NEW DATA LAYER!!!  locate hospital objects in Hospitals.js geoJSON, add them to map, with popup info available
+        //        locate HOSPITALS objects in Hospitals.js geoJSON, add them to map, with popup info available
         var hospital = L.geoJson(hospitals, {
             pointToLayer: function(feature, latlng) {
                 var hMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
@@ -234,10 +237,9 @@
                 layer.bindPopup(content);
             }
         }).addTo(markersCluster_hospital);
-		map.addLayer(markersCluster_hospital);		
+        map.addLayer(markersCluster_hospital);
 
-        //        NEW DATA LAYER!!!  locate pharmacies objects in Pharmacy.js geoJSON, add them to map, with popup info available
-        //  NOT WORKING AS OF 12.4
+        //        locate PHARMACIES objects in Pharmacy.js geoJSON, add them to map, with popup info available
         var pharmacy = L.geoJson(pharmacies, {
             pointToLayer: function(feature, latlng) {
                 var hMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
@@ -249,7 +251,7 @@
                 hMarker.on('mouseout', function(e) {
                     hMarker.setIcon(pharmacyIcon);
                 });
-								
+
                 return hMarker
             },
             filter: function(feature, layer) {
@@ -263,9 +265,9 @@
                 layer.bindPopup(content);
             }
         }).addTo(markersCluster_pharmacy);
-		map.addLayer(markersCluster_pharmacy);
+        map.addLayer(markersCluster_pharmacy);
 
-        //        locate market objects in services_3 geoJSON, add them to map, with popup info available
+        //        locate MARKETS_GROCERY objects in services_3 geoJSON, add them to map, with popup info available
         var market = L.geoJson(services, {
             pointToLayer: function(feature, latlng) {
                 var mMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
@@ -290,14 +292,14 @@
                 layer.bindPopup(content);
             }
         }).addTo(markersCluster_market);
-		map.addLayer(markersCluster_market);
+        map.addLayer(markersCluster_market);
 
-		
-		        //        NEW DATA LAYER!!!  locate school objects in Schools.js geoJSON, add them to map, with popup info available
+
+        //        locate SCHOOL objects in Schools.js geoJSON, add them to map, with popup info available
         var school = L.geoJson(schools, {
             pointToLayer: function(feature, latlng) {
-			
-			
+
+
                 var hMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
                     icon: schoolIcon
                 });
@@ -310,20 +312,20 @@
                 return hMarker
             },
             filter: function(feature, layer) {
-                if (feature.properties.service_type == "school") {		
+                if (feature.properties.service_type == "school") {
                     return feature;
                 }
             },
             onEachFeature: function(feature, layer) {
-			
+
                 var props = feature.properties;
                 var content = "<b>" + props.NAME + "</b></br>" + props.ADDRESS;
                 layer.bindPopup(content);
             }
         }).addTo(markersCluster_schools);
-		map.addLayer(markersCluster_schools);
-		
-		//        locate childcare objects in services_3 geoJSON, add them to map, with popup info available        
+        map.addLayer(markersCluster_schools);
+
+        //        locate childcare objects in services_3 geoJSON, add them to map, with popup info available        
         var childcare = L.geoJson(services, {
             pointToLayer: function(feature, latlng) {
                 var cMarker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
@@ -348,9 +350,9 @@
                 layer.bindPopup(content);
             }
         }).addTo(markersCluster_childcare);
-		map.addLayer(markersCluster_childcare);
+        map.addLayer(markersCluster_childcare);
 
-		
+
         //        locate bus stop objects in Stops_2 geoJSON, add them to map, with popup info available        
         var stop = L.geoJson(stops, {
             pointToLayer: function(feature, latlng) {
@@ -387,10 +389,10 @@
                 });
             }
         }).addTo(markersCluster_stops);
-		map.addLayer(markersCluster_stops);
+        map.addLayer(markersCluster_stops);
 
-		
-		//        locate childcare objects in services_3 geoJSON, add them to map, with popup info available        
+
+        //        locate childcare objects in services_3 geoJSON, add them to map, with popup info available        
         var train = L.geoJson(trains, {
             pointToLayer: function(feature, latlng) {
                 var cMarker = L.marker([feature.geometry.coordinates[0][0][1], feature.geometry.coordinates[0][0][0]], {
@@ -406,7 +408,7 @@
             },
             filter: function(feature, layer) {
                 //if (feature.properties.service_type == "Childcare") {
-                    return feature;
+                return feature;
                 //}
             },
             onEachFeature: function(feature, layer) {
@@ -415,9 +417,9 @@
                 layer.bindPopup(content);
             }
         }).addTo(markersCluster_trains);
-		map.addLayer(markersCluster_trains);
+        map.addLayer(markersCluster_trains);
 
-		
+
         map.on('click', function(e) {
             hospital.eachLayer(function(layer) {
                 var distance = e.latlng.distanceTo(layer.getLatLng()) * (0.000621371);
@@ -489,7 +491,7 @@
         });
 
 
-		map.on('click', function(e) {
+        map.on('click', function(e) {
             school.eachLayer(function(layer) {
                 var distance = e.latlng.distanceTo(layer.getLatLng()) * (0.000621371);
 
@@ -511,13 +513,13 @@
 
             });
         });
-		
-		
+
+
         //        calculator for distance (in miles) and time (in minutes) to service with popup showing those values        
         map.on('click', function(e) {
             childcare.eachLayer(function(layer) {
                 var distance = e.latlng.distanceTo(layer.getLatLng()) * (0.000621371);
-	
+
                 var walkTime = distance / (3.1 / 60);
                 var bikeTime = distance / (9.0 / 60);
                 var carTime = distance / (25 / 60);
@@ -560,8 +562,8 @@
 
             });
         });
-		
-		/*
+
+        /*
 		        //        calculator for distance (in miles) and time (in minutes) to service with popup showing those values        
         map.on('click', function(e) {
             train.eachLayer(function(layer) {
@@ -590,12 +592,12 @@
         //        create legend with layers that can be turned on and off in common color schemes to the geoJSON objects
         var sourcesLayers = {
             "<b style='color:red'>Hospitals</b>": markersCluster_hospital,
-			"<b style='color:gray'>Pharmacies</b>": markersCluster_pharmacy,
+            "<b style='color:gray'>Pharmacies</b>": markersCluster_pharmacy,
             "<b style='color:purple'>Groceries</b>": markersCluster_market,
-			"<b style='color:green'>Schools</b>": markersCluster_schools,
+            "<b style='color:green'>Schools</b>": markersCluster_schools,
             "<b style='color:orange'>Childcare</b>": markersCluster_childcare,
             "<b style='color:#2792c1'>Bus Stops</b>": markersCluster_stops,
-			"<b style='color:yellow'>Train Stops</b>": markersCluster_trains
+            "<b style='color:yellow'>Train Stops</b>": markersCluster_trains
         }
         L.control.layers(null, sourcesLayers, {
             collapsed: false
@@ -620,7 +622,7 @@
             // add it to the map and assign it
             // to the existing variable marker
             marker = L.marker(clickCoords).addTo(map);
-			
+
             // call the function and pass the marker's coords
             //            testDistance(clickCoords);
         });
@@ -633,7 +635,7 @@
                 stroke: false,
                 fillColor: '#ffec00'
             }).addTo(map);
-        });	
+        });
     </script>
 </body>
 </html>
